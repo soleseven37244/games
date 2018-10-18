@@ -26,6 +26,32 @@
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="96" id="0" name="levl 1" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="96" xpf="1.0" ypf="1.0"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
         <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="33" list="0" val="No Control"/>
+                <prop id="34" list="0" val="No Control"/>
+                <prop id="37" list="0" val="0.0"/>
+                <prop id="38" list="0" val="true"/>
+                <prop id="41" list="0" val="No Control"/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="11" list="0" val="15.0"/>
+                <prop id="45" list="0" val="25.0"/>
+                <prop id="47" list="0" val=""/>
+                <prop id="48" list="0" val=""/>
+                <prop id="49" list="0" val=""/>
+                <prop id="50" list="0" val=""/>
+                <prop id="52" list="0" val="false"/>
+                <prop id="53" list="0" val=""/>
+                <prop id="54" list="0" val=""/>
+                <prop id="55" list="0" val="false"/>
+                <prop id="56" list="0" val="false"/>
+                <prop id="57" list="0" val="false"/>
+                <prop id="58" list="0" val="false"/>
+                <prop id="60" list="0" val="false"/>
+                <prop id="62" list="0" val="0.2"/>
+                <prop id="63" list="0" val="50"/>
+            </s>
             <s enabled="true" id="9">
                 <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="1" list="0" val="false"/>
@@ -47,6 +73,9 @@
         </anim>
         <anim across="1" down="1" durations="100" height="64" id="4" loop="false" name="Animation 4" numframes="1" originx="17" originy="32" sync="false" version="2" width="34">
             <poly data="4,0,0,34,0,34,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="106" id="5" loop="true" name="Animation 5" numframes="6" originx="12" originy="26" sync="false" version="2" width="75">
+            <poly data="4,0,0,25,0,25,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="3" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="4" static="false">
@@ -71,4 +100,15 @@
             <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <tileset across="3" atlasID="0" desc="" down="3" id="6" name="stone" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
+    </tileset>
 </pack>

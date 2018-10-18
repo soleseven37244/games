@@ -54,7 +54,7 @@
                             <group eventID="1" id="-1">
                                 <setanim comment="false" x="48" y="360">
                                     <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="Idle Right"/>
+                                    <int id="1" val="Animation 5"/>
                                 </setanim>
                             </group>
                             <get-val-0-1 comment="false" id="0" x="0" y="0"/>
@@ -71,6 +71,21 @@
                                 <false comment="false" id="1" x="0" y="0"/>
                             </eq>
                         </else-if>
+                        <if comment="false" x="37" y="468">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="48" y="506">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Idle right"/>
+                                </setanim>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-dxy comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-dxy>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
                     </group>
                 </else>
             </group>
@@ -153,4 +168,36 @@
         </if>
     </group>
     <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-actor-create-kill comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="6" id="-1">
+                        <scene-change-through comment="false" x="37" y="72">
+                            <scene eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="1"/>
+                        </scene-change-through>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Level 1"/>
+                    </eq>
+                </if>
+            </group>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="1"/>
+        </event-actor-create-kill>
+    </group>
+    <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <set-game-val-0 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                </set-game-val-0>
+            </group>
+        </init>
+    </group>
+    <group eventID="7" id="-1"/>
 </groups>
