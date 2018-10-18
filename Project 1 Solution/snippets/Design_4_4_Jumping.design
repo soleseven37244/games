@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <actor-set-prop comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="On Ground?"/>
+                    <false comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <print comment="false" x="26" y="40">
+                    <get-frame comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </get-frame>
+                </print>
+                <comment-short comment="false" x="26" y="73">
+                    <int id="0" val="Jump"/>
+                </comment-short>
+                <if comment="false" x="26" y="93">
+                    <group eventID="-1" id="-1">
+                        <play-sound4 comment="false" x="37" y="136">
+                            <int id="0" val="0"/>
+                            <SOUND eid="var" id="1" vid="3"/>
+                        </play-sound4>
+                        <push-shove comment="false" x="37" y="163">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="-1"/>
+                            <get-val-4-2 comment="false" id="4" x="0" y="0"/>
+                        </push-shove>
+                        <comment-short comment="false" x="37" y="195">
+                            <int id="0" val="Give the Actor a chance to get off the ground"/>
+                        </comment-short>
+                        <dolater comment="false" x="37" y="215">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="48" y="242">
+                                    <group eventID="-1" id="-1">
+                                        <actor-set-prop comment="false" x="59" y="275">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="On Ground?"/>
+                                            <false comment="false" id="2" x="0" y="0"/>
+                                        </actor-set-prop>
+                                    </group>
+                                    <isalive comment="false" id="0" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                    </isalive>
+                                </if>
+                            </group>
+                            <int id="0" val="0.075"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <get-val-4-1 comment="false" id="1" x="0" y="0"/>
+                        </keystate>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="On Ground?"/>
+                            </actor-get-prop>
+                            <true comment="false" id="1" x="0" y="0"/>
+                        </eq>
+                    </and>
+                </if>
+                <comment-short comment="false" x="26" y="343">
+                    <int id="0" val="Switch to jumping animations"/>
+                </comment-short>
+                <if comment="false" x="26" y="363">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="401">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="439">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-4-4 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                                <set-frame comment="false" x="48" y="471">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </set-frame>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <actor-get-prop comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Facing Right?"/>
+                                </actor-get-prop>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="510">
+                            <group eventID="-1" id="-1">
+                                <setanim comment="false" x="48" y="530">
+                                    <ACTOR eid="this" id="0"/>
+                                    <get-val-4-5 comment="false" id="1" x="0" y="0"/>
+                                </setanim>
+                                <set-frame comment="false" x="48" y="562">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </set-frame>
+                            </group>
+                        </else>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <actor-get-prop comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="On Ground?"/>
+                        </actor-get-prop>
+                        <false comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <collide comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <comment-short comment="false" x="26" y="45">
+                    <int id="0" val="Has the Actor collided with the ground?"/>
+                </comment-short>
+                <if comment="false" x="26" y="65">
+                    <group eventID="-1" id="-1">
+                        <collision-foreach comment="false" x="37" y="98">
+                            <group eventID="-1" id="-1">
+                                <if comment="false" x="48" y="118">
+                                    <group eventID="-1" id="-1">
+                                        <actor-set-prop comment="false" x="59" y="161">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="On Ground?"/>
+                                            <true comment="false" id="2" x="0" y="0"/>
+                                        </actor-set-prop>
+                                    </group>
+                                    <more comment="false" id="0" x="0" y="0">
+                                        <abs comment="false" id="0" x="0" y="0">
+                                            <collision-xynxy comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="3"/>
+                                            </collision-xynxy>
+                                        </abs>
+                                        <int id="1" val="0.1"/>
+                                    </more>
+                                </if>
+                            </group>
+                        </collision-foreach>
+                    </group>
+                    <collision-type comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <int id="1" val="2"/>
+                    </collision-type>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="3" id="-1">
+        <eq comment="false" x="518" y="308">
+            <get-val-4-4 comment="false" id="0" x="0" y="0"/>
+            <int id="1" val=""/>
+        </eq>
+    </group>
+</groups>

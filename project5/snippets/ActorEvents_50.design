@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <collide comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <die comment="false" x="26" y="45">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+            </group>
+        </collide>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="4" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="4" id="-1">
+                        <setanim comment="false" x="37" y="80">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="avoid"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="follow"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="119">
+                    <group eventID="4" id="-1">
+                        <setanim comment="false" x="37" y="139">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="follow"/>
+                        </setanim>
+                    </group>
+                </else>
+            </group>
+            <int id="0" val="4"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="4" id="10">
+        <if comment="false" x="499" y="183">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="510" y="221">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="follow"/>
+                </setanim>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <getanim comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </getanim>
+                <int id="1" val="avoid"/>
+            </eq>
+        </if>
+        <else comment="false" x="499" y="260">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="510" y="280">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="avoid"/>
+                </setanim>
+            </group>
+        </else>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="5" id="-1">
+                        <push-shove comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                            </minus>
+                            <minus comment="false" id="3" x="0" y="0">
+                                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                            </minus>
+                            <int id="4" val="5"/>
+                        </push-shove>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="follow"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="135">
+                    <group eventID="5" id="-1">
+                        <push-shove comment="false" x="37" y="155">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </get-xy>
+                            </minus>
+                            <minus comment="false" id="3" x="0" y="0">
+                                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </get-xy>
+                            </minus>
+                            <int id="4" val="-5"/>
+                        </push-shove>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <collide comment="false" x="17" y="20">
+            <group eventID="6" id="-1">
+                <setanim comment="false" x="28" y="50">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="follow"/>
+                </setanim>
+            </group>
+        </collide>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>

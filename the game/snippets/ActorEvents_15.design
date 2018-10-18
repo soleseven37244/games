@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-custom comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <incdec comment="false" x="26" y="40">
+                    <int id="0" val="1"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="1"/>
+                </incdec>
+                <apply-filter comment="false" x="26" y="67">
+                    <ACTOR eid="this" id="0"/>
+                    <filter-negative comment="false" id="1" x="0" y="0"/>
+                </apply-filter>
+                <dolater comment="false" x="26" y="99">
+                    <group eventID="1" id="-1">
+                        <clear-filter comment="false" x="37" y="126">
+                            <ACTOR eid="this" id="0"/>
+                        </clear-filter>
+                    </group>
+                    <int id="0" val=".1"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <int id="0" val="hit"/>
+        </event-custom>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-6-1 comment="false" x="26" y="40">
+                    <int id="0" val="3"/>
+                </set-val-6-1>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <play-sound4 comment="false" x="37" y="70">
+                            <int id="0" val="0"/>
+                            <sound eid="9" id="1"/>
+                        </play-sound4>
+                        <die comment="false" x="37" y="97">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-val-6-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </lesseq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-periodic comment="false" x="603" y="125">
+            <group eventID="4" id="-1">
+                <create-actor3 comment="false" x="614" y="152">
+                    <actortype eid="20" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="1"/>
+                </create-actor3>
+                <push-shove comment="false" x="614" y="192">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                    <int id="3" val="1"/>
+                    <int id="4" val="40"/>
+                </push-shove>
+            </group>
+            <int id="0" val="3"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

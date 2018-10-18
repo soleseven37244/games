@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <play-sound4 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                    <sound eid="7" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-group-create-kill comment="false" x="72" y="138">
+            <group eventID="2" id="-1"/>
+            <int id="0" val="1"/>
+            <actorgroup eid="4" id="1"/>
+        </event-group-create-kill>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <set-val-4-2 comment="false" x="37" y="70">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-4-2>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-4-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="5"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="19" id="0"/>
+                </set-font-new>
+                <if comment="false" x="26" y="67">
+                    <group eventID="4" id="-1">
+                        <draw-text comment="false" x="37" y="92">
+                            <int id="0" val="YOU WIN!"/>
+                            <int id="1" val="300"/>
+                            <int id="2" val="240"/>
+                        </draw-text>
+                    </group>
+                    <get-val-4-2 comment="false" id="0" x="0" y="0"/>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <event-type-create-kill comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <incdec comment="false" x="26" y="47">
+                    <int id="0" val="1"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="1"/>
+                </incdec>
+            </group>
+            <int id="0" val="1"/>
+            <actortype eid="15" id="1"/>
+        </event-type-create-kill>
+    </group>
+    <group eventID="5" id="-1"/>
+</groups>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="1" name="Ball" shared="false" width="32">
+        <anim across="2" down="1" durations="100,100" height="32" id="0" loop="true" name="Down" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="32" id="1" loop="true" name="Up" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="32" id="2" loop="true" name="Left" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="32" id="3" loop="true" name="Right" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <circle data="12,4,4" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="0" continuous="false" desc="A shiny coin." eventsnippetid="15" fixedrot="false" fric="0.2" gid="3" id="48" ignoreg="false" inertia="0.01" ldamp="0.0" mass="0.1" name="Coin" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="49" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="49" name="coin1" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <circle data="15,1,1" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="true"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="false" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="13" fixedrot="true" fric="0.0" gid="0" id="0" ignoreg="true" inertia="0.01" ldamp="0.0" mass="0.01" name="Hero" oid="19717" pausable="true" physicsMode="0" rest="0.0" shared="true" sprite="1" static="false">
+        <snippets/>
+    </actor>
+    <music atlasID="0" desc="" id="47" loop="true" name="Switch Activated" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <tileset across="4" atlasID="0" desc="" down="4" id="31" name="Tiles" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="-1" data="" durations="100" frames="0" id="0" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="2" id="2" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="3" id="3" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="4" id="4" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="5" id="5" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="6" id="6" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="7" id="7" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="8" id="8" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="9" id="9" order="-1"/>
+        <tile collision="1" data="" durations="100" frames="10" id="10" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="11" id="11" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="12" id="20" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="13" id="21" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="14" id="22" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="15" id="23" order="-1"/>
+    </tileset>
+</pack>

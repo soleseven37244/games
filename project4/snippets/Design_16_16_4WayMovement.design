@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="73">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-15-3 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                        <setanim comment="false" x="37" y="105">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val=""/>
+                        </setanim>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="1" id="1"/>
+                    </keystate>
+                </if>
+                <else-if comment="false" x="26" y="144">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="177">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <get-val-15-2 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="5" id="1"/>
+                    </keystate>
+                </else-if>
+                <else comment="false" x="26" y="221">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="241">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                </else>
+                <if comment="false" x="26" y="280">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="313">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-15-3 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="6" id="1"/>
+                    </keystate>
+                </if>
+                <else-if comment="false" x="26" y="357">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="390">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <get-val-15-2 comment="false" id="2" x="0" y="0"/>
+                        </set-dxy>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <control eid="3" id="1"/>
+                    </keystate>
+                </else-if>
+                <else comment="false" x="26" y="434">
+                    <group eventID="3" id="-1">
+                        <set-dxy comment="false" x="37" y="454">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                    </group>
+                </else>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="9">
+        <getanim comment="false" x="394" y="123">
+            <ACTOR eid="this" id="0"/>
+        </getanim>
+    </group>
+    <group eventID="1" id="-1">
+        <get-val-15-2 comment="false" x="497" y="381"/>
+        <get-val-15-2 comment="false" x="720" y="249"/>
+        <get-val-15-2 comment="false" x="549" y="319"/>
+        <get-val-15-2 comment="false" x="581" y="477"/>
+    </group>
+</groups>

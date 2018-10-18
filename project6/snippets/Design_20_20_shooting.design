@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <play-sound4 comment="false" x="26" y="42">
+                    <int id="0" val="0"/>
+                    <sound id="1"/>
+                </play-sound4>
+                <create-actor3 comment="false" x="26" y="69">
+                    <actortype eid="52" id="0"/>
+                    <int id="1" val=""/>
+                    <int id="2" val=""/>
+                    <int id="3" val="0"/>
+                </create-actor3>
+            </group>
+            <control eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="1" id="1">
+        <if comment="false" x="185" y="247">
+            <group eventID="1" id="-1"/>
+            <eq comment="false" id="0" x="0" y="0">
+                <getanim comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="var" id="0" vid="2147483647"/>
+                </getanim>
+                <int id="1" val=""/>
+            </eq>
+        </if>
+    </group>
+    <group eventID="1" id="2">
+        <getanim comment="false" x="280" y="345">
+            <ACTOR eid="this" id="0"/>
+        </getanim>
+    </group>
+    <group eventID="1" id="3">
+        <push-shove2 comment="false" x="48" y="460">
+            <ACTOR eid="lastcreated" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="90"/>
+            <int id="3" val="10"/>
+        </push-shove2>
+    </group>
+    <group eventID="1" id="4">
+        <push-shove comment="false" x="44" y="175">
+            <ACTOR eid="lastcreated" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="0"/>
+            <int id="3" val="-1"/>
+            <int id="4" val="10"/>
+        </push-shove>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="2" id="-1"/>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>
