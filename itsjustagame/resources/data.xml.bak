@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="4" id="7" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="2" id="8" name="Bullet" shared="false" width="4">
+        <anim across="1" down="1" durations="100" height="2" id="0" loop="true" name="Animation 0" numframes="1" originx="2" originy="1" sync="false" version="2" width="4">
+            <poly data="4,0,0,4,0,4,2,0,2" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <tileset across="7" atlasID="0" desc="" down="3" id="5" name="grass" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -24,7 +32,7 @@
         <tile collision="-1" data="" durations="100" frames="20" id="20" order="-1"/>
     </tileset>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="96" id="0" name="levl 1" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="96" xpf="1.0" ypf="1.0"/>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="3" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="6" id="1" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Player" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="2" static="false">
         <snippets>
             <s enabled="true" id="3">
                 <prop id="2147483647" list="0" val="thisactor"/>
@@ -87,10 +95,10 @@
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="53" id="4" name="player 2" shared="false" width="32">
-        <anim across="2" down="2" durations="100,100,100" height="106" id="0" loop="true" name="Animation 0" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+        <anim across="2" down="2" durations="100,100,100" height="106" id="0" loop="true" name="Walking Left" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
             <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100" height="106" id="1" loop="true" name="Animation 1" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+        <anim across="2" down="2" durations="100,100,100" height="106" id="1" loop="true" name="Walking Right" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
             <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
         <anim across="1" down="1" durations="100" height="53" id="2" loop="true" name="Animation 2" numframes="1" originx="16" originy="26" sync="false" version="2" width="32">
@@ -98,6 +106,12 @@
         </anim>
         <anim across="1" down="1" durations="100" height="53" id="3" loop="true" name="Animation 3" numframes="1" originx="16" originy="26" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="106" id="4" loop="true" name="Idle right" numframes="6" originx="12" originy="26" sync="false" version="2" width="75">
+            <poly data="4,0,0,25,0,25,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="3" down="2" durations="100,100,100,100,100,100" height="106" id="5" loop="true" name="Idle left" numframes="6" originx="12" originy="26" sync="false" version="2" width="75">
+            <poly data="4,0,0,25,0,25,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="3" atlasID="0" desc="" down="3" id="6" name="stone" oid="-1" shared="false" th="32" tw="32">

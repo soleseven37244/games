@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <push-shove comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val=""/>
+                    <int id="3" val=""/>
+                    <int id="4" val="5"/>
+                </push-shove>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1">
+        <get-xy comment="false" x="283" y="135">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+        </get-xy>
+        <get-xy comment="false" x="25" y="139">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </get-xy>
+    </group>
+    <group eventID="2" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <shout comment="false" x="26" y="47">
+                    <ACTOR eid="lastcollided" id="0"/>
+                    <int id="1" val="hit"/>
+                </shout>
+                <die comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="1" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortogroup comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actorgroup eid="1" id="1"/>
+        </event-collide-actortogroup>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

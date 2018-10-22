@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="14" extheight="384" extwidth="544" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="320" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="Main Layer" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="4" locked="false" name="Player" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="21" id="0" name="Exit1" pts="4,17.0,0.0,17.0,21.0,0.0,21.0,0.0,0.0" r="64" type="box" w="17" x="519" y="357"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Player 1" sx="1.0" sy="1.0" x="64" y="64" z="4"/>
+        <actor a="0.0" aid="2" c="false" group="3" id="50" name="Pronger 2" sx="1.0" sy="1.0" x="384" y="64" z="4"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,64.0,0.0,64.0" x="288.0" y="128.0"/>
+        <p pts="4,416.0,256.0,416.0,0.0,0.0,0.0,0.0,256.0" x="32.0" y="32.0"/>
+        <p pts="4,32.0,0.0,32.0,64.0,0.0,64.0,0.0,0.0" x="160.0" y="128.0"/>
+        <p pts="4,480.0,320.0,0.0,320.0,0.0,0.0,480.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

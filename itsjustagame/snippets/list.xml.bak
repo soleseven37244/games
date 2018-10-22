@@ -23,17 +23,26 @@
         <animation default="" defaultValue="" desc="" dropdown="" fullname="Idle Left Animation" hidden="false" id="20" name="_IdleLeftAnimation" order="19"/>
         <animation default="" defaultValue="" desc="" dropdown="" fullname="Idle Right Animation" hidden="false" id="21" name="_IdleRightAnimation" order="20"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Was Jump" hidden="true" id="22" name="_WasJump" order="21"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="HP" hidden="false" id="23" name="_HP" order="22"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="5" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="4" name="step" order="4" repeats="true"/>
-            <event displayName="Actor - Actor" enabled="true" id="5" name="event-collide-actortoactor" order="3" repeats="true"/>
+            <event displayName="Actor Created" enabled="true" id="6" name="event-actor-create-kill" order="12" repeats="true"/>
+            <event displayName="Created" enabled="true" id="7" name="init" order="13" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="8" name="step" order="7" repeats="true"/>
+            <event displayName="Created" enabled="true" id="10" name="init" order="2" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="11" name="event-collide-actortoactor" order="5" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="12" name="draw" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="13" name="event-collide-actortotype" order="8" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="HP" hidden="false" id="1" name="_HP" order="0"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_2_2_2WayVerticalMovement" classname="scripts.Design_2_2_2WayVerticalMovement" desc="Allows the actor to move up and down." description="Allows the actor to move up and down." design="true" drawOrder="0" id="2" name="2 Way Vertical Movement" oid="-1" package="scripts" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
@@ -99,10 +108,10 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
-            <event displayName="Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="5" repeats="false"/>
-            <event displayName="Actor - Actor" enabled="true" id="4" name="event-collide-actortoactor" order="3" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="5" name="step" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="2" name="step" order="4" repeats="true"/>
+            <event displayName="Actor - Actor" enabled="true" id="4" name="event-collide-actortoactor" order="5" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="6" name="step" order="3" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="7" name="event-key-press-release" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_5_5_walking" classname="scripts.Design_5_5_walking" desc="" description="" design="true" drawOrder="0" id="5" name="walking" oid="-1" package="scripts" shared="false" type="actor">
@@ -202,5 +211,13 @@
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="11" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
         <blocks/>
         <events/>
+    </snippet>
+    <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="12" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="3" repeats="true"/>
+        </events>
     </snippet>
 </pack>

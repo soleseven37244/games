@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <play-sound4 comment="false" x="26" y="42">
+                    <int id="0" val="0"/>
+                    <SOUND eid="47" id="1"/>
+                </play-sound4>
+                <create-actor3 comment="false" x="26" y="69">
+                    <ACTORTYPE eid="52" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <if comment="false" x="26" y="109">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="147">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="270"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="Up"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="186">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="224">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="90"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="Down"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="263">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="301">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="180"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="Left"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="340">
+                    <group eventID="1" id="-1">
+                        <setvel comment="false" x="37" y="378">
+                            <ACTOR eid="lastcreated" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="50"/>
+                        </setvel>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <getanim comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </getanim>
+                        <int id="1" val="Right"/>
+                    </eq>
+                </else-if>
+            </group>
+            <CONTROL eid="7" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
