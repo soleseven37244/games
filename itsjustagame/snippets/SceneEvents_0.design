@@ -45,12 +45,24 @@
         <draw comment="false" x="15" y="15">
             <group eventID="2" id="-1">
                 <draw-text comment="false" x="26" y="40">
-                    <get-val-1-1 comment="false" id="0" x="0" y="0"/>
+                    <get-game-val-4 comment="false" id="0" x="0" y="0"/>
                     <int id="1" val="15"/>
+                    <int id="2" val="15"/>
+                </draw-text>
+                <draw-text comment="false" x="26" y="65">
+                    <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                    <minus comment="false" id="1" x="0" y="0">
+                        <screen-wh comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </screen-wh>
+                        <int id="1" val="15"/>
+                    </minus>
                     <int id="2" val="15"/>
                 </draw-text>
             </group>
         </draw>
     </group>
-    <group eventID="2" id="-1"/>
+    <group eventID="2" id="-1">
+        <get-val-1-1 comment="false" x="272" y="258"/>
+    </group>
 </groups>
