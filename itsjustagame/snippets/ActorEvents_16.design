@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-collide-actortotype comment="false" x="16" y="15">
+            <group eventID="1" id="-1">
+                <die comment="false" x="27" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <if comment="false" x="27" y="74">
+                    <group eventID="1" id="-1">
+                        <set-game-val-3 comment="false" x="38" y="104">
+                            <int id="0" val="3"/>
+                        </set-game-val-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="27" y="136">
+                    <group eventID="1" id="-1">
+                        <set-game-val-3 comment="false" x="38" y="166">
+                            <int id="0" val="2"/>
+                        </set-game-val-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </else-if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="3" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+                <if comment="false" x="26" y="74">
+                    <group eventID="2" id="-1">
+                        <set-game-val-2 comment="false" x="37" y="104">
+                            <int id="0" val="3"/>
+                        </set-game-val-2>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <else-if comment="false" x="26" y="136">
+                    <group eventID="2" id="-1">
+                        <set-game-val-2 comment="false" x="37" y="166">
+                            <int id="0" val="2"/>
+                        </set-game-val-2>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </else-if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="1" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

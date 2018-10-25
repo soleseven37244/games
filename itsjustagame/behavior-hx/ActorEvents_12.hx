@@ -69,60 +69,36 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class Design_9_9_forrealthistime extends ActorScript
+class ActorEvents_12 extends ActorScript
 {
-	public var _OnGround:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("Actor", "actor");
-		nameMap.set("On Ground", "_OnGround");
-		_OnGround = false;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled)
+			if(wrapper.enabled && sameAsAny(getActorType(3), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				if((isKeyPressed("Player 2 up") && _OnGround))
-				{
-					_OnGround = false;
-					propertyChanged("_OnGround", _OnGround);
-					actor.applyImpulse(0, -1, 20);
-				}
+				Engine.engine.setGameAttribute("power1", 1);
+				recycleActor(actor);
 			}
 		});
 		
-		/* ======================== Specific Actor ======================== */
+		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && (actor.getLastCollidedActor() == event.otherActor))
+			if(wrapper.enabled && sameAsAny(getActorType(1), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				if(event.thisFromBottom)
-				{
-					_OnGround = true;
-					propertyChanged("_OnGround", _OnGround);
-				}
-			}
-		});
-		
-		/* ======================= Member of Group ======================== */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				if(event.thisFromBottom)
-				{
-					_OnGround = true;
-					propertyChanged("_OnGround", _OnGround);
-				}
+				Engine.engine.setGameAttribute("power", 1);
+				recycleActor(actor);
 			}
 		});
 		
