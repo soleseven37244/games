@@ -19,14 +19,20 @@
                 </if>
                 <else-if comment="false" x="27" y="136">
                     <group eventID="1" id="-1">
-                        <set-game-val-3 comment="false" x="38" y="166">
+                        <set-game-val-3 comment="false" x="38" y="171">
                             <int id="0" val="2"/>
                         </set-game-val-3>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0"/>
-                    </eq>
+                    <or comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </eq>
+                    </or>
                 </else-if>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -53,14 +59,20 @@
                 </if>
                 <else-if comment="false" x="26" y="136">
                     <group eventID="2" id="-1">
-                        <set-game-val-2 comment="false" x="37" y="166">
+                        <set-game-val-2 comment="false" x="37" y="171">
                             <int id="0" val="2"/>
                         </set-game-val-2>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="0"/>
-                    </eq>
+                    <or comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </eq>
+                        <eq comment="false" id="1" x="0" y="0">
+                            <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                        </eq>
+                    </or>
                 </else-if>
             </group>
             <ACTOR eid="this" id="0"/>

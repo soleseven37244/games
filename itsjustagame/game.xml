@@ -83,15 +83,21 @@
         <key id="7" keyname="A" name="Player 2 Left" vk="65" vks="65"/>
         <key id="8" keyname="D" name="Player 2 right" vk="68" vks="68"/>
         <key id="9" keyname="W" name="Player 2 up" vk="87" vks="87"/>
-        <key id="10" keyname="S" name="Player 3 down" vk="83" vks="83"/>
+        <key id="10" keyname="DOWN" name="Player 3 down" vk="40" vks="40"/>
         <key id="11" keyname="P" name="p2shoot" vk="80" vks="80"/>
         <key id="12" keyname="G" name="p1shoot" vk="71" vks="71"/>
+        <key id="13" keyname="NUMPAD_8" name="p3 up" vk="104" vks="104"/>
+        <key id="14" keyname="NUMPAD_4" name="p3 left" vk="100" vks="100"/>
+        <key id="15" keyname="NUMPAD_6" name="p3 right" vk="102" vks="102"/>
+        <key id="16" keyname="NUMPAD_5" name="p3 down" vk="101" vks="101"/>
+        <key id="17" keyname="NUMPAD_7" name="p3 shoot" vk="103" vks="103"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
     </attcats>
     <props/>
     <attributes>
+        <number cid="-1" id="6" name="death 3" save="true" value="0.0"/>
         <number cid="-1" id="1" name="death 2" save="true" value="0.0"/>
         <number cid="-1" id="0" name="death" save="true" value="0.0"/>
         <number cid="-1" id="4" name="win count1" save="true" value="0.0"/>
@@ -128,7 +134,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,1,3,5,6,7,9,10,12,14,16," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,1,3,5,6,7,9,10,12,14,16,18,20," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

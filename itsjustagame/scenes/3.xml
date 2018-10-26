@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="18" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="10.0" height="480" id="3" name="arena 4" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions>
+        <terrainRegion b="64" g="64" group="1" h="14" id="0" name="Terrain 0" pts="4,580.0,0.0,580.0,14.0,0.0,14.0,0.0,0.0" r="64" type="box" w="580" x="1" y="181"/>
+    </terrainRegions>
+    <actors>
+        <actor a="0.0" aid="4" c="false" group="7" id="12" name="shotgun powerup 4" sx="1.0" sy="1.0" x="252" y="154" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="7" id="12" name="shotgun powerup 5" sx="1.0" sy="1.0" x="256" y="117" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="7" id="12" name="shotgun powerup 6" sx="1.0" sy="1.0" x="252" y="71" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="7" id="12" name="shotgun powerup 7" sx="1.0" sy="1.0" x="255" y="26" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="7" id="16" name="4 shot stack 8" sx="1.0" sy="1.0" x="287" y="48" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="7" id="16" name="4 shot stack 9" sx="1.0" sy="1.0" x="314" y="85" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="7" id="16" name="4 shot stack 10" sx="1.0" sy="1.0" x="332" y="113" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="7" id="16" name="4 shot stack 11" sx="1.0" sy="1.0" x="346" y="150" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="7" id="12" name="shotgun powerup 12" sx="1.0" sy="1.0" x="385" y="148" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="7" id="12" name="shotgun powerup 13" sx="1.0" sy="1.0" x="388" y="114" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="7" id="12" name="shotgun powerup 14" sx="1.0" sy="1.0" x="383" y="73" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="7" id="12" name="shotgun powerup 15" sx="1.0" sy="1.0" x="385" y="32" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="7" id="16" name="4 shot stack 16" sx="1.0" sy="1.0" x="487" y="29" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="7" id="16" name="4 shot stack 17" sx="1.0" sy="1.0" x="465" y="54" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="7" id="16" name="4 shot stack 18" sx="1.0" sy="1.0" x="459" y="78" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="7" id="16" name="4 shot stack 19" sx="1.0" sy="1.0" x="454" y="104" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="7" id="16" name="4 shot stack 20" sx="1.0" sy="1.0" x="454" y="120" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="7" id="16" name="4 shot stack 21" sx="1.0" sy="1.0" x="458" y="130" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="7" id="16" name="4 shot stack 22" sx="1.0" sy="1.0" x="474" y="145" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="7" id="16" name="4 shot stack 23" sx="1.0" sy="1.0" x="504" y="156" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="7" id="16" name="4 shot stack 24" sx="1.0" sy="1.0" x="532" y="160" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="7" id="16" name="4 shot stack 25" sx="1.0" sy="1.0" x="582" y="154" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="7" id="16" name="4 shot stack 26" sx="1.0" sy="1.0" x="607" y="121" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="7" id="16" name="4 shot stack 27" sx="1.0" sy="1.0" x="607" y="88" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="7" id="16" name="4 shot stack 28" sx="1.0" sy="1.0" x="587" y="50" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="7" id="16" name="4 shot stack 29" sx="1.0" sy="1.0" x="525" y="34" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="7" id="16" name="4 shot stack 30" sx="1.0" sy="1.0" x="486" y="27" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="7" id="16" name="4 shot stack 31" sx="1.0" sy="1.0" x="540" y="40" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="7" id="16" name="4 shot stack 32" sx="1.0" sy="1.0" x="565" y="48" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="7" id="16" name="4 shot stack 33" sx="1.0" sy="1.0" x="512" y="36" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="7" id="16" name="4 shot stack 34" sx="1.0" sy="1.0" x="555" y="165" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="7" id="16" name="4 shot stack 35" sx="1.0" sy="1.0" x="601" y="62" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="6" id="1" name="Player 36" sx="1.0" sy="1.0" x="34" y="264" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="5" id="3" name="player 2 37" sx="1.0" sy="1.0" x="604" y="390" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="7" id="16" name="4 shot stack 39" sx="1.0" sy="1.0" x="442" y="354" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="7" id="16" name="4 shot stack 40" sx="1.0" sy="1.0" x="228" y="318" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="7" id="12" name="shotgun powerup 41" sx="1.0" sy="1.0" x="282" y="202" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="7" id="12" name="shotgun powerup 42" sx="1.0" sy="1.0" x="356" y="199" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="7" id="16" name="4 shot stack 43" sx="1.0" sy="1.0" x="356" y="323" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="7" id="16" name="4 shot stack 44" sx="1.0" sy="1.0" x="287" y="319" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="8" id="10" name="p1bullet 45" sx="1.0" sy="1.0" x="583" y="376" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="4" id="7" name="Bullet 46" sx="1.0" sy="1.0" x="45" y="258" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,32.0,0.0,32.0,160.0,0.0,160.0,0.0,0.0" x="320.0" y="192.0"/>
+        <p pts="10,0.0,192.0,0.0,0.0,32.0,0.0,32.0,32.0,224.0,32.0,224.0,64.0,32.0,64.0,32.0,160.0,640.0,160.0,640.0,192.0" x="0.0" y="288.0"/>
+        <p pts="8,160.0,0.0,160.0,32.0,128.0,32.0,128.0,64.0,0.0,64.0,0.0,32.0,96.0,32.0,96.0,0.0" x="480.0" y="320.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

@@ -76,7 +76,62 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="-1"/>
+    <group eventID="1" id="5">
+        <set-val-4-1 comment="false" x="449" y="415">
+            <int id="0" val=""/>
+        </set-val-4-1>
+    </group>
+    <group eventID="1" id="14">
+        <if comment="false" x="53" y="552">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="64" y="595">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 7"/>
+                </setanim>
+                <set-val-4-6 comment="false" x="64" y="622">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-4-6>
+            </group>
+            <and comment="false" id="0" x="0" y="0">
+                <keystate comment="false" id="0" x="0" y="0">
+                    <int id="0" val="0"/>
+                    <control eid="10" id="1"/>
+                </keystate>
+                <eq comment="false" id="1" x="0" y="0">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                    <int id="1" val="Walikng Left"/>
+                </eq>
+            </and>
+        </if>
+        <else-if comment="false" x="53" y="659">
+            <group eventID="1" id="-1">
+                <setanim comment="false" x="64" y="702">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 8"/>
+                </setanim>
+                <set-val-4-1 comment="false" x="64" y="729">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-val-4-1>
+            </group>
+            <and comment="false" id="0" x="0" y="0">
+                <eq comment="false" id="0" x="0" y="0">
+                    <get-val-4-6 comment="false" id="0" x="0" y="0"/>
+                    <true comment="false" id="1" x="0" y="0"/>
+                </eq>
+                <eq comment="false" id="1" x="0" y="0">
+                    <getanim comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                    </getanim>
+                    <int id="1" val="Walking Right"/>
+                </eq>
+            </and>
+        </else-if>
+    </group>
+    <group eventID="1" id="-1">
+        <get-val-4-1 comment="false" x="496" y="552"/>
+    </group>
     <group eventID="2" id="0">
         <step comment="false" x="15" y="15">
             <group eventID="2" id="-1"/>
@@ -116,18 +171,15 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Animation 6"/>
                         </setanim>
-                        <set-game-val-4 comment="false" x="37" y="117">
-                            <int id="0" val="1"/>
-                        </set-game-val-4>
                     </group>
                     <lesseq comment="false" id="0" x="0" y="0">
                         <get-val-4-4 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
                     </lesseq>
                 </if>
-                <if comment="false" x="26" y="149">
+                <if comment="false" x="26" y="129">
                     <group eventID="6" id="-1">
-                        <set-game-val-1 comment="false" x="37" y="179">
+                        <set-game-val-1 comment="false" x="37" y="159">
                             <int id="0" val="1"/>
                         </set-game-val-1>
                     </group>
@@ -136,22 +188,9 @@
                         <int id="1" val="0"/>
                     </lesseq>
                 </if>
-                <if comment="false" x="26" y="211">
+                <if comment="false" x="26" y="191">
                     <group eventID="6" id="-1">
-                        <set-game-val-1 comment="false" x="37" y="249">
-                            <int id="0" val="1"/>
-                        </set-game-val-1>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <isalive comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                        </isalive>
-                        <false comment="false" id="1" x="0" y="0"/>
-                    </eq>
-                </if>
-                <if comment="false" x="26" y="281">
-                    <group eventID="6" id="-1">
-                        <set-game-val-1 comment="false" x="37" y="316">
+                        <set-game-val-1 comment="false" x="37" y="226">
                             <int id="0" val="2"/>
                         </set-game-val-1>
                     </group>
@@ -160,15 +199,15 @@
                             <scenename comment="false" id="0" x="0" y="0"/>
                             <int id="1" val="arena 2"/>
                         </eq>
-                        <eq comment="false" id="1" x="0" y="0">
+                        <lesseq comment="false" id="1" x="0" y="0">
                             <get-val-4-4 comment="false" id="0" x="0" y="0"/>
                             <int id="1" val="0"/>
-                        </eq>
+                        </lesseq>
                     </and>
                 </if>
-                <if comment="false" x="26" y="348">
+                <if comment="false" x="26" y="258">
                     <group eventID="6" id="-1">
-                        <setanim comment="false" x="37" y="378">
+                        <setanim comment="false" x="37" y="288">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Animation 6"/>
                         </setanim>
@@ -176,6 +215,35 @@
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-1 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="2"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="327">
+                    <group eventID="6" id="-1">
+                        <set-game-val-1 comment="false" x="37" y="362">
+                            <int id="0" val="3"/>
+                        </set-game-val-1>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <eq comment="false" id="0" x="0" y="0">
+                            <scenename comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="arena 3"/>
+                        </eq>
+                        <lesseq comment="false" id="1" x="0" y="0">
+                            <get-val-4-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </lesseq>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="394">
+                    <group eventID="6" id="-1">
+                        <setanim comment="false" x="37" y="424">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Animation 6"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
                     </eq>
                 </if>
             </group>
@@ -195,9 +263,6 @@
             </eq>
         </if>
     </group>
-    <group eventID="6" id="2">
-        <get-game-val-1 comment="false" x="482" y="344"/>
-    </group>
     <group eventID="6" id="3">
         <incdec comment="false" x="723" y="245">
             <int id="0" val="4"/>
@@ -206,11 +271,102 @@
         </incdec>
     </group>
     <group eventID="6" id="4">
-        <set-game-val-4 comment="false" x="482" y="446">
+        <if comment="false" x="482" y="376">
+            <group eventID="6" id="-1">
+                <setanim comment="false" x="493" y="406">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 6"/>
+                </setanim>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="1"/>
+            </eq>
+        </if>
+        <if comment="false" x="482" y="445">
+            <group eventID="6" id="-1">
+                <set-game-val-0 comment="false" x="493" y="475">
+                    <int id="0" val="1"/>
+                </set-game-val-0>
+            </group>
+            <lesseq comment="false" id="0" x="0" y="0">
+                <get-val-4-5 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="0"/>
+            </lesseq>
+        </if>
+        <if comment="false" x="482" y="507">
+            <group eventID="6" id="-1">
+                <set-game-val-0 comment="false" x="493" y="545">
+                    <int id="0" val="1"/>
+                </set-game-val-0>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <isalive comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </isalive>
+                <false comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
+        <if comment="false" x="482" y="577">
+            <group eventID="6" id="-1">
+                <set-game-val-0 comment="false" x="493" y="612">
+                    <int id="0" val="2"/>
+                </set-game-val-0>
+            </group>
+            <and comment="false" id="0" x="0" y="0">
+                <eq comment="false" id="0" x="0" y="0">
+                    <scenename comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="arena 2"/>
+                </eq>
+                <lesseq comment="false" id="1" x="0" y="0">
+                    <get-val-4-5 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="0"/>
+                </lesseq>
+            </and>
+        </if>
+        <if comment="false" x="482" y="644">
+            <group eventID="6" id="-1">
+                <setanim comment="false" x="493" y="674">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 6"/>
+                </setanim>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="2"/>
+            </eq>
+        </if>
+        <set-game-val-4 comment="false" x="482" y="713">
             <int id="0" val=""/>
         </set-game-val-4>
     </group>
+    <group eventID="6" id="5">
+        <set-game-val-4 comment="false" x="498" y="190">
+            <int id="0" val="1"/>
+        </set-game-val-4>
+    </group>
+    <group eventID="6" id="6">
+        <if comment="false" x="208" y="510">
+            <group eventID="6" id="-1">
+                <set-game-val-1 comment="false" x="219" y="548">
+                    <int id="0" val="1"/>
+                </set-game-val-1>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <isalive comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </isalive>
+                <false comment="false" id="1" x="0" y="0"/>
+            </eq>
+        </if>
+    </group>
     <group eventID="6" id="-1">
+        <get-game-val-1 comment="false" x="590" y="326"/>
+        <eq comment="false" x="409" y="240">
+            <int id="0" val=""/>
+            <int id="1" val="0"/>
+        </eq>
+        <get-val-4-5 comment="false" x="536" y="287"/>
         <get-game-val-4 comment="false" x="879" y="354"/>
     </group>
     <group eventID="7" id="0">
@@ -1032,8 +1188,19 @@
                     <int id="0" val="0"/>
                 </set-game-val-3>
                 <set-val-4-4 comment="false" x="26" y="60">
-                    <int id="0" val="1000"/>
+                    <int id="0" val="600"/>
                 </set-val-4-4>
+                <if comment="false" x="26" y="80">
+                    <group eventID="10" id="-1">
+                        <set-val-4-5 comment="false" x="37" y="110">
+                            <int id="0" val="10000"/>
+                        </set-val-4-5>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="arena 4"/>
+                    </eq>
+                </if>
             </group>
         </init>
     </group>
@@ -1129,11 +1296,30 @@
             <int id="2" val="1"/>
         </event-type-screen>
     </group>
-    <group eventID="13" id="6">
+    <group eventID="13" id="1">
         <if comment="false" x="999" y="240">
             <group eventID="13" id="-1"/>
             <int id="0" val=""/>
         </if>
     </group>
     <group eventID="13" id="-1"/>
+    <group eventID="14" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="14" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="14" id="-1">
+                        <toggle-rot comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-rot>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="arena 4"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="14" id="-1"/>
 </groups>

@@ -8,7 +8,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="4" id="16" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="4 shot stack" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="false" fric="0.2" gid="7" id="16" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="4 shot stack" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="17" name="4 shot stack" shared="false" width="32">
@@ -156,6 +156,40 @@
         </anim>
         <anim across="1" down="1" durations="100" height="53" id="6" loop="true" name="Animation 6" numframes="1" originx="25" originy="26" sync="false" version="2" width="51">
             <poly data="4,0,0,51,0,51,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="53" id="7" loop="true" name="Animation 7" numframes="1" originx="26" originy="26" sync="false" version="2" width="53">
+            <poly data="4,0,36,53,36,53,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 7" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="53" id="8" loop="true" name="Animation 8" numframes="1" originx="26" originy="26" sync="false" version="2" width="53">
+            <poly data="4,0,36,53,36,53,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 8" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="19" fixedrot="false" fric="0.2" gid="3" id="18" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="53" id="19" name="player 3" shared="false" width="32">
+        <anim across="2" down="2" durations="100,100,100" height="106" id="0" loop="true" name="Animation 0" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="106" id="1" loop="true" name="Animation 1" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="53" id="2" loop="true" name="Idle Left" numframes="1" originx="16" originy="26" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="53" id="3" loop="true" name="Idle Right" numframes="1" originx="16" originy="26" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="20" fixedrot="false" fric="0.2" gid="3" id="20" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="player 4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="21" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="53" id="21" name="player 4" shared="false" width="32">
+        <anim across="2" down="2" durations="100,100,100" height="106" id="0" loop="true" name="Animation 0" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="106" id="1" loop="true" name="Animation 1" numframes="3" originx="16" originy="26" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="7" id="12" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="shotgun powerup" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
