@@ -7,7 +7,7 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="14" id="0" name="Terrain 0" pts="4,580.0,0.0,580.0,14.0,0.0,14.0,0.0,0.0" r="64" type="box" w="580" x="1" y="181"/>
+        <terrainRegion b="64" g="64" group="1" h="14" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,14.0,580.0,14.0,580.0,0.0" r="64" type="box" w="580" x="1" y="181"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="4" c="false" group="7" id="12" name="shotgun powerup 4" sx="1.0" sy="1.0" x="252" y="154" z="0"/>
@@ -52,6 +52,8 @@
         <actor a="0.0" aid="44" c="false" group="7" id="16" name="4 shot stack 44" sx="1.0" sy="1.0" x="287" y="319" z="0"/>
         <actor a="0.0" aid="45" c="false" group="8" id="10" name="p1bullet 45" sx="1.0" sy="1.0" x="583" y="376" z="0"/>
         <actor a="0.0" aid="46" c="false" group="4" id="7" name="Bullet 46" sx="1.0" sy="1.0" x="45" y="258" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="9" id="18" name="player 3 47" sx="1.0" sy="1.0" x="541" y="300" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="9" id="18" name="player 3 48" sx="1.0" sy="1.0" x="542" y="236" z="0"/>
     </actors>
     <snippets/>
     <terrain>

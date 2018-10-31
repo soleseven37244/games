@@ -310,7 +310,25 @@ class ActorEvents_3 extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorType(10), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				_HP1 -= 1;
+				_HP1 -= 2;
+				propertyChanged("_HP1", _HP1);
+				if((event.otherFromLeft || event.otherFromRight))
+				{
+					actor.setFriction(0);
+				}
+				else
+				{
+					actor.setFriction(1);
+				}
+			}
+		});
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(22), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				_HP1 -= 2;
 				propertyChanged("_HP1", _HP1);
 				if((event.otherFromLeft || event.otherFromRight))
 				{
@@ -357,9 +375,6 @@ class ActorEvents_3 extends ActorScript
 				if(((getCurrentSceneName() == "arena 3") && (_HP1 <= 0)))
 				{
 					Engine.engine.setGameAttribute("death 2", 3);
-				}
-				if((Engine.engine.getGameAttribute("death 2") == 3))
-				{
 					actor.setAnimation("" + "Animation 6");
 				}
 			}

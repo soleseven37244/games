@@ -70,7 +70,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_1 extends SceneScript
+class SceneEvents_5 extends SceneScript
 {
 	
 	
@@ -82,32 +82,6 @@ class SceneEvents_1 extends SceneScript
 	
 	override public function init()
 	{
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				if((Engine.engine.getGameAttribute("death") == 2))
-				{
-					switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(3, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
-				}
-				if((Engine.engine.getGameAttribute("death 2") == 2))
-				{
-					switchScene(GameModel.get().scenes.get(2).getID(), createFadeOut(3, Utils.getColorRGB(0,0,0)), createFadeIn(2, Utils.getColorRGB(0,0,0)));
-				}
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.drawString("" + Engine.engine.getGameAttribute("win count1"), 15, 15);
-				g.drawString("" + Engine.engine.getGameAttribute("win count2"), (getScreenWidth() - 15), 15);
-			}
-		});
 		
 	}
 	

@@ -57,6 +57,8 @@
         <group desc="" id="6" name="player 1"/>
         <group desc="" id="7" name="powerups"/>
         <group desc="" id="8" name="player 1 bullets"/>
+        <group desc="" id="9" name="player 3"/>
+        <group desc="" id="10" name="p3 bullets"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
@@ -65,12 +67,20 @@
         <cgroup g1="1" g2="5"/>
         <cgroup g1="1" g2="6"/>
         <cgroup g1="1" g2="8"/>
+        <cgroup g1="1" g2="9"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="4" g2="6"/>
+        <cgroup g1="4" g2="9"/>
         <cgroup g1="5" g2="6"/>
         <cgroup g1="5" g2="7"/>
         <cgroup g1="5" g2="8"/>
+        <cgroup g1="5" g2="9"/>
+        <cgroup g1="5" g2="10"/>
         <cgroup g1="6" g2="7"/>
+        <cgroup g1="6" g2="9"/>
+        <cgroup g1="6" g2="10"/>
+        <cgroup g1="7" g2="9"/>
+        <cgroup g1="8" g2="9"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -102,6 +112,7 @@
         <number cid="-1" id="0" name="death" save="true" value="0.0"/>
         <number cid="-1" id="4" name="win count1" save="true" value="0.0"/>
         <number cid="-1" id="5" name="win count2" save="true" value="0.0"/>
+        <number cid="-1" id="7" name="power 3" save="true" value="0.0"/>
         <number cid="-1" id="2" name="power" save="true" value="0.0"/>
         <number cid="-1" id="3" name="power1" save="true" value="0.0"/>
     </attributes>
@@ -134,7 +145,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,1,3,5,6,7,9,10,12,14,16,18,20," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,1,3,5,6,7,9,10,12,14,16,18,20,22,24,25," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
