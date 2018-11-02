@@ -69,26 +69,47 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_7 extends ActorScript
+class Design_9_9_forrealthistime extends ActorScript
 {
+	public var _OnGround:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("On Ground", "_OnGround");
+		_OnGround = false;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((isKeyPressed("Player 2 up") && _OnGround))
+				{
+					_OnGround = false;
+					propertyChanged("_OnGround", _OnGround);
+					actor.applyImpulse(0, -1, 20);
+				}
+			}
+		});
+		
+		/* ======================== Specific Actor ======================== */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(1), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && (actor.getLastCollidedActor() == event.otherActor))
 			{
-				actor.getLastCollidedActor().shout("_customEvent_" + "hit");
-				recycleActor(actor);
+				if(event.thisFromBottom)
+				{
+					_OnGround = true;
+					propertyChanged("_OnGround", _OnGround);
+				}
 			}
 		});
 		
@@ -97,16 +118,11 @@ class ActorEvents_7 extends ActorScript
 		{
 			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				recycleActor(actor);
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(18), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
+				if(event.thisFromBottom)
+				{
+					_OnGround = true;
+					propertyChanged("_OnGround", _OnGround);
+				}
 			}
 		});
 		

@@ -22,6 +22,9 @@
                 <die comment="false" x="26" y="47">
                     <ACTOR eid="this" id="0"/>
                 </die>
+                <kill-leave-screen comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                </kill-leave-screen>
             </group>
             <ACTOR eid="this" id="0"/>
             <actorgroup eid="1" id="1"/>
