@@ -7,41 +7,39 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="14" id="0" name="Terrain 0" pts="4,580.0,0.0,580.0,14.0,0.0,14.0,0.0,0.0" r="64" type="box" w="580" x="1" y="181"/>
+        <terrainRegion b="64" g="64" group="1" h="14" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,14.0,580.0,14.0,580.0,0.0" r="64" type="box" w="580" x="1" y="181"/>
     </terrainRegions>
     <actors>
-        <actor a="0.0" aid="4" c="false" group="7" id="12" name="shotgun powerup 4" sx="1.0" sy="1.0" x="252" y="154" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="7" id="12" name="shotgun powerup 5" sx="1.0" sy="1.0" x="256" y="117" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="7" id="12" name="shotgun powerup 6" sx="1.0" sy="1.0" x="252" y="71" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="7" id="12" name="shotgun powerup 7" sx="1.0" sy="1.0" x="255" y="26" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="7" id="16" name="4 shot stack 8" sx="1.0" sy="1.0" x="287" y="48" z="0"/>
-        <actor a="0.0" aid="9" c="false" group="7" id="16" name="4 shot stack 9" sx="1.0" sy="1.0" x="314" y="85" z="0"/>
-        <actor a="0.0" aid="10" c="false" group="7" id="16" name="4 shot stack 10" sx="1.0" sy="1.0" x="332" y="113" z="0"/>
-        <actor a="0.0" aid="11" c="false" group="7" id="16" name="4 shot stack 11" sx="1.0" sy="1.0" x="346" y="150" z="0"/>
-        <actor a="0.0" aid="12" c="false" group="7" id="12" name="shotgun powerup 12" sx="1.0" sy="1.0" x="385" y="148" z="0"/>
-        <actor a="0.0" aid="13" c="false" group="7" id="12" name="shotgun powerup 13" sx="1.0" sy="1.0" x="388" y="114" z="0"/>
-        <actor a="0.0" aid="14" c="false" group="7" id="12" name="shotgun powerup 14" sx="1.0" sy="1.0" x="383" y="73" z="0"/>
-        <actor a="0.0" aid="15" c="false" group="7" id="12" name="shotgun powerup 15" sx="1.0" sy="1.0" x="385" y="32" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="7" id="16" name="4 shot stack 16" sx="1.0" sy="1.0" x="487" y="29" z="0"/>
-        <actor a="0.0" aid="17" c="false" group="7" id="16" name="4 shot stack 17" sx="1.0" sy="1.0" x="465" y="54" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="7" id="16" name="4 shot stack 18" sx="1.0" sy="1.0" x="459" y="78" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="7" id="16" name="4 shot stack 19" sx="1.0" sy="1.0" x="454" y="104" z="0"/>
-        <actor a="0.0" aid="20" c="false" group="7" id="16" name="4 shot stack 20" sx="1.0" sy="1.0" x="454" y="120" z="0"/>
-        <actor a="0.0" aid="21" c="false" group="7" id="16" name="4 shot stack 21" sx="1.0" sy="1.0" x="458" y="130" z="0"/>
-        <actor a="0.0" aid="22" c="false" group="7" id="16" name="4 shot stack 22" sx="1.0" sy="1.0" x="474" y="145" z="0"/>
-        <actor a="0.0" aid="23" c="false" group="7" id="16" name="4 shot stack 23" sx="1.0" sy="1.0" x="504" y="156" z="0"/>
-        <actor a="0.0" aid="24" c="false" group="7" id="16" name="4 shot stack 24" sx="1.0" sy="1.0" x="532" y="160" z="0"/>
-        <actor a="0.0" aid="25" c="false" group="7" id="16" name="4 shot stack 25" sx="1.0" sy="1.0" x="582" y="154" z="0"/>
-        <actor a="0.0" aid="26" c="false" group="7" id="16" name="4 shot stack 26" sx="1.0" sy="1.0" x="607" y="121" z="0"/>
-        <actor a="0.0" aid="27" c="false" group="7" id="16" name="4 shot stack 27" sx="1.0" sy="1.0" x="607" y="88" z="0"/>
-        <actor a="0.0" aid="28" c="false" group="7" id="16" name="4 shot stack 28" sx="1.0" sy="1.0" x="587" y="50" z="0"/>
-        <actor a="0.0" aid="29" c="false" group="7" id="16" name="4 shot stack 29" sx="1.0" sy="1.0" x="525" y="34" z="0"/>
-        <actor a="0.0" aid="30" c="false" group="7" id="16" name="4 shot stack 30" sx="1.0" sy="1.0" x="486" y="27" z="0"/>
-        <actor a="0.0" aid="31" c="false" group="7" id="16" name="4 shot stack 31" sx="1.0" sy="1.0" x="540" y="40" z="0"/>
-        <actor a="0.0" aid="32" c="false" group="7" id="16" name="4 shot stack 32" sx="1.0" sy="1.0" x="565" y="48" z="0"/>
-        <actor a="0.0" aid="33" c="false" group="7" id="16" name="4 shot stack 33" sx="1.0" sy="1.0" x="512" y="36" z="0"/>
-        <actor a="0.0" aid="34" c="false" group="7" id="16" name="4 shot stack 34" sx="1.0" sy="1.0" x="555" y="165" z="0"/>
-        <actor a="0.0" aid="35" c="false" group="7" id="16" name="4 shot stack 35" sx="1.0" sy="1.0" x="601" y="62" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="7" id="12" name="shotgun powerup 6" sx="1.0" sy="1.0" x="-4" y="52" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="7" id="12" name="shotgun powerup 7" sx="1.0" sy="1.0" x="-3" y="0" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="7" id="16" name="4 shot stack 8" sx="1.0" sy="1.0" x="29" y="22" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="7" id="16" name="4 shot stack 9" sx="1.0" sy="1.0" x="56" y="59" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="7" id="16" name="4 shot stack 10" sx="1.0" sy="1.0" x="74" y="87" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="7" id="16" name="4 shot stack 11" sx="1.0" sy="1.0" x="88" y="124" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="7" id="12" name="shotgun powerup 12" sx="1.0" sy="1.0" x="127" y="122" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="7" id="12" name="shotgun powerup 13" sx="1.0" sy="1.0" x="130" y="88" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="7" id="12" name="shotgun powerup 14" sx="1.0" sy="1.0" x="125" y="47" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="7" id="12" name="shotgun powerup 15" sx="1.0" sy="1.0" x="127" y="6" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="7" id="16" name="4 shot stack 16" sx="1.0" sy="1.0" x="229" y="3" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="7" id="16" name="4 shot stack 17" sx="1.0" sy="1.0" x="207" y="28" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="7" id="16" name="4 shot stack 18" sx="1.0" sy="1.0" x="201" y="52" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="7" id="16" name="4 shot stack 19" sx="1.0" sy="1.0" x="196" y="78" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="7" id="16" name="4 shot stack 20" sx="1.0" sy="1.0" x="196" y="94" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="7" id="16" name="4 shot stack 21" sx="1.0" sy="1.0" x="200" y="104" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="7" id="16" name="4 shot stack 22" sx="1.0" sy="1.0" x="216" y="119" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="7" id="16" name="4 shot stack 23" sx="1.0" sy="1.0" x="246" y="130" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="7" id="16" name="4 shot stack 24" sx="1.0" sy="1.0" x="274" y="134" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="7" id="16" name="4 shot stack 25" sx="1.0" sy="1.0" x="324" y="128" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="7" id="16" name="4 shot stack 26" sx="1.0" sy="1.0" x="349" y="95" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="7" id="16" name="4 shot stack 27" sx="1.0" sy="1.0" x="349" y="62" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="7" id="16" name="4 shot stack 28" sx="1.0" sy="1.0" x="329" y="24" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="7" id="16" name="4 shot stack 29" sx="1.0" sy="1.0" x="267" y="8" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="7" id="16" name="4 shot stack 30" sx="1.0" sy="1.0" x="228" y="1" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="7" id="16" name="4 shot stack 31" sx="1.0" sy="1.0" x="282" y="14" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="7" id="16" name="4 shot stack 32" sx="1.0" sy="1.0" x="307" y="22" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="7" id="16" name="4 shot stack 33" sx="1.0" sy="1.0" x="254" y="10" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="7" id="16" name="4 shot stack 34" sx="1.0" sy="1.0" x="297" y="139" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="7" id="16" name="4 shot stack 35" sx="1.0" sy="1.0" x="343" y="36" z="0"/>
         <actor a="0.0" aid="36" c="false" group="6" id="1" name="Player 36" sx="1.0" sy="1.0" x="34" y="264" z="0"/>
         <actor a="0.0" aid="37" c="false" group="5" id="3" name="player 2 37" sx="1.0" sy="1.0" x="604" y="390" z="0"/>
         <actor a="0.0" aid="39" c="false" group="7" id="16" name="4 shot stack 39" sx="1.0" sy="1.0" x="442" y="354" z="0"/>
@@ -54,12 +52,243 @@
         <actor a="0.0" aid="46" c="false" group="4" id="7" name="Bullet 46" sx="1.0" sy="1.0" x="45" y="258" z="0"/>
         <actor a="0.0" aid="47" c="false" group="9" id="18" name="player 3 47" sx="1.0" sy="1.0" x="541" y="300" z="0"/>
         <actor a="0.0" aid="48" c="false" group="9" id="18" name="player 3 48" sx="1.0" sy="1.0" x="542" y="236" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="4" id="7" name="Bullet 49" sx="1.0" sy="1.0" x="398" y="175" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="4" id="7" name="Bullet 50" sx="1.0" sy="1.0" x="397" y="162" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="4" id="7" name="Bullet 51" sx="1.0" sy="1.0" x="394" y="147" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="4" id="7" name="Bullet 52" sx="1.0" sy="1.0" x="401" y="135" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="4" id="7" name="Bullet 53" sx="1.0" sy="1.0" x="402" y="133" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="4" id="7" name="Bullet 54" sx="1.0" sy="1.0" x="403" y="131" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="4" id="7" name="Bullet 55" sx="1.0" sy="1.0" x="405" y="121" z="0"/>
+        <actor a="0.0" aid="56" c="false" group="4" id="7" name="Bullet 56" sx="1.0" sy="1.0" x="405" y="119" z="0"/>
+        <actor a="0.0" aid="57" c="false" group="4" id="7" name="Bullet 57" sx="1.0" sy="1.0" x="406" y="119" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="4" id="7" name="Bullet 58" sx="1.0" sy="1.0" x="408" y="123" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="4" id="7" name="Bullet 59" sx="1.0" sy="1.0" x="410" y="125" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="4" id="7" name="Bullet 60" sx="1.0" sy="1.0" x="411" y="127" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="4" id="7" name="Bullet 61" sx="1.0" sy="1.0" x="413" y="130" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="4" id="7" name="Bullet 62" sx="1.0" sy="1.0" x="414" y="132" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="4" id="7" name="Bullet 63" sx="1.0" sy="1.0" x="416" y="134" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="4" id="7" name="Bullet 64" sx="1.0" sy="1.0" x="417" y="136" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="4" id="7" name="Bullet 65" sx="1.0" sy="1.0" x="418" y="138" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="4" id="7" name="Bullet 66" sx="1.0" sy="1.0" x="420" y="140" z="0"/>
+        <actor a="0.0" aid="67" c="false" group="4" id="7" name="Bullet 67" sx="1.0" sy="1.0" x="420" y="142" z="0"/>
+        <actor a="0.0" aid="68" c="false" group="4" id="7" name="Bullet 68" sx="1.0" sy="1.0" x="421" y="144" z="0"/>
+        <actor a="0.0" aid="69" c="false" group="4" id="7" name="Bullet 69" sx="1.0" sy="1.0" x="423" y="146" z="0"/>
+        <actor a="0.0" aid="70" c="false" group="4" id="7" name="Bullet 70" sx="1.0" sy="1.0" x="423" y="148" z="0"/>
+        <actor a="0.0" aid="71" c="false" group="4" id="7" name="Bullet 71" sx="1.0" sy="1.0" x="424" y="150" z="0"/>
+        <actor a="0.0" aid="72" c="false" group="4" id="7" name="Bullet 72" sx="1.0" sy="1.0" x="426" y="152" z="0"/>
+        <actor a="0.0" aid="73" c="false" group="4" id="7" name="Bullet 73" sx="1.0" sy="1.0" x="426" y="154" z="0"/>
+        <actor a="0.0" aid="74" c="false" group="4" id="7" name="Bullet 74" sx="1.0" sy="1.0" x="426" y="156" z="0"/>
+        <actor a="0.0" aid="75" c="false" group="4" id="7" name="Bullet 75" sx="1.0" sy="1.0" x="427" y="158" z="0"/>
+        <actor a="0.0" aid="76" c="false" group="4" id="7" name="Bullet 76" sx="1.0" sy="1.0" x="427" y="160" z="0"/>
+        <actor a="0.0" aid="77" c="false" group="4" id="7" name="Bullet 77" sx="1.0" sy="1.0" x="428" y="162" z="0"/>
+        <actor a="0.0" aid="78" c="false" group="4" id="7" name="Bullet 78" sx="1.0" sy="1.0" x="428" y="164" z="0"/>
+        <actor a="0.0" aid="79" c="false" group="4" id="7" name="Bullet 79" sx="1.0" sy="1.0" x="428" y="166" z="0"/>
+        <actor a="0.0" aid="80" c="false" group="4" id="7" name="Bullet 80" sx="1.0" sy="1.0" x="402" y="156" z="0"/>
+        <actor a="0.0" aid="81" c="false" group="4" id="7" name="Bullet 81" sx="1.0" sy="1.0" x="407" y="155" z="0"/>
+        <actor a="0.0" aid="82" c="false" group="4" id="7" name="Bullet 82" sx="1.0" sy="1.0" x="411" y="154" z="0"/>
+        <actor a="0.0" aid="83" c="false" group="4" id="7" name="Bullet 83" sx="1.0" sy="1.0" x="415" y="153" z="0"/>
+        <actor a="0.0" aid="84" c="false" group="4" id="7" name="Bullet 84" sx="1.0" sy="1.0" x="441" y="173" z="0"/>
+        <actor a="0.0" aid="85" c="false" group="4" id="7" name="Bullet 85" sx="1.0" sy="1.0" x="441" y="171" z="0"/>
+        <actor a="0.0" aid="86" c="false" group="4" id="7" name="Bullet 86" sx="1.0" sy="1.0" x="442" y="169" z="0"/>
+        <actor a="0.0" aid="87" c="false" group="4" id="7" name="Bullet 87" sx="1.0" sy="1.0" x="443" y="167" z="0"/>
+        <actor a="0.0" aid="88" c="false" group="4" id="7" name="Bullet 88" sx="1.0" sy="1.0" x="443" y="165" z="0"/>
+        <actor a="0.0" aid="89" c="false" group="4" id="7" name="Bullet 89" sx="1.0" sy="1.0" x="445" y="162" z="0"/>
+        <actor a="0.0" aid="90" c="false" group="4" id="7" name="Bullet 90" sx="1.0" sy="1.0" x="446" y="160" z="0"/>
+        <actor a="0.0" aid="91" c="false" group="4" id="7" name="Bullet 91" sx="1.0" sy="1.0" x="447" y="157" z="0"/>
+        <actor a="0.0" aid="92" c="false" group="4" id="7" name="Bullet 92" sx="1.0" sy="1.0" x="449" y="154" z="0"/>
+        <actor a="0.0" aid="93" c="false" group="4" id="7" name="Bullet 93" sx="1.0" sy="1.0" x="449" y="152" z="0"/>
+        <actor a="0.0" aid="94" c="false" group="4" id="7" name="Bullet 94" sx="1.0" sy="1.0" x="450" y="150" z="0"/>
+        <actor a="0.0" aid="95" c="false" group="4" id="7" name="Bullet 95" sx="1.0" sy="1.0" x="451" y="148" z="0"/>
+        <actor a="0.0" aid="96" c="false" group="4" id="7" name="Bullet 96" sx="1.0" sy="1.0" x="452" y="145" z="0"/>
+        <actor a="0.0" aid="97" c="false" group="4" id="7" name="Bullet 97" sx="1.0" sy="1.0" x="453" y="143" z="0"/>
+        <actor a="0.0" aid="98" c="false" group="4" id="7" name="Bullet 98" sx="1.0" sy="1.0" x="454" y="141" z="0"/>
+        <actor a="0.0" aid="99" c="false" group="4" id="7" name="Bullet 99" sx="1.0" sy="1.0" x="455" y="139" z="0"/>
+        <actor a="0.0" aid="100" c="false" group="4" id="7" name="Bullet 100" sx="1.0" sy="1.0" x="456" y="137" z="0"/>
+        <actor a="0.0" aid="101" c="false" group="4" id="7" name="Bullet 101" sx="1.0" sy="1.0" x="458" y="135" z="0"/>
+        <actor a="0.0" aid="102" c="false" group="4" id="7" name="Bullet 102" sx="1.0" sy="1.0" x="462" y="137" z="0"/>
+        <actor a="0.0" aid="103" c="false" group="4" id="7" name="Bullet 103" sx="1.0" sy="1.0" x="463" y="141" z="0"/>
+        <actor a="0.0" aid="104" c="false" group="4" id="7" name="Bullet 104" sx="1.0" sy="1.0" x="464" y="146" z="0"/>
+        <actor a="0.0" aid="105" c="false" group="4" id="7" name="Bullet 105" sx="1.0" sy="1.0" x="465" y="150" z="0"/>
+        <actor a="0.0" aid="106" c="false" group="4" id="7" name="Bullet 106" sx="1.0" sy="1.0" x="466" y="152" z="0"/>
+        <actor a="0.0" aid="107" c="false" group="4" id="7" name="Bullet 107" sx="1.0" sy="1.0" x="467" y="157" z="0"/>
+        <actor a="0.0" aid="108" c="false" group="4" id="7" name="Bullet 108" sx="1.0" sy="1.0" x="467" y="159" z="0"/>
+        <actor a="0.0" aid="109" c="false" group="4" id="7" name="Bullet 109" sx="1.0" sy="1.0" x="467" y="161" z="0"/>
+        <actor a="0.0" aid="110" c="false" group="4" id="7" name="Bullet 110" sx="1.0" sy="1.0" x="467" y="163" z="0"/>
+        <actor a="0.0" aid="111" c="false" group="4" id="7" name="Bullet 111" sx="1.0" sy="1.0" x="468" y="165" z="0"/>
+        <actor a="0.0" aid="112" c="false" group="4" id="7" name="Bullet 112" sx="1.0" sy="1.0" x="468" y="167" z="0"/>
+        <actor a="0.0" aid="113" c="false" group="4" id="7" name="Bullet 113" sx="1.0" sy="1.0" x="472" y="168" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="4" id="7" name="Bullet 114" sx="1.0" sy="1.0" x="477" y="162" z="0"/>
+        <actor a="0.0" aid="115" c="false" group="4" id="7" name="Bullet 115" sx="1.0" sy="1.0" x="480" y="154" z="0"/>
+        <actor a="0.0" aid="116" c="false" group="4" id="7" name="Bullet 116" sx="1.0" sy="1.0" x="481" y="151" z="0"/>
+        <actor a="0.0" aid="117" c="false" group="4" id="7" name="Bullet 117" sx="1.0" sy="1.0" x="484" y="146" z="0"/>
+        <actor a="0.0" aid="118" c="false" group="4" id="7" name="Bullet 118" sx="1.0" sy="1.0" x="484" y="143" z="0"/>
+        <actor a="0.0" aid="119" c="false" group="4" id="7" name="Bullet 119" sx="1.0" sy="1.0" x="486" y="140" z="0"/>
+        <actor a="0.0" aid="120" c="false" group="4" id="7" name="Bullet 120" sx="1.0" sy="1.0" x="486" y="138" z="0"/>
+        <actor a="0.0" aid="121" c="false" group="4" id="7" name="Bullet 121" sx="1.0" sy="1.0" x="492" y="165" z="0"/>
+        <actor a="0.0" aid="122" c="false" group="4" id="7" name="Bullet 122" sx="1.0" sy="1.0" x="493" y="167" z="0"/>
+        <actor a="0.0" aid="123" c="false" group="4" id="7" name="Bullet 123" sx="1.0" sy="1.0" x="495" y="169" z="0"/>
+        <actor a="0.0" aid="124" c="false" group="4" id="7" name="Bullet 124" sx="1.0" sy="1.0" x="498" y="167" z="0"/>
+        <actor a="0.0" aid="125" c="false" group="4" id="7" name="Bullet 125" sx="1.0" sy="1.0" x="499" y="165" z="0"/>
+        <actor a="0.0" aid="126" c="false" group="4" id="7" name="Bullet 126" sx="1.0" sy="1.0" x="500" y="161" z="0"/>
+        <actor a="0.0" aid="127" c="false" group="4" id="7" name="Bullet 127" sx="1.0" sy="1.0" x="500" y="159" z="0"/>
+        <actor a="0.0" aid="128" c="false" group="4" id="7" name="Bullet 128" sx="1.0" sy="1.0" x="501" y="157" z="0"/>
+        <actor a="0.0" aid="129" c="false" group="4" id="7" name="Bullet 129" sx="1.0" sy="1.0" x="501" y="155" z="0"/>
+        <actor a="0.0" aid="130" c="false" group="4" id="7" name="Bullet 130" sx="1.0" sy="1.0" x="502" y="152" z="0"/>
+        <actor a="0.0" aid="131" c="false" group="4" id="7" name="Bullet 131" sx="1.0" sy="1.0" x="503" y="150" z="0"/>
+        <actor a="0.0" aid="132" c="false" group="4" id="7" name="Bullet 132" sx="1.0" sy="1.0" x="503" y="148" z="0"/>
+        <actor a="0.0" aid="133" c="false" group="4" id="7" name="Bullet 133" sx="1.0" sy="1.0" x="504" y="145" z="0"/>
+        <actor a="0.0" aid="134" c="false" group="4" id="7" name="Bullet 134" sx="1.0" sy="1.0" x="504" y="143" z="0"/>
+        <actor a="0.0" aid="135" c="false" group="4" id="7" name="Bullet 135" sx="1.0" sy="1.0" x="505" y="140" z="0"/>
+        <actor a="0.0" aid="136" c="false" group="4" id="7" name="Bullet 136" sx="1.0" sy="1.0" x="505" y="138" z="0"/>
+        <actor a="0.0" aid="137" c="false" group="4" id="7" name="Bullet 137" sx="1.0" sy="1.0" x="506" y="136" z="0"/>
+        <actor a="0.0" aid="138" c="false" group="4" id="7" name="Bullet 138" sx="1.0" sy="1.0" x="508" y="134" z="0"/>
+        <actor a="0.0" aid="139" c="false" group="4" id="7" name="Bullet 139" sx="1.0" sy="1.0" x="508" y="132" z="0"/>
+        <actor a="0.0" aid="140" c="false" group="4" id="7" name="Bullet 140" sx="1.0" sy="1.0" x="509" y="130" z="0"/>
+        <actor a="0.0" aid="141" c="false" group="4" id="7" name="Bullet 141" sx="1.0" sy="1.0" x="509" y="128" z="0"/>
+        <actor a="0.0" aid="142" c="false" group="4" id="7" name="Bullet 142" sx="1.0" sy="1.0" x="510" y="117" z="0"/>
+        <actor a="0.0" aid="143" c="false" group="4" id="7" name="Bullet 143" sx="1.0" sy="1.0" x="522" y="168" z="0"/>
+        <actor a="0.0" aid="144" c="false" group="4" id="7" name="Bullet 144" sx="1.0" sy="1.0" x="526" y="167" z="0"/>
+        <actor a="0.0" aid="145" c="false" group="4" id="7" name="Bullet 145" sx="1.0" sy="1.0" x="528" y="165" z="0"/>
+        <actor a="0.0" aid="146" c="false" group="4" id="7" name="Bullet 146" sx="1.0" sy="1.0" x="531" y="163" z="0"/>
+        <actor a="0.0" aid="147" c="false" group="4" id="7" name="Bullet 147" sx="1.0" sy="1.0" x="534" y="160" z="0"/>
+        <actor a="0.0" aid="148" c="false" group="4" id="7" name="Bullet 148" sx="1.0" sy="1.0" x="536" y="157" z="0"/>
+        <actor a="0.0" aid="149" c="false" group="4" id="7" name="Bullet 149" sx="1.0" sy="1.0" x="540" y="153" z="0"/>
+        <actor a="0.0" aid="150" c="false" group="4" id="7" name="Bullet 150" sx="1.0" sy="1.0" x="544" y="149" z="0"/>
+        <actor a="0.0" aid="151" c="false" group="4" id="7" name="Bullet 151" sx="1.0" sy="1.0" x="546" y="146" z="0"/>
+        <actor a="0.0" aid="152" c="false" group="4" id="7" name="Bullet 152" sx="1.0" sy="1.0" x="548" y="143" z="0"/>
+        <actor a="0.0" aid="153" c="false" group="4" id="7" name="Bullet 153" sx="1.0" sy="1.0" x="550" y="140" z="0"/>
+        <actor a="0.0" aid="154" c="false" group="4" id="7" name="Bullet 154" sx="1.0" sy="1.0" x="554" y="144" z="0"/>
+        <actor a="0.0" aid="155" c="false" group="4" id="7" name="Bullet 155" sx="1.0" sy="1.0" x="557" y="150" z="0"/>
+        <actor a="0.0" aid="156" c="false" group="4" id="7" name="Bullet 156" sx="1.0" sy="1.0" x="558" y="158" z="0"/>
+        <actor a="0.0" aid="157" c="false" group="4" id="7" name="Bullet 157" sx="1.0" sy="1.0" x="559" y="167" z="0"/>
+        <actor a="0.0" aid="158" c="false" group="4" id="7" name="Bullet 158" sx="1.0" sy="1.0" x="559" y="169" z="0"/>
+        <actor a="0.0" aid="159" c="false" group="4" id="7" name="Bullet 159" sx="1.0" sy="1.0" x="564" y="168" z="0"/>
+        <actor a="0.0" aid="160" c="false" group="4" id="7" name="Bullet 160" sx="1.0" sy="1.0" x="568" y="165" z="0"/>
+        <actor a="0.0" aid="161" c="false" group="4" id="7" name="Bullet 161" sx="1.0" sy="1.0" x="573" y="162" z="0"/>
+        <actor a="0.0" aid="162" c="false" group="4" id="7" name="Bullet 162" sx="1.0" sy="1.0" x="576" y="160" z="0"/>
+        <actor a="0.0" aid="163" c="false" group="4" id="7" name="Bullet 163" sx="1.0" sy="1.0" x="580" y="160" z="0"/>
+        <actor a="0.0" aid="164" c="false" group="4" id="7" name="Bullet 164" sx="1.0" sy="1.0" x="584" y="163" z="0"/>
+        <actor a="0.0" aid="165" c="false" group="4" id="7" name="Bullet 165" sx="1.0" sy="1.0" x="587" y="168" z="0"/>
+        <actor a="0.0" aid="166" c="false" group="4" id="7" name="Bullet 166" sx="1.0" sy="1.0" x="587" y="171" z="0"/>
+        <actor a="0.0" aid="167" c="false" group="4" id="7" name="Bullet 167" sx="1.0" sy="1.0" x="587" y="174" z="0"/>
+        <actor a="0.0" aid="168" c="false" group="4" id="7" name="Bullet 168" sx="1.0" sy="1.0" x="587" y="177" z="0"/>
+        <actor a="0.0" aid="169" c="false" group="4" id="7" name="Bullet 169" sx="1.0" sy="1.0" x="586" y="179" z="0"/>
+        <actor a="0.0" aid="170" c="false" group="4" id="7" name="Bullet 170" sx="1.0" sy="1.0" x="606" y="168" z="0"/>
+        <actor a="0.0" aid="171" c="false" group="4" id="7" name="Bullet 171" sx="1.0" sy="1.0" x="607" y="170" z="0"/>
+        <actor a="0.0" aid="172" c="false" group="4" id="7" name="Bullet 172" sx="1.0" sy="1.0" x="606" y="172" z="0"/>
+        <actor a="0.0" aid="173" c="false" group="4" id="7" name="Bullet 173" sx="1.0" sy="1.0" x="604" y="176" z="0"/>
+        <actor a="0.0" aid="174" c="false" group="4" id="7" name="Bullet 174" sx="1.0" sy="1.0" x="601" y="181" z="0"/>
+        <actor a="0.0" aid="175" c="false" group="4" id="7" name="Bullet 175" sx="1.0" sy="1.0" x="599" y="186" z="0"/>
+        <actor a="0.0" aid="176" c="false" group="4" id="7" name="Bullet 176" sx="1.0" sy="1.0" x="595" y="189" z="0"/>
+        <actor a="0.0" aid="177" c="false" group="4" id="7" name="Bullet 177" sx="1.0" sy="1.0" x="593" y="192" z="0"/>
+        <actor a="0.0" aid="178" c="false" group="4" id="7" name="Bullet 178" sx="1.0" sy="1.0" x="590" y="195" z="0"/>
+        <actor a="0.0" aid="179" c="false" group="4" id="7" name="Bullet 179" sx="1.0" sy="1.0" x="587" y="199" z="0"/>
+        <actor a="0.0" aid="180" c="false" group="4" id="7" name="Bullet 180" sx="1.0" sy="1.0" x="582" y="202" z="0"/>
+        <actor a="0.0" aid="181" c="false" group="4" id="7" name="Bullet 181" sx="1.0" sy="1.0" x="615" y="172" z="0"/>
+        <actor a="0.0" aid="182" c="false" group="4" id="7" name="Bullet 182" sx="1.0" sy="1.0" x="618" y="174" z="0"/>
+        <actor a="0.0" aid="183" c="false" group="4" id="7" name="Bullet 183" sx="1.0" sy="1.0" x="620" y="176" z="0"/>
+        <actor a="0.0" aid="184" c="false" group="4" id="7" name="Bullet 184" sx="1.0" sy="1.0" x="622" y="178" z="0"/>
+        <actor a="0.0" aid="185" c="false" group="4" id="7" name="Bullet 185" sx="1.0" sy="1.0" x="624" y="180" z="0"/>
+        <actor a="0.0" aid="186" c="false" group="4" id="7" name="Bullet 186" sx="1.0" sy="1.0" x="626" y="183" z="0"/>
+        <actor a="0.0" aid="187" c="false" group="4" id="7" name="Bullet 187" sx="1.0" sy="1.0" x="597" y="190" z="0"/>
+        <actor a="0.0" aid="188" c="false" group="4" id="7" name="Bullet 188" sx="1.0" sy="1.0" x="597" y="192" z="0"/>
+        <actor a="0.0" aid="189" c="false" group="4" id="7" name="Bullet 189" sx="1.0" sy="1.0" x="599" y="194" z="0"/>
+        <actor a="0.0" aid="190" c="false" group="4" id="7" name="Bullet 190" sx="1.0" sy="1.0" x="604" y="197" z="0"/>
+        <actor a="0.0" aid="191" c="false" group="4" id="7" name="Bullet 191" sx="1.0" sy="1.0" x="610" y="200" z="0"/>
+        <actor a="0.0" aid="192" c="false" group="4" id="7" name="Bullet 192" sx="1.0" sy="1.0" x="613" y="202" z="0"/>
+        <actor a="0.0" aid="193" c="false" group="4" id="7" name="Bullet 193" sx="1.0" sy="1.0" x="615" y="204" z="0"/>
+        <actor a="0.0" aid="194" c="false" group="4" id="7" name="Bullet 194" sx="1.0" sy="1.0" x="586" y="205" z="0"/>
+        <actor a="0.0" aid="195" c="false" group="4" id="7" name="Bullet 195" sx="1.0" sy="1.0" x="586" y="207" z="0"/>
+        <actor a="0.0" aid="196" c="false" group="4" id="7" name="Bullet 196" sx="1.0" sy="1.0" x="587" y="210" z="0"/>
+        <actor a="0.0" aid="197" c="false" group="4" id="7" name="Bullet 197" sx="1.0" sy="1.0" x="590" y="212" z="0"/>
+        <actor a="0.0" aid="198" c="false" group="4" id="7" name="Bullet 198" sx="1.0" sy="1.0" x="592" y="214" z="0"/>
+        <actor a="0.0" aid="199" c="false" group="4" id="7" name="Bullet 199" sx="1.0" sy="1.0" x="595" y="217" z="0"/>
+        <actor a="0.0" aid="200" c="false" group="4" id="7" name="Bullet 200" sx="1.0" sy="1.0" x="597" y="219" z="0"/>
+        <actor a="0.0" aid="201" c="false" group="4" id="7" name="Bullet 201" sx="1.0" sy="1.0" x="599" y="221" z="0"/>
+        <actor a="0.0" aid="202" c="false" group="4" id="7" name="Bullet 202" sx="1.0" sy="1.0" x="600" y="223" z="0"/>
+        <actor a="0.0" aid="203" c="false" group="7" id="12" name="shotgun powerup 203" sx="1.0" sy="1.0" x="0" y="91" z="0"/>
+        <actor a="0.0" aid="204" c="false" group="7" id="12" name="shotgun powerup 204" sx="1.0" sy="1.0" x="5" y="137" z="0"/>
+        <actor a="0.0" aid="205" c="false" group="4" id="7" name="Bullet 205" sx="1.0" sy="1.0" x="552" y="143" z="0"/>
+        <actor a="0.0" aid="206" c="false" group="4" id="7" name="Bullet 206" sx="1.0" sy="1.0" x="532" y="149" z="0"/>
+        <actor a="0.0" aid="207" c="false" group="4" id="7" name="Bullet 207" sx="1.0" sy="1.0" x="514" y="156" z="0"/>
+        <actor a="0.0" aid="208" c="false" group="4" id="7" name="Bullet 208" sx="1.0" sy="1.0" x="496" y="158" z="0"/>
+        <actor a="0.0" aid="209" c="false" group="4" id="7" name="Bullet 209" sx="1.0" sy="1.0" x="496" y="152" z="0"/>
+        <actor a="0.0" aid="210" c="false" group="4" id="7" name="Bullet 210" sx="1.0" sy="1.0" x="496" y="143" z="0"/>
+        <actor a="0.0" aid="211" c="false" group="4" id="7" name="Bullet 211" sx="1.0" sy="1.0" x="502" y="133" z="0"/>
+        <actor a="0.0" aid="212" c="false" group="4" id="7" name="Bullet 212" sx="1.0" sy="1.0" x="523" y="117" z="0"/>
+        <actor a="0.0" aid="213" c="false" group="4" id="7" name="Bullet 213" sx="1.0" sy="1.0" x="542" y="112" z="0"/>
+        <actor a="0.0" aid="214" c="false" group="4" id="7" name="Bullet 214" sx="1.0" sy="1.0" x="556" y="107" z="0"/>
+        <actor a="0.0" aid="215" c="false" group="4" id="7" name="Bullet 215" sx="1.0" sy="1.0" x="558" y="110" z="0"/>
+        <actor a="0.0" aid="216" c="false" group="4" id="7" name="Bullet 216" sx="1.0" sy="1.0" x="550" y="120" z="0"/>
+        <actor a="0.0" aid="217" c="false" group="4" id="7" name="Bullet 217" sx="1.0" sy="1.0" x="523" y="137" z="0"/>
+        <actor a="0.0" aid="218" c="false" group="4" id="7" name="Bullet 218" sx="1.0" sy="1.0" x="497" y="145" z="0"/>
+        <actor a="0.0" aid="219" c="false" group="4" id="7" name="Bullet 219" sx="1.0" sy="1.0" x="472" y="147" z="0"/>
+        <actor a="0.0" aid="220" c="false" group="4" id="7" name="Bullet 220" sx="1.0" sy="1.0" x="451" y="137" z="0"/>
+        <actor a="0.0" aid="221" c="false" group="4" id="7" name="Bullet 221" sx="1.0" sy="1.0" x="449" y="133" z="0"/>
+        <actor a="0.0" aid="222" c="false" group="4" id="7" name="Bullet 222" sx="1.0" sy="1.0" x="449" y="129" z="0"/>
+        <actor a="0.0" aid="223" c="false" group="4" id="7" name="Bullet 223" sx="1.0" sy="1.0" x="453" y="124" z="0"/>
+        <actor a="0.0" aid="224" c="false" group="4" id="7" name="Bullet 224" sx="1.0" sy="1.0" x="468" y="122" z="0"/>
+        <actor a="0.0" aid="225" c="false" group="4" id="7" name="Bullet 225" sx="1.0" sy="1.0" x="490" y="119" z="0"/>
+        <actor a="0.0" aid="226" c="false" group="4" id="7" name="Bullet 226" sx="1.0" sy="1.0" x="514" y="116" z="0"/>
+        <actor a="0.0" aid="227" c="false" group="4" id="7" name="Bullet 227" sx="1.0" sy="1.0" x="529" y="114" z="0"/>
+        <actor a="0.0" aid="228" c="false" group="4" id="7" name="Bullet 228" sx="1.0" sy="1.0" x="547" y="110" z="0"/>
+        <actor a="0.0" aid="229" c="false" group="4" id="7" name="Bullet 229" sx="1.0" sy="1.0" x="562" y="103" z="0"/>
+        <actor a="0.0" aid="230" c="false" group="4" id="7" name="Bullet 230" sx="1.0" sy="1.0" x="564" y="101" z="0"/>
+        <actor a="0.0" aid="231" c="false" group="4" id="7" name="Bullet 231" sx="1.0" sy="1.0" x="563" y="99" z="0"/>
+        <actor a="0.0" aid="232" c="false" group="4" id="7" name="Bullet 232" sx="1.0" sy="1.0" x="550" y="104" z="0"/>
+        <actor a="0.0" aid="233" c="false" group="4" id="7" name="Bullet 233" sx="1.0" sy="1.0" x="519" y="126" z="0"/>
+        <actor a="0.0" aid="234" c="false" group="4" id="7" name="Bullet 234" sx="1.0" sy="1.0" x="491" y="147" z="0"/>
+        <actor a="0.0" aid="235" c="false" group="4" id="7" name="Bullet 235" sx="1.0" sy="1.0" x="481" y="156" z="0"/>
+        <actor a="0.0" aid="236" c="false" group="4" id="7" name="Bullet 236" sx="1.0" sy="1.0" x="500" y="126" z="0"/>
+        <actor a="0.0" aid="237" c="false" group="4" id="7" name="Bullet 237" sx="1.0" sy="1.0" x="513" y="109" z="0"/>
+        <actor a="0.0" aid="238" c="false" group="4" id="7" name="Bullet 238" sx="1.0" sy="1.0" x="528" y="78" z="0"/>
+        <actor a="0.0" aid="239" c="false" group="4" id="7" name="Bullet 239" sx="1.0" sy="1.0" x="533" y="48" z="0"/>
+        <actor a="0.0" aid="240" c="false" group="4" id="7" name="Bullet 240" sx="1.0" sy="1.0" x="535" y="9" z="0"/>
+        <actor a="0.0" aid="241" c="false" group="4" id="7" name="Bullet 241" sx="1.0" sy="1.0" x="532" y="-7" z="0"/>
+        <actor a="0.0" aid="242" c="false" group="4" id="7" name="Bullet 242" sx="1.0" sy="1.0" x="527" y="5" z="0"/>
+        <actor a="0.0" aid="243" c="false" group="4" id="7" name="Bullet 243" sx="1.0" sy="1.0" x="521" y="21" z="0"/>
+        <actor a="0.0" aid="244" c="false" group="4" id="7" name="Bullet 244" sx="1.0" sy="1.0" x="514" y="51" z="0"/>
+        <actor a="0.0" aid="245" c="false" group="4" id="7" name="Bullet 245" sx="1.0" sy="1.0" x="506" y="74" z="0"/>
+        <actor a="0.0" aid="246" c="false" group="4" id="7" name="Bullet 246" sx="1.0" sy="1.0" x="502" y="87" z="0"/>
+        <actor a="0.0" aid="247" c="false" group="4" id="7" name="Bullet 247" sx="1.0" sy="1.0" x="500" y="92" z="0"/>
+        <actor a="0.0" aid="248" c="false" group="4" id="7" name="Bullet 248" sx="1.0" sy="1.0" x="513" y="79" z="0"/>
+        <actor a="0.0" aid="249" c="false" group="4" id="7" name="Bullet 249" sx="1.0" sy="1.0" x="553" y="53" z="0"/>
+        <actor a="0.0" aid="250" c="false" group="4" id="7" name="Bullet 250" sx="1.0" sy="1.0" x="603" y="33" z="0"/>
+        <actor a="0.0" aid="251" c="false" group="4" id="7" name="Bullet 251" sx="1.0" sy="1.0" x="629" y="26" z="0"/>
+        <actor a="0.0" aid="252" c="false" group="4" id="7" name="Bullet 252" sx="1.0" sy="1.0" x="624" y="25" z="0"/>
+        <actor a="0.0" aid="253" c="false" group="4" id="7" name="Bullet 253" sx="1.0" sy="1.0" x="600" y="25" z="0"/>
+        <actor a="0.0" aid="254" c="false" group="4" id="7" name="Bullet 254" sx="1.0" sy="1.0" x="555" y="25" z="0"/>
+        <actor a="0.0" aid="255" c="false" group="4" id="7" name="Bullet 255" sx="1.0" sy="1.0" x="530" y="25" z="0"/>
+        <actor a="0.0" aid="256" c="false" group="4" id="7" name="Bullet 256" sx="1.0" sy="1.0" x="506" y="25" z="0"/>
+        <actor a="0.0" aid="257" c="false" group="4" id="7" name="Bullet 257" sx="1.0" sy="1.0" x="499" y="25" z="0"/>
+        <actor a="0.0" aid="258" c="false" group="4" id="7" name="Bullet 258" sx="1.0" sy="1.0" x="499" y="19" z="0"/>
+        <actor a="0.0" aid="259" c="false" group="4" id="7" name="Bullet 259" sx="1.0" sy="1.0" x="503" y="12" z="0"/>
+        <actor a="0.0" aid="260" c="false" group="4" id="7" name="Bullet 260" sx="1.0" sy="1.0" x="520" y="0" z="0"/>
+        <actor a="0.0" aid="261" c="false" group="4" id="7" name="Bullet 261" sx="1.0" sy="1.0" x="528" y="-3" z="0"/>
+        <actor a="0.0" aid="262" c="false" group="4" id="7" name="Bullet 262" sx="1.0" sy="1.0" x="528" y="2" z="0"/>
+        <actor a="0.0" aid="263" c="false" group="4" id="7" name="Bullet 263" sx="1.0" sy="1.0" x="515" y="24" z="0"/>
+        <actor a="0.0" aid="264" c="false" group="4" id="7" name="Bullet 264" sx="1.0" sy="1.0" x="484" y="42" z="0"/>
+        <actor a="0.0" aid="265" c="false" group="4" id="7" name="Bullet 265" sx="1.0" sy="1.0" x="462" y="47" z="0"/>
+        <actor a="0.0" aid="266" c="false" group="4" id="7" name="Bullet 266" sx="1.0" sy="1.0" x="442" y="48" z="0"/>
+        <actor a="0.0" aid="267" c="false" group="4" id="7" name="Bullet 267" sx="1.0" sy="1.0" x="437" y="48" z="0"/>
+        <actor a="0.0" aid="268" c="false" group="4" id="7" name="Bullet 268" sx="1.0" sy="1.0" x="437" y="46" z="0"/>
+        <actor a="0.0" aid="269" c="false" group="4" id="7" name="Bullet 269" sx="1.0" sy="1.0" x="438" y="42" z="0"/>
+        <actor a="0.0" aid="270" c="false" group="4" id="7" name="Bullet 270" sx="1.0" sy="1.0" x="441" y="37" z="0"/>
+        <actor a="0.0" aid="271" c="false" group="4" id="7" name="Bullet 271" sx="1.0" sy="1.0" x="460" y="25" z="0"/>
+        <actor a="0.0" aid="272" c="false" group="4" id="7" name="Bullet 272" sx="1.0" sy="1.0" x="490" y="17" z="0"/>
+        <actor a="0.0" aid="273" c="false" group="4" id="7" name="Bullet 273" sx="1.0" sy="1.0" x="506" y="15" z="0"/>
+        <actor a="0.0" aid="274" c="false" group="4" id="7" name="Bullet 274" sx="1.0" sy="1.0" x="508" y="22" z="0"/>
+        <actor a="0.0" aid="275" c="false" group="4" id="7" name="Bullet 275" sx="1.0" sy="1.0" x="486" y="32" z="0"/>
+        <actor a="0.0" aid="276" c="false" group="4" id="7" name="Bullet 276" sx="1.0" sy="1.0" x="461" y="39" z="0"/>
+        <actor a="0.0" aid="277" c="false" group="4" id="7" name="Bullet 277" sx="1.0" sy="1.0" x="451" y="44" z="0"/>
+        <actor a="0.0" aid="278" c="false" group="4" id="7" name="Bullet 278" sx="1.0" sy="1.0" x="463" y="43" z="0"/>
+        <actor a="0.0" aid="279" c="false" group="4" id="7" name="Bullet 279" sx="1.0" sy="1.0" x="474" y="41" z="0"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="10,0.0,192.0,0.0,0.0,32.0,0.0,32.0,32.0,224.0,32.0,224.0,64.0,32.0,64.0,32.0,160.0,640.0,160.0,640.0,192.0" x="0.0" y="288.0"/>
         <p pts="4,32.0,0.0,32.0,160.0,0.0,160.0,0.0,0.0" x="320.0" y="192.0"/>
         <p pts="8,160.0,0.0,160.0,32.0,128.0,32.0,128.0,64.0,0.0,64.0,0.0,32.0,96.0,32.0,96.0,0.0" x="480.0" y="320.0"/>
+        <p pts="10,0.0,192.0,0.0,0.0,32.0,0.0,32.0,32.0,224.0,32.0,224.0,64.0,32.0,64.0,32.0,160.0,640.0,160.0,640.0,192.0" x="0.0" y="288.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

@@ -362,13 +362,13 @@
         </if>
     </group>
     <group eventID="6" id="-1">
-        <get-game-val-4 comment="false" x="879" y="354"/>
-        <get-val-4-5 comment="false" x="536" y="287"/>
+        <get-game-val-1 comment="false" x="590" y="326"/>
         <eq comment="false" x="409" y="240">
             <int id="0" val=""/>
             <int id="1" val="0"/>
         </eq>
-        <get-game-val-1 comment="false" x="590" y="326"/>
+        <get-val-4-5 comment="false" x="536" y="287"/>
+        <get-game-val-4 comment="false" x="879" y="354"/>
     </group>
     <group eventID="7" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -1185,15 +1185,19 @@
     <group eventID="10" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="10" id="-1">
-                <set-game-val-3 comment="false" x="26" y="40">
+                <setanim comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Idle right"/>
+                </setanim>
+                <set-game-val-3 comment="false" x="26" y="67">
                     <int id="0" val="0"/>
                 </set-game-val-3>
-                <set-val-4-4 comment="false" x="26" y="60">
+                <set-val-4-4 comment="false" x="26" y="87">
                     <int id="0" val="600"/>
                 </set-val-4-4>
-                <if comment="false" x="26" y="80">
+                <if comment="false" x="26" y="107">
                     <group eventID="10" id="-1">
-                        <set-val-4-5 comment="false" x="37" y="110">
+                        <set-val-4-5 comment="false" x="37" y="137">
                             <int id="0" val="10000"/>
                         </set-val-4-5>
                     </group>

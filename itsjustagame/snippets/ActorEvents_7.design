@@ -14,13 +14,13 @@
         </init>
     </group>
     <group eventID="1" id="-1">
-        <get-xy comment="false" x="283" y="135">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="1"/>
-        </get-xy>
         <get-xy comment="false" x="25" y="139">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="0"/>
+        </get-xy>
+        <get-xy comment="false" x="283" y="135">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
         </get-xy>
     </group>
     <group eventID="2" id="0">

@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_22 extends ActorScript
+class ActorEvents_30 extends ActorScript
 {
 	
 	
@@ -82,32 +82,24 @@ class ActorEvents_22 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(1), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				actor.getLastCollidedActor().shout("_customEvent_" + "hit");
-				recycleActor(actor);
+				if((Engine.engine.getGameAttribute("2 play") == 1))
+				{
+					switchScene(GameModel.get().scenes.get(0).getID(), createFadeOut(1.5, Utils.getColorRGB(0,0,0)), createFadeIn(1.5, Utils.getColorRGB(0,0,0)));
+				}
 			}
 		});
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* =========================== On Actor =========================== */
+		addMouseOverActorListener(actor, function(mouseState:Int, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(3), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && 3 == mouseState)
 			{
-				actor.getLastCollidedActor().shout("_customEvent_" + "hit1");
-				recycleActor(actor);
-			}
-		});
-		
-		/* ======================= Member of Group ======================== */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorGroup(1),event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
+				Engine.engine.setGameAttribute("2 play", 1);
 			}
 		});
 		
