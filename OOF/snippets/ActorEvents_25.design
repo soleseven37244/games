@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="6"/>
+                </set-dxy>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <setanim comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="Animation 1"/>
+                </setanim>
+                <set-dxy comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="27" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

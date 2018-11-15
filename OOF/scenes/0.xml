@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="1" extheight="384" extwidth="544" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="320" id="0" name="level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="480">
+    <layers>
+        <color-bg blue="255" green="204" red="153"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="2" id="0" name="reticle 1" sx="1.0" sy="1.0" x="225" y="139" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="2" id="23" name="juyjmuhyjmn 2" sx="1.0" sy="1.0" x="417" y="-4" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="18" name="jyt 3" sx="1.0" sy="1.0" x="417" y="43" z="1"/>
+        <actor a="0.0" aid="4" c="false" group="2" id="16" name="gfdg 4" sx="1.0" sy="1.0" x="405" y="54" z="1"/>
+        <actor a="0.0" aid="5" c="false" group="4" id="25" name="enemy 5" sx="1.0" sy="1.0" x="36" y="135" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="27" name="barrier 6" sx="1.0" sy="1.0" x="334" y="96" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="6" id="27" name="barrier 7" sx="1.0" sy="1.0" x="339" y="125" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="6" id="27" name="barrier 8" sx="1.0" sy="1.0" x="349" y="153" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="6" id="27" name="barrier 9" sx="1.0" sy="1.0" x="356" y="183" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="6" id="27" name="barrier 10" sx="1.0" sy="1.0" x="363" y="215" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="6" id="27" name="barrier 11" sx="1.0" sy="1.0" x="372" y="248" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="6" id="27" name="barrier 12" sx="1.0" sy="1.0" x="378" y="282" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="4" id="25" name="enemy 13" sx="1.0" sy="1.0" x="31" y="176" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="25" name="enemy 14" sx="1.0" sy="1.0" x="31" y="235" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="4" id="25" name="enemy 15" sx="1.0" sy="1.0" x="43" y="276" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="25" name="enemy 16" sx="1.0" sy="1.0" x="69" y="193" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="4" id="25" name="enemy 17" sx="1.0" sy="1.0" x="73" y="252" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="4" id="25" name="enemy 18" sx="1.0" sy="1.0" x="76" y="139" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="29" name="bbf 19" sx="1.0" sy="1.0" x="389" y="10" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,480.0,224.0,0.0,224.0,0.0,0.0,480.0,0.0" x="0.0" y="96.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

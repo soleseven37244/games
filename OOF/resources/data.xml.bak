@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="6" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="barrier" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="28" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="28" name="barrier" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="bbf" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="30" static="false">
+        <snippets>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="180"/>
+                <prop id="5" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="7">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="32" list="0" val="Relative"/>
+                <prop id="2" list="0" val="50.0"/>
+                <prop id="4" list="0" val="20"/>
+                <prop id="5" list="0" val="180"/>
+                <prop id="9" list="0" val="0.0"/>
+                <prop id="13" list="0" val="No Control"/>
+                <prop id="15" list="0" val="0.0"/>
+                <prop id="16" list="0" val="true"/>
+                <prop id="17" list="0" val="true"/>
+                <prop id="18" list="0" val="false"/>
+                <prop id="19" list="0" val="1.0"/>
+                <prop id="20" list="0" val="0.0"/>
+                <prop id="21" list="0" val="false"/>
+                <prop id="22" list="0" val="false"/>
+                <prop id="23" list="0" val="20"/>
+                <prop id="24" list="0" val="5.0"/>
+                <prop id="25" list="0" val="5.0"/>
+                <prop id="26" list="0" val="false"/>
+                <prop id="28" list="0" val=""/>
+                <prop id="29" list="0" val=""/>
+                <prop id="30" list="0" val=""/>
+                <prop id="31" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="30" name="bbf" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-6" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_Damage&quot;, []);" desc="Subtracts a specific amount of health from the Actor." global="false" gui="Damage %0 By %1" id="6" message="Damage" name="Damage" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="4" id="25" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="26" static="false">
+        <snippets>
+            <s enabled="true" id="3">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="5"/>
+                <prop id="2" list="0" val="5.0"/>
+                <prop id="3" list="0" val="3.0"/>
+                <prop id="4" list="0" val="Healed"/>
+                <prop id="5" list="0" val=""/>
+                <prop id="7" list="0" val="Kill"/>
+                <prop id="8" list="0" val="false"/>
+                <prop id="9" list="0" val="0.5"/>
+                <prop id="10" list="0" val="true"/>
+                <prop id="11" list="0" val="false"/>
+                <prop id="12" list="0" val="-1"/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val="No Sound"/>
+                <prop id="15" list="0" val="No Sound"/>
+                <prop id="16" list="0" val="No Sound"/>
+                <prop id="17" list="0" val="false"/>
+                <prop id="18" list="0" val="0.0"/>
+                <prop id="19" list="0" val="0.0"/>
+                <prop id="20" list="0" val=""/>
+                <prop id="22" list="0" val="0.0"/>
+                <prop id="23" list="0" val="false"/>
+                <prop id="24" list="0" val="-1"/>
+                <prop id="25" list="0" val="0.0"/>
+                <prop id="26" list="0" val="-1"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="28" list="0" val="1.0"/>
+                <prop id="29" list="0" val="0.0"/>
+                <prop id="30" list="0" val="100.0"/>
+                <prop id="31" list="0" val="5.0"/>
+                <prop id="32" list="0" val="-1"/>
+                <prop id="39" list="0" val="0,0,0,255"/>
+                <prop id="41" list="0" val="0,255,0,255"/>
+                <prop id="42" list="0" val="255,255,0,255"/>
+                <prop id="43" list="0" val="255,153,0,255"/>
+                <prop id="44" list="0" val="255,0,0,255"/>
+                <prop id="45" list="0" val="0,0,0,255"/>
+                <prop id="46" list="0" val="true"/>
+            </s>
+            <s enabled="false" id="14">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="16" list="0" val="30"/>
+                <prop id="17" list="0" val="0"/>
+                <prop id="18" list="0" val="100"/>
+                <prop id="19" list="0" val="1"/>
+                <prop id="20" list="0" val="false"/>
+                <prop id="13" list="0" val="0"/>
+                <prop id="15" list="0" val="0"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="34" id="26" name="enemy" shared="false" width="23">
+        <anim across="2" down="2" durations="100,100,100" height="68" id="0" loop="true" name="Animation 0" numframes="3" originx="11" originy="17" sync="false" version="2" width="46">
+            <poly data="4,0,0,23,0,23,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="33" id="1" loop="true" name="Animation 1" numframes="1" originx="9" originy="16" sync="false" version="2" width="19">
+            <poly data="4,0,0,19,0,19,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-4" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_FullRestore&quot;);" desc="" global="false" gui="Restore %0 To Full Health" id="4" message="FullRestore" name="FullRestore" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-9" blocktype="NORMAL" code="cast(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetCurrentHealth&quot;), Float)" desc="" global="false" gui="Current Health for %0" id="9" message="GetCurrentHealth" name="GetCurrentHealth" oid="-1" return="number" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-7" blocktype="NORMAL" code="cast(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetInvincibility&quot;), Bool)" desc="" global="false" gui="%0 Is Invincible?" id="7" message="GetInvincibility" name="GetInvincibility" oid="-1" return="boolean" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-8" blocktype="NORMAL" code="cast(.say(&quot;Health Manager&quot;, &quot;_customBlock_GetMaxHealth&quot;), Float)" desc="" global="false" gui="Maximum Health For %0" id="8" message="GetMaxHealth" name="GetMaxHealth" oid="-1" return="number" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="9" fixedrot="false" fric="0.2" gid="2" id="16" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gfdg" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="17" static="false">
+        <snippets>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="180"/>
+                <prop id="5" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="7">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="32" list="0" val="Relative"/>
+                <prop id="2" list="0" val="50.0"/>
+                <prop id="4" list="0" val="20"/>
+                <prop id="5" list="0" val="180"/>
+                <prop id="9" list="0" val="-1"/>
+                <prop id="13" list="0" val="No Control"/>
+                <prop id="15" list="0" val="0.0"/>
+                <prop id="16" list="0" val="true"/>
+                <prop id="17" list="0" val="true"/>
+                <prop id="18" list="0" val="false"/>
+                <prop id="19" list="0" val="1.0"/>
+                <prop id="20" list="0" val="0.0"/>
+                <prop id="21" list="0" val="false"/>
+                <prop id="22" list="0" val="false"/>
+                <prop id="23" list="0" val="30"/>
+                <prop id="24" list="0" val="5.0"/>
+                <prop id="25" list="0" val="5.0"/>
+                <prop id="26" list="0" val="false"/>
+                <prop id="28" list="0" val=""/>
+                <prop id="29" list="0" val=""/>
+                <prop id="30" list="0" val=""/>
+                <prop id="31" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="7" id="17" name="gfdg" shared="false" width="20">
+        <anim across="1" down="1" durations="100" height="7" id="0" loop="true" name="Animation 0" numframes="1" originx="10" originy="3" sync="false" version="2" width="20">
+            <poly data="4,0,0,20,0,20,7,0,7" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="10" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="gun" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="11" static="false">
+        <snippets>
+            <s enabled="true" id="5">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="180"/>
+                <prop id="5" list="0" val="false"/>
+            </s>
+            <s enabled="true" id="7">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="32" list="0" val="Relative"/>
+                <prop id="2" list="0" val="50.0"/>
+                <prop id="4" list="0" val="14"/>
+                <prop id="5" list="0" val="180"/>
+                <prop id="9" list="0" val="-1"/>
+                <prop id="13" list="0" val="No Control"/>
+                <prop id="15" list="0" val="0.0"/>
+                <prop id="16" list="0" val="true"/>
+                <prop id="17" list="0" val="true"/>
+                <prop id="18" list="0" val="false"/>
+                <prop id="19" list="0" val="1.0"/>
+                <prop id="20" list="0" val="0.0"/>
+                <prop id="21" list="0" val="false"/>
+                <prop id="22" list="0" val="false"/>
+                <prop id="23" list="0" val="30"/>
+                <prop id="24" list="0" val="5.0"/>
+                <prop id="25" list="0" val="5.0"/>
+                <prop id="26" list="0" val="false"/>
+                <prop id="28" list="0" val=""/>
+                <prop id="29" list="0" val=""/>
+                <prop id="30" list="0" val=""/>
+                <prop id="31" list="0" val=""/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="12" id="11" name="gun" shared="false" width="28">
+        <anim across="1" down="1" durations="100" height="12" id="0" loop="true" name="Animation 0" numframes="1" originx="14" originy="6" sync="false" version="2" width="28">
+            <poly data="4,0,0,28,0,28,12,0,12" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-5" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_Heal&quot;, []);" desc="Adds a specific amount of health to the Actor." global="false" gui="Heal %0 By %1" id="5" message="Heal" name="Heal" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="5" id="20" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="juyjhgjmn" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="21" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="2" id="21" name="juyjhgjmn" shared="false" width="4">
+        <anim across="1" down="1" durations="100" height="2" id="0" loop="true" name="Animation 0" numframes="1" originx="2" originy="1" sync="false" version="2" width="4">
+            <poly data="4,0,0,4,0,4,2,0,2" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="12" fixedrot="false" fric="0.2" gid="2" id="23" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="juyjmuhyjmn" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="224" id="24" name="juyjmuhyjmn" shared="false" width="64">
+        <anim across="1" down="1" durations="100" height="224" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="112" sync="false" version="2" width="64">
+            <poly data="4,0,0,64,0,64,224,0,224" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="10" fixedrot="false" fric="0.2" gid="3" id="18" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="jyt" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="19" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="19" name="jyt" shared="false" width="11">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="5" originy="16" sync="false" version="2" width="11">
+            <poly data="4,0,0,11,0,11,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="8" fixedrot="false" fric="0.2" gid="2" id="14" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="placeholder" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="15" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="15" id="15" name="placeholder" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="15" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="7" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,15,0,15" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="false" fric="0.2" gid="2" id="0" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="reticle" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets>
+            <s enabled="true" id="2">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="2" list="0" val="0.0"/>
+                <prop id="3" list="0" val="0.0"/>
+                <prop id="4" list="0" val="0.0"/>
+                <prop id="5" list="0" val="0.0"/>
+                <prop id="6" list="0" val="2000"/>
+                <prop id="7" list="0" val="0"/>
+                <prop id="8" list="0" val="true"/>
+                <prop id="10" list="0" val="5.0"/>
+                <prop id="12" list="0" val="0"/>
+                <prop id="13" list="0" val="Always"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="1" name="reticle" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <tileset across="1" atlasID="0" desc="" down="1" id="22" name="sand" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
+    <custom-block blocktag="custom-3" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_SetHealth&quot;, []);" desc="" global="false" gui="Set Health For %0 To %1" id="3" message="SetHealth" name="SetHealth" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Amount" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-2" blocktype="ACTION" code=".say(&quot;Health Manager&quot;, &quot;_customBlock_SetInvincibility&quot;, []);" desc="" global="false" gui="Set Invincibility For %0 to %1" id="2" message="SetInvincibility" name="SetInvincibility" oid="-1" return="void" shared="false" snippetID="3">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="Status" order="1" type="boolean"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="6" fixedrot="true" fric="0.2" gid="3" id="12" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="you" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="13" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="13" name="you" shared="false" width="21">
+        <anim across="1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="10" originy="32" sync="false" version="2" width="21">
+            <poly data="4,0,0,21,0,21,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+</pack>
