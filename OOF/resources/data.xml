@@ -18,8 +18,8 @@
                 <prop id="5" list="0" val="false"/>
             </s>
             <s enabled="true" id="7">
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="32" list="0" val="Relative"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="2" list="0" val="50.0"/>
                 <prop id="4" list="0" val="20"/>
                 <prop id="5" list="0" val="180"/>
@@ -64,14 +64,14 @@
                 <prop id="5" list="0" val=""/>
                 <prop id="7" list="0" val="Kill"/>
                 <prop id="8" list="0" val="false"/>
-                <prop id="9" list="0" val="0.5"/>
+                <prop id="9" list="0" val="0.0"/>
                 <prop id="10" list="0" val="true"/>
                 <prop id="11" list="0" val="false"/>
                 <prop id="12" list="0" val="-1"/>
                 <prop id="13" list="0" val=""/>
-                <prop id="14" list="0" val="No Sound"/>
-                <prop id="15" list="0" val="No Sound"/>
-                <prop id="16" list="0" val="No Sound"/>
+                <prop id="14" list="0" val="-1"/>
+                <prop id="15" list="0" val="-1"/>
+                <prop id="16" list="0" val="-1"/>
                 <prop id="17" list="0" val="false"/>
                 <prop id="18" list="0" val="0.0"/>
                 <prop id="19" list="0" val="0.0"/>
@@ -96,8 +96,8 @@
                 <prop id="46" list="0" val="true"/>
             </s>
             <s enabled="false" id="14">
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="16" list="0" val="30"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="17" list="0" val="0"/>
                 <prop id="18" list="0" val="100"/>
                 <prop id="19" list="0" val="1"/>
@@ -137,15 +137,15 @@
                 <prop id="5" list="0" val="false"/>
             </s>
             <s enabled="true" id="7">
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="32" list="0" val="Relative"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="2" list="0" val="50.0"/>
                 <prop id="4" list="0" val="20"/>
                 <prop id="5" list="0" val="180"/>
                 <prop id="9" list="0" val="-1"/>
                 <prop id="13" list="0" val="No Control"/>
                 <prop id="15" list="0" val="0.0"/>
-                <prop id="16" list="0" val="true"/>
+                <prop id="16" list="0" val="false"/>
                 <prop id="17" list="0" val="true"/>
                 <prop id="18" list="0" val="false"/>
                 <prop id="19" list="0" val="1.0"/>
@@ -178,8 +178,8 @@
                 <prop id="5" list="0" val="false"/>
             </s>
             <s enabled="true" id="7">
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="32" list="0" val="Relative"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="2" list="0" val="50.0"/>
                 <prop id="4" list="0" val="14"/>
                 <prop id="5" list="0" val="180"/>

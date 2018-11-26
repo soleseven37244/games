@@ -30,4 +30,19 @@
         </event-collide-actortotype>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="3" id="-1"/>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="20" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="3" id="1">
+        <incdec comment="false" x="341" y="173">
+            <int id="0" val="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val=""/>
+        </incdec>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

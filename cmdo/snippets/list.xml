@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pack>
+    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_2_2_8WayMovement" classname="scripts.Design_2_2_8WayMovement" desc="Allows the actor to move up, down, left and right as well as in diagonal directions." description="Allows the actor to move up, down, left and right as well as in diagonal directions." design="true" drawOrder="0" id="2" name="8 Way Movement" oid="-1" package="scripts" shared="false" type="actor">
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Down Control" hidden="false" id="32" name="_DownControl" order="6"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Left Control" hidden="false" id="33" name="_LeftControl" order="7"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Right Control" hidden="false" id="34" name="_RightControl" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Move X" hidden="true" id="35" name="_MoveX" order="1"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Move Y" hidden="true" id="36" name="_MoveY" order="2"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will move in diagonal directions at the same speed as in axis-aligned directions.&lt;br /&gt;&#10;If unselected, the actor will move in diagonal direction at a speed that is the sum of the axis-aligned velocities." dropdown="" fullname="Normalize Diagonal Speed" hidden="false" id="37" name="_NormalizeDiagonalSpeed" order="10"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Sqrt2" hidden="true" id="38" name="_Sqrt2" order="3"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will not be able to turn while moving." dropdown="" fullname="Stop Turning While Moving" hidden="false" id="39" name="_StopTurningWhileMoving" order="11"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the control attributes will be used to control the movement.&lt;br /&gt;&#10;If unselected, the control attributes are ignored and the movement can be controlled by triggering custom events.&lt;br /&gt;&#10;Trigger the events  &lt;var&gt;MoveUp&lt;/var&gt;, &lt;var&gt;MoveDown&lt;/var&gt;, &lt;var&gt;MoveLeft&lt;/var&gt; or &lt;var&gt;MoveRight&lt;/var&gt; to make the actor move as if the keys were pressed." dropdown="" fullname="Use Controls" hidden="false" id="40" name="_UseControls" order="4"/>
+        <number default="30.0" defaultValue="30.0" desc="The speed of the movement." dropdown="" fullname="Speed" hidden="false" id="11" name="_Speed" order="9"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the animation attributes will be used, otherwise they will be ignored." dropdown="" fullname="Use Animations" hidden="false" id="49" name="_UseAnimations" order="12"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Up Animation (Idle)" hidden="false" id="50" name="_UpAnimationIdle" order="13"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Up Animation" hidden="false" id="51" name="_UpAnimation" order="14"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Down Animation (Idle)" hidden="false" id="52" name="_DownAnimationIdle" order="15"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Down Animation" hidden="false" id="53" name="_DownAnimation" order="16"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Left Animation (Idle)" hidden="false" id="54" name="_LeftAnimationIdle" order="17"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Left Animation" hidden="false" id="55" name="_LeftAnimation" order="18"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Right Animation (Idle)" hidden="false" id="56" name="_RightAnimationIdle" order="19"/>
+        <animation default="" defaultValue="" desc="" dropdown="" fullname="Right Animation" hidden="false" id="57" name="_RightAnimation" order="20"/>
+        <boolean default="false" defaultValue="false" desc="If selected and moving in a diagonal direction, the Up and Down animations will be used, otherwise the Left and Right animations will be used." dropdown="" fullname="Prefer Vertical Animtations" hidden="false" id="58" name="_PreferVerticalAnimtations" order="21"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Up Control" hidden="false" id="31" name="_UpControl" order="5"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="3" name="step" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="3" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="6" name="event-custom" order="4" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="7" name="event-custom" order="5" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="8" name="event-custom" order="6" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="9" name="event-custom" order="7" repeats="true"/>
+        </events>
+    </snippet>
+</pack>

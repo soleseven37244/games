@@ -27,7 +27,6 @@
         <actor a="0.0" aid="16" c="false" group="4" id="25" name="enemy 16" sx="1.0" sy="1.0" x="69" y="193" z="0"/>
         <actor a="0.0" aid="17" c="false" group="4" id="25" name="enemy 17" sx="1.0" sy="1.0" x="73" y="252" z="0"/>
         <actor a="0.0" aid="18" c="false" group="4" id="25" name="enemy 18" sx="1.0" sy="1.0" x="76" y="139" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="3" id="29" name="bbf 19" sx="1.0" sy="1.0" x="389" y="10" z="0"/>
     </actors>
     <snippets/>
     <terrain>
