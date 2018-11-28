@@ -1,57 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
-        <snippets>
-            <s enabled="true" id="2">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="32" list="0" val="down"/>
-                <prop id="33" list="0" val="left"/>
-                <prop id="34" list="0" val="right"/>
-                <prop id="35" list="0" val="0.0"/>
-                <prop id="36" list="0" val="0.0"/>
-                <prop id="37" list="0" val="true"/>
-                <prop id="38" list="0" val="0.0"/>
-                <prop id="39" list="0" val="true"/>
-                <prop id="40" list="0" val="true"/>
-                <prop id="11" list="0" val="30.0"/>
-                <prop id="49" list="0" val="true"/>
-                <prop id="50" list="0" val="Animation 0 Copy"/>
-                <prop id="51" list="0" val="Animation 0"/>
-                <prop id="52" list="0" val="Animation 1 Copy"/>
-                <prop id="53" list="0" val="Animation 1"/>
-                <prop id="54" list="0" val="Animation 5 Copy"/>
-                <prop id="55" list="0" val="Animation 5"/>
-                <prop id="56" list="0" val="Animation 3 Copy"/>
-                <prop id="57" list="0" val="Animation 3"/>
-                <prop id="58" list="0" val="false"/>
-                <prop id="31" list="0" val="up"/>
-            </s>
-        </snippets>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="3" id="5" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="16" id="6" name="bullet" shared="false" width="16">
+        <anim across="1" down="1" durations="100" height="16" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="16">
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+        <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="34" id="1" name="guy" shared="false" width="15">
-        <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="Animation 0" numframes="4" originx="7" originy="17" sync="false" version="2" width="30">
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="walk up" numframes="4" originx="7" originy="17" sync="false" version="2" width="30">
             <poly data="4,0,0,15,0,15,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100" height="68" id="1" loop="true" name="Animation 1" numframes="3" originx="10" originy="17" sync="false" version="2" width="42">
+        <anim across="2" down="2" durations="100,100,100" height="68" id="1" loop="true" name="walk down" numframes="3" originx="10" originy="17" sync="false" version="2" width="42">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="2" loop="true" name="Animation 1 Copy" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
+        <anim across="1" down="1" durations="100" height="34" id="2" loop="true" name="idle down" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="34" id="3" loop="true" name="Animation 3" numframes="2" originx="10" originy="17" sync="false" version="2" width="42">
+        <anim across="2" down="1" durations="100,100" height="34" id="3" loop="true" name="walk right" numframes="2" originx="10" originy="17" sync="false" version="2" width="42">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="4" loop="true" name="Animation 3 Copy" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
+        <anim across="1" down="1" durations="100" height="34" id="4" loop="true" name="idle right" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="34" id="5" loop="true" name="Animation 5" numframes="2" originx="10" originy="17" sync="false" version="2" width="42">
+        <anim across="2" down="1" durations="100,100" height="34" id="5" loop="true" name="walk left" numframes="2" originx="10" originy="17" sync="false" version="2" width="42">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="6" loop="true" name="Animation 5 Copy" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
+        <anim across="1" down="1" durations="100" height="34" id="6" loop="true" name="idle left" numframes="1" originx="10" originy="17" sync="false" version="2" width="21">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="7" loop="true" name="Animation 0 Copy" numframes="1" originx="7" originy="17" sync="false" version="2" width="15">
+        <anim across="1" down="1" durations="100" height="34" id="7" loop="true" name="idle up" numframes="1" originx="7" originy="17" sync="false" version="2" width="15">
             <poly data="4,0,0,15,0,15,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="8" loop="true" name="walk up left" numframes="4" originx="7" originy="17" sync="false" version="2" width="30">
+            <poly data="4,0,0,15,0,15,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="9" loop="true" name="walk up right" numframes="4" originx="7" originy="17" sync="false" version="2" width="30">
+            <poly data="4,0,0,15,0,15,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="68" id="10" loop="true" name="walk down right" numframes="3" originx="10" originy="17" sync="false" version="2" width="42">
+            <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100" height="68" id="11" loop="true" name="walk down left" numframes="3" originx="10" originy="17" sync="false" version="2" width="42">
+            <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="1" atlasID="0" desc="" down="1" id="4" name="j" oid="-1" shared="false" th="32" tw="32">

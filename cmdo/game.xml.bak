@@ -65,6 +65,12 @@
         <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
         <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
         <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="W" name="up1" vk="87" vks="87"/>
+        <key id="8" keyname="A" name="left1" vk="65" vks="65"/>
+        <key id="9" keyname="S" name="down1" vk="83" vks="83"/>
+        <key id="10" keyname="D" name="right1" vk="68" vks="68"/>
+        <key id="11" keyname="K" name="a1" vk="75" vks="75"/>
+        <key id="12" keyname="J" name="b" vk="74" vks="74"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -100,7 +106,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
