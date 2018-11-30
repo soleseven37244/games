@@ -11,6 +11,8 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_2_2_8WayMovement" classname="scripts.Design_2_2_8WayMovement" desc="Allows the actor to move up, down, left and right as well as in diagonal directions." description="Allows the actor to move up, down, left and right as well as in diagonal directions." design="true" drawOrder="0" id="2" name="8 Way Movement" oid="-1" package="scripts" shared="false" type="actor">
@@ -80,7 +82,29 @@
     <snippet actorid="5" attachedevent="true" class="scripts.ActorEvents_5" classname="scripts.ActorEvents_5" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_5" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
-            <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+            <event displayName="" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_6_6_ExplodeOnDeath" classname="scripts.Design_6_6_ExplodeOnDeath" desc="Spawn an explosion and fragments when the actor dies." description="Spawn an explosion and fragments when the actor dies." design="true" drawOrder="0" id="6" name="Explode On Death" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="10.0" defaultValue="10.0" desc="The maximum speed at which the fragments fly away." dropdown="" fullname="Maximum Speed" hidden="false" id="17" name="_MaximumSpeed" order="6"/>
+        <actortype default="" defaultValue="" desc="The actor type of the fragments to create.&lt;br/&gt;&#10;Make sure the actor type of the fragments doesn't collide with this actor." dropdown="" fullname="Fragment Actor Type" hidden="false" id="22" name="_FragmentActorType" order="3"/>
+        <number default="5.0" defaultValue="5.0" desc="The number of fragments to create." dropdown="" fullname="Number of Fragments" hidden="false" id="23" name="_NumberofFragments" order="4"/>
+        <number default="360.0" defaultValue="360.0" desc="The maximum turning speed for the fragments." dropdown="" fullname="Maximum Turning Speed" hidden="false" id="24" name="_MaximumTurningSpeed" order="7"/>
+        <number default="5.0" defaultValue="5.0" desc="The minimum speed at which the fragments fly away." dropdown="" fullname="Minimum Speed" hidden="false" id="25" name="_MinimumSpeed" order="5"/>
+        <number default="0.0" defaultValue="0.0" desc="An offset in the direction of movement at which the fragments will be created." dropdown="" fullname="Offset" hidden="false" id="27" name="_Offset" order="8"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Direction" hidden="true" id="28" name="_Direction" order="1"/>
+        <actortype default="" defaultValue="" desc="The actor type of the explosion to create.&lt;br/&gt;&#10;Make sure the actor type of the explosion doesn't collide with this actor." dropdown="" fullname="Explosion Actor Type" hidden="false" id="29" name="_ExplosionActorType" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="2" repeats="true"/>
         </events>
     </snippet>
 </pack>
