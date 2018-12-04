@@ -8,7 +8,72 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="0" name="guy 1" sx="1.0" sy="1.0" x="326" y="177" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="5" id="9" name="test dummy 1" sx="1.0" sy="1.0" x="50" y="88" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="54" y="126" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="5" id="9" name="test dummy 3" sx="1.0" sy="1.0" x="59" y="162" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="5" id="9" name="test dummy 4" sx="1.0" sy="1.0" x="61" y="197" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="5" id="9" name="test dummy 5" sx="1.0" sy="1.0" x="61" y="231" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="5" id="9" name="test dummy 6" sx="1.0" sy="1.0" x="104" y="77" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="5" id="9" name="test dummy 7" sx="1.0" sy="1.0" x="106" y="113" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="5" id="9" name="test dummy 8" sx="1.0" sy="1.0" x="107" y="148" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="5" id="9" name="test dummy 9" sx="1.0" sy="1.0" x="107" y="183" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="5" id="9" name="test dummy 10" sx="1.0" sy="1.0" x="67" y="157" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="5" id="9" name="test dummy 11" sx="1.0" sy="1.0" x="88" y="149" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="5" id="9" name="test dummy 12" sx="1.0" sy="1.0" x="140" y="221" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="5" id="9" name="test dummy 13" sx="1.0" sy="1.0" x="144" y="184" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="5" id="9" name="test dummy 14" sx="1.0" sy="1.0" x="150" y="148" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="5" id="9" name="test dummy 15" sx="1.0" sy="1.0" x="159" y="112" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="5" id="9" name="test dummy 16" sx="1.0" sy="1.0" x="174" y="77" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="5" id="9" name="test dummy 17" sx="1.0" sy="1.0" x="193" y="114" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="5" id="9" name="test dummy 18" sx="1.0" sy="1.0" x="199" y="150" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="5" id="9" name="test dummy 19" sx="1.0" sy="1.0" x="204" y="185" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="5" id="9" name="test dummy 20" sx="1.0" sy="1.0" x="210" y="219" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="5" id="9" name="test dummy 21" sx="1.0" sy="1.0" x="159" y="174" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="5" id="9" name="test dummy 22" sx="1.0" sy="1.0" x="188" y="172" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="5" id="9" name="test dummy 23" sx="1.0" sy="1.0" x="281" y="82" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="5" id="9" name="test dummy 24" sx="1.0" sy="1.0" x="284" y="122" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="5" id="9" name="test dummy 25" sx="1.0" sy="1.0" x="291" y="163" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="5" id="9" name="test dummy 26" sx="1.0" sy="1.0" x="295" y="202" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="5" id="9" name="test dummy 27" sx="1.0" sy="1.0" x="297" y="237" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="5" id="9" name="test dummy 28" sx="1.0" sy="1.0" x="300" y="271" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="5" id="9" name="test dummy 29" sx="1.0" sy="1.0" x="302" y="247" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="5" id="9" name="test dummy 30" sx="1.0" sy="1.0" x="325" y="238" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="5" id="9" name="test dummy 31" sx="1.0" sy="1.0" x="346" y="235" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="5" id="9" name="test dummy 32" sx="1.0" sy="1.0" x="453" y="114" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="5" id="9" name="test dummy 33" sx="1.0" sy="1.0" x="431" y="117" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="5" id="9" name="test dummy 34" sx="1.0" sy="1.0" x="410" y="128" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="5" id="9" name="test dummy 35" sx="1.0" sy="1.0" x="389" y="147" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="5" id="9" name="test dummy 36" sx="1.0" sy="1.0" x="376" y="184" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="5" id="9" name="test dummy 37" sx="1.0" sy="1.0" x="371" y="220" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="5" id="9" name="test dummy 38" sx="1.0" sy="1.0" x="390" y="254" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="5" id="9" name="test dummy 39" sx="1.0" sy="1.0" x="414" y="255" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="5" id="9" name="test dummy 40" sx="1.0" sy="1.0" x="435" y="255" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="5" id="9" name="test dummy 41" sx="1.0" sy="1.0" x="460" y="249" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="5" id="9" name="test dummy 42" sx="1.0" sy="1.0" x="482" y="242" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="5" id="9" name="test dummy 43" sx="1.0" sy="1.0" x="503" y="232" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="5" id="9" name="test dummy 44" sx="1.0" sy="1.0" x="525" y="215" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="5" id="9" name="test dummy 45" sx="1.0" sy="1.0" x="541" y="181" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="5" id="9" name="test dummy 46" sx="1.0" sy="1.0" x="536" y="146" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="5" id="9" name="test dummy 47" sx="1.0" sy="1.0" x="515" y="114" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="5" id="9" name="test dummy 48" sx="1.0" sy="1.0" x="493" y="104" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="5" id="9" name="test dummy 49" sx="1.0" sy="1.0" x="431" y="82" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="5" id="9" name="test dummy 50" sx="1.0" sy="1.0" x="409" y="73" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="5" id="9" name="test dummy 51" sx="1.0" sy="1.0" x="388" y="68" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="5" id="9" name="test dummy 52" sx="1.0" sy="1.0" x="367" y="64" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="5" id="9" name="test dummy 53" sx="1.0" sy="1.0" x="345" y="55" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="5" id="9" name="test dummy 54" sx="1.0" sy="1.0" x="323" y="46" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="5" id="9" name="test dummy 55" sx="1.0" sy="1.0" x="302" y="43" z="0"/>
+        <actor a="0.0" aid="56" c="false" group="5" id="9" name="test dummy 56" sx="1.0" sy="1.0" x="281" y="41" z="0"/>
+        <actor a="0.0" aid="57" c="false" group="5" id="9" name="test dummy 57" sx="1.0" sy="1.0" x="257" y="39" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="5" id="9" name="test dummy 58" sx="1.0" sy="1.0" x="231" y="37" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="5" id="9" name="test dummy 59" sx="1.0" sy="1.0" x="207" y="35" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="5" id="9" name="test dummy 60" sx="1.0" sy="1.0" x="184" y="35" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="5" id="9" name="test dummy 61" sx="1.0" sy="1.0" x="162" y="35" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="5" id="9" name="test dummy 62" sx="1.0" sy="1.0" x="140" y="36" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="5" id="9" name="test dummy 63" sx="1.0" sy="1.0" x="118" y="40" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="5" id="9" name="test dummy 64" sx="1.0" sy="1.0" x="95" y="43" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="5" id="9" name="test dummy 65" sx="1.0" sy="1.0" x="74" y="46" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="3" id="0" name="guy 66" sx="1.0" sy="1.0" x="468" y="174" z="0"/>
     </actors>
     <snippets/>
     <terrain>
@@ -20,10 +85,11 @@
         <p pts="6,32.0,32.0,32.0,96.0,0.0,96.0,0.0,0.0,64.0,0.0,64.0,32.0" x="32.0" y="1696.0"/>
         <p pts="4,64.0,0.0,0.0,0.0,0.0,32.0,64.0,32.0" x="384.0" y="2464.0"/>
         <p pts="8,32.0,0.0,32.0,1056.0,64.0,1056.0,64.0,1248.0,32.0,1248.0,32.0,1280.0,0.0,1280.0,0.0,0.0" x="0.0" y="1792.0"/>
+        <p pts="10,32.0,128.0,32.0,96.0,160.0,96.0,160.0,64.0,192.0,64.0,192.0,0.0,128.0,0.0,128.0,32.0,0.0,32.0,0.0,128.0" x="352.0" y="1280.0"/>
         <p pts="4,0.0,32.0,32.0,32.0,32.0,0.0,0.0,0.0" x="320.0" y="1280.0"/>
-        <p pts="10,0.0,32.0,0.0,128.0,32.0,128.0,32.0,96.0,160.0,96.0,160.0,64.0,192.0,64.0,192.0,0.0,128.0,0.0,128.0,32.0" x="352.0" y="1280.0"/>
-        <p pts="18,320.0,0.0,288.0,0.0,288.0,32.0,160.0,32.0,160.0,64.0,96.0,64.0,96.0,512.0,160.0,512.0,160.0,576.0,96.0,576.0,96.0,544.0,0.0,544.0,0.0,1088.0,32.0,1088.0,32.0,1056.0,288.0,1056.0,288.0,1088.0,320.0,1088.0" x="256.0" y="1376.0"/>
-        <p pts="40,640.0,2496.0,608.0,2496.0,608.0,2528.0,480.0,2528.0,480.0,2560.0,352.0,2560.0,352.0,2592.0,224.0,2592.0,224.0,2624.0,192.0,2624.0,192.0,2656.0,160.0,2656.0,160.0,2688.0,128.0,2688.0,128.0,2624.0,160.0,2624.0,160.0,2528.0,384.0,2528.0,384.0,2496.0,352.0,2496.0,352.0,2464.0,288.0,2464.0,288.0,2496.0,224.0,2496.0,224.0,1888.0,320.0,1888.0,320.0,1472.0,288.0,1472.0,288.0,1504.0,224.0,1504.0,224.0,1472.0,256.0,1472.0,256.0,1440.0,320.0,1440.0,320.0,1312.0,288.0,1312.0,288.0,1280.0,0.0,1280.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+        <p pts="6,0.0,352.0,512.0,352.0,512.0,0.0,32.0,0.0,32.0,32.0,0.0,32.0" x="96.0" y="32.0"/>
+        <p pts="18,32.0,1088.0,32.0,1056.0,288.0,1056.0,288.0,1088.0,320.0,1088.0,320.0,0.0,288.0,0.0,288.0,32.0,160.0,32.0,160.0,64.0,96.0,64.0,96.0,512.0,160.0,512.0,160.0,576.0,96.0,576.0,96.0,544.0,0.0,544.0,0.0,1088.0" x="256.0" y="1376.0"/>
+        <p pts="40,256.0,1472.0,256.0,1440.0,320.0,1440.0,320.0,1312.0,288.0,1312.0,288.0,1280.0,0.0,1280.0,0.0,0.0,640.0,0.0,640.0,2496.0,608.0,2496.0,608.0,2528.0,480.0,2528.0,480.0,2560.0,352.0,2560.0,352.0,2592.0,224.0,2592.0,224.0,2624.0,192.0,2624.0,192.0,2656.0,160.0,2656.0,160.0,2688.0,128.0,2688.0,128.0,2624.0,160.0,2624.0,160.0,2528.0,384.0,2528.0,384.0,2496.0,352.0,2496.0,352.0,2464.0,288.0,2464.0,288.0,2496.0,224.0,2496.0,224.0,1888.0,320.0,1888.0,320.0,1472.0,288.0,1472.0,288.0,1504.0,224.0,1504.0,224.0,1472.0" x="0.0" y="0.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

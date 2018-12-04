@@ -8,6 +8,7 @@
         <number default="15" defaultValue="15" desc="" dropdown="" fullname="walking speed" hidden="false" id="1" name="_walkingspeed" order="0"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing right" hidden="false" id="2" name="_facingright" order="1"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing down" hidden="false" id="3" name="_facingdown" order="2"/>
+        <number default="50" defaultValue="50" desc="" dropdown="" fullname="bullet speed" hidden="false" id="4" name="_bulletspeed" order="3"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
@@ -83,7 +84,8 @@
         <blocks/>
         <events>
             <event displayName="" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="2" repeats="true"/>
+            <event displayName="Created" enabled="false" id="2" name="init" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
@@ -105,6 +107,41 @@
         <blocks/>
         <events>
             <event displayName="Actor Created" enabled="true" id="2" name="event-actor-create-kill" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="9" attachedevent="true" class="scripts.ActorEvents_9" classname="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_9" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_8_8_ShootAroundtheClock" classname="scripts.Design_8_8_ShootAroundtheClock" desc="Spawn bullets in all directions from the actor's position." description="Spawn bullets in all directions from the actor's position." design="true" drawOrder="0" id="8" name="Shoot Around the Clock" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="50.0" defaultValue="50.0" desc="The speed at which the bullets will move." dropdown="" fullname="Bullet Speed" hidden="false" id="2" name="_BulletSpeed" order="11"/>
+        <actortype default="" defaultValue="" desc="The bullet actor type to create." dropdown="" fullname="Bullet Type" hidden="false" id="4" name="_BulletType" order="9"/>
+        <number default="0.0" defaultValue="0.0" desc="The offset in the direction of movement at which the bullets will be created." dropdown="" fullname="Offset" hidden="false" id="9" name="_Offset" order="13"/>
+        <control default="" defaultValue="" desc="" dropdown="" fullname="Fire Control" hidden="false" id="13" name="_FireControl" order="8"/>
+        <boolean default="false" defaultValue="false" desc="If selected, the direction of movement for the bullets will be independent from the current direction of the actor." dropdown="" fullname="Absolute Direction" hidden="false" id="14" name="_AbsoluteDirection" order="12"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Fire Direction" hidden="true" id="15" name="_FireDirection" order="2"/>
+        <boolean default="true" defaultValue="true" desc="If selected, holding down the &lt;var&gt;Fire Control&lt;/var&gt; will fire bullets. &lt;br /&gt;&#10;&lt;br /&gt;&#10;You can also trigger the &lt;var&gt;FireBullet&lt;/var&gt; event to fire a bullet." dropdown="" fullname="Use Controls" hidden="false" id="16" name="_UseControls" order="7"/>
+        <boolean default="true" defaultValue="true" desc="If selected, holding down the mouse will fire bullets." dropdown="" fullname="Use the Mouse" hidden="false" id="17" name="_UsetheMouse" order="6"/>
+        <boolean default="false" defaultValue="false" desc="If selected, no more than &lt;var&gt;Maximum Bullets Alive&lt;/var&gt; can be alive at the same time." dropdown="" fullname="Limit Bullets Alive" hidden="false" id="18" name="_LimitBulletsAlive" order="15"/>
+        <number default="1.0" defaultValue="1.0" desc="The maximum number of bullets to be alive at the same time. Only used if &lt;var&gt;Limit Bullets Alive&lt;/var&gt; is selected." dropdown="" fullname="Maximum Bullets Alive" hidden="false" id="19" name="_MaximumBulletsAlive" order="16"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="Bullets Alive" hidden="true" id="20" name="_BulletsAlive" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Fire" hidden="true" id="21" name="_Fire" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Wait" hidden="true" id="22" name="_Wait" order="4"/>
+        <number default="3.0" defaultValue="3.0" desc="The maximum number of bullets created per second." dropdown="" fullname="Rate Of Fire" hidden="false" id="23" name="_RateOfFire" order="14"/>
+        <number default="5.0" defaultValue="5.0" desc="The maximum ammunition the actor can have.&lt;br /&gt;&#10;Only used if &lt;var&gt;Use Ammunition&lt;/var&gt; is selected." dropdown="" fullname="Maximum Ammunition" hidden="false" id="24" name="_MaximumAmmunition" order="18"/>
+        <number default="5.0" defaultValue="5.0" desc="The current ammunition the actor has when created.&lt;br /&gt;&#10;Only used if &lt;var&gt;Use Ammunition&lt;/var&gt; is selected.&lt;br/&gt;Trigger the &lt;var&gt;Reload&lt;/var&gt; event to set the current ammunition to the maximum ammunition." dropdown="" fullname="Current Ammunition" hidden="false" id="25" name="_CurrentAmmunition" order="19"/>
+        <boolean default="false" defaultValue="false" desc="If selected, the current ammunition will be reduced by one on every shot." dropdown="" fullname="Use Ammunition" hidden="false" id="26" name="_UseAmmunition" order="17"/>
+        <number default="12.0" defaultValue="12.0" desc="The number of bullets in a wave." dropdown="" fullname="Number of Bullets" hidden="false" id="27" name="_NumberofBullets" order="10"/>
+        <number default="30.0" defaultValue="30.0" desc="" dropdown="" fullname="Bullet Spread" hidden="true" id="30" name="_BulletSpread" order="5"/>
+        <blocks/>
+        <events>
+            <event displayName="FireBullet" enabled="true" id="6" name="event-custom" order="10" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="9" name="step" order="9" repeats="true"/>
+            <event displayName="Reload" enabled="true" id="10" name="event-custom" order="11" repeats="true"/>
         </events>
     </snippet>
 </pack>

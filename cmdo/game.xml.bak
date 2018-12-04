@@ -51,11 +51,15 @@
     </androidScales>
     <folders/>
     <packs/>
-    <groups/>
+    <groups>
+        <group desc="" id="4" name="bullets"/>
+        <group desc="" id="5" name="enemies"/>
+    </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="1" g2="3"/>
         <cgroup g1="3" g2="3"/>
+        <cgroup g1="4" g2="5"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -108,7 +112,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7,9," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
