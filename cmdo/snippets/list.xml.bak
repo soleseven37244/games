@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="0" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
         <number default="15" defaultValue="15" desc="" dropdown="" fullname="walking speed" hidden="false" id="1" name="_walkingspeed" order="0"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing right" hidden="false" id="2" name="_facingright" order="1"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing down" hidden="false" id="3" name="_facingdown" order="2"/>
-        <number default="50" defaultValue="50" desc="" dropdown="" fullname="bullet speed" hidden="false" id="4" name="_bulletspeed" order="3"/>
+        <number default="50.0" defaultValue="50.0" desc="" dropdown="" fullname="bullet speed" hidden="false" id="4" name="_bulletspeed" order="3"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
@@ -84,14 +80,16 @@
         <blocks/>
         <events>
             <event displayName="" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
-            <event displayName="Created" enabled="false" id="2" name="init" order="3" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Created" enabled="false" id="2" name="init" order="5" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="4" name="event-custom" order="4" repeats="true"/>
+            <event displayName="Enters Screen" enabled="false" id="5" name="event-type-screen" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="7" attachedevent="true" class="scripts.ActorEvents_7" classname="scripts.ActorEvents_7" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_7" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_6_6_ExplodeOnDeath" classname="scripts.Design_6_6_ExplodeOnDeath" desc="Spawn an explosion and fragments when the actor dies." description="Spawn an explosion and fragments when the actor dies." design="true" drawOrder="0" id="6" name="Explode On Death" oid="-1" package="scripts" shared="false" type="actor">
@@ -110,10 +108,13 @@
         </events>
     </snippet>
     <snippet actorid="9" attachedevent="true" class="scripts.ActorEvents_9" classname="scripts.ActorEvents_9" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="7" name="ActorEvents_9" oid="-1" package="scripts." shared="false" type="actor">
+        <boolean default="true" defaultValue="true" desc="" dropdown="" fullname="is alive" hidden="false" id="1" name="_isalive" order="0"/>
         <blocks/>
         <events>
             <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="Custom Event" enabled="true" id="4" name="event-custom" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_8_8_ShootAroundtheClock" classname="scripts.Design_8_8_ShootAroundtheClock" desc="Spawn bullets in all directions from the actor's position." description="Spawn bullets in all directions from the actor's position." design="true" drawOrder="0" id="8" name="Shoot Around the Clock" oid="-1" package="scripts" shared="false" type="actor">
@@ -143,5 +144,19 @@
             <event displayName="Updated" enabled="true" id="9" name="step" order="9" repeats="true"/>
             <event displayName="Reload" enabled="true" id="10" name="event-custom" order="11" repeats="true"/>
         </events>
+    </snippet>
+    <snippet actorid="13" attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_13" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="10" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
 </pack>

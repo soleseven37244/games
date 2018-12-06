@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="10" extheight="32064" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="32000" id="1" name="level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="13" name="cave 1" sx="1.0" sy="1.0" x="497" y="31574" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="504" y="31606" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="5" id="9" name="test dummy 3" sx="1.0" sy="1.0" x="555" y="31668" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="5" id="9" name="test dummy 4" sx="1.0" sy="1.0" x="489" y="31539" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="5" id="9" name="test dummy 5" sx="1.0" sy="1.0" x="69" y="31534" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="5" id="9" name="test dummy 6" sx="1.0" sy="1.0" x="251" y="31529" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="5" id="9" name="test dummy 7" sx="1.0" sy="1.0" x="425" y="31530" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="5" id="9" name="test dummy 8" sx="1.0" sy="1.0" x="156" y="31555" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="5" id="9" name="test dummy 9" sx="1.0" sy="1.0" x="31" y="31655" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="5" id="9" name="test dummy 10" sx="1.0" sy="1.0" x="596" y="31799" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="5" id="9" name="test dummy 11" sx="1.0" sy="1.0" x="327" y="31707" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="5" id="9" name="test dummy 12" sx="1.0" sy="1.0" x="107" y="31765" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="5" id="9" name="test dummy 13" sx="1.0" sy="1.0" x="258" y="31613" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="5" id="9" name="test dummy 14" sx="1.0" sy="1.0" x="202" y="31714" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="5" id="9" name="test dummy 15" sx="1.0" sy="1.0" x="472" y="31713" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="0" name="guy 16" sx="1.0" sy="1.0" x="309" y="31957" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="15" name="palm tree 17" sx="1.0" sy="1.0" x="549" y="31860" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="15" name="palm tree 18" sx="1.0" sy="1.0" x="34" y="31600" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="15" name="palm tree 19" sx="1.0" sy="1.0" x="-5" y="31876" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,640.0,32000.0,0.0,32000.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

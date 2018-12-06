@@ -37,4 +37,20 @@
         </init>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <setanim comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="explosion"/>
+                </setanim>
+                <set-game-val-0 comment="false" x="26" y="74">
+                    <int id="0" val="1"/>
+                </set-game-val-0>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="9" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>

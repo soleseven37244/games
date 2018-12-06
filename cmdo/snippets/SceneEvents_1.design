@@ -4,16 +4,10 @@
         <init comment="false" x="15" y="15">
             <group eventID="1" id="-1">
                 <camera-follow comment="false" x="26" y="40">
-                    <ACTOR eid="66" id="0"/>
+                    <ACTOR eid="16" id="0"/>
                 </camera-follow>
             </group>
         </init>
-    </group>
-    <group eventID="1" id="2">
-        <camera-move comment="false" x="330" y="109">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </camera-move>
     </group>
     <group eventID="1" id="-1"/>
 </groups>
