@@ -8,8 +8,9 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="2" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="4" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_2_2_8WayMovement" classname="scripts.Design_2_2_8WayMovement" desc="Allows the actor to move up, down, left and right as well as in diagonal directions." description="Allows the actor to move up, down, left and right as well as in diagonal directions." design="true" drawOrder="0" id="2" name="8 Way Movement" oid="-1" package="scripts" shared="false" type="actor">
@@ -115,6 +116,7 @@
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
             <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
             <event displayName="Custom Event" enabled="true" id="4" name="event-custom" order="2" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="5" name="event-periodic" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_8_8_ShootAroundtheClock" classname="scripts.Design_8_8_ShootAroundtheClock" desc="Spawn bullets in all directions from the actor's position." description="Spawn bullets in all directions from the actor's position." design="true" drawOrder="0" id="8" name="Shoot Around the Clock" oid="-1" package="scripts" shared="false" type="actor">
@@ -145,10 +147,6 @@
             <event displayName="Reload" enabled="true" id="10" name="event-custom" order="11" repeats="true"/>
         </events>
     </snippet>
-    <snippet actorid="13" attachedevent="true" class="scripts.ActorEvents_13" classname="scripts.ActorEvents_13" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="9" name="ActorEvents_13" oid="-1" package="scripts." shared="false" type="actor">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="10" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
         <blocks/>
         <events>
@@ -158,5 +156,40 @@
     <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
         <events/>
+    </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_3" classname="scripts.SceneEvents_3" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="13" name="SceneEvents_3" oid="-1" package="scripts." sceneid="3" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="17" attachedevent="true" class="scripts.ActorEvents_17" classname="scripts.ActorEvents_17" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="14" name="ActorEvents_17" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="19" attachedevent="true" class="scripts.ActorEvents_19" classname="scripts.ActorEvents_19" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_19" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="21" attachedevent="true" class="scripts.ActorEvents_21" classname="scripts.ActorEvents_21" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="16" name="ActorEvents_21" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="23" attachedevent="true" class="scripts.ActorEvents_23" classname="scripts.ActorEvents_23" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="17" name="ActorEvents_23" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="25" attachedevent="true" class="scripts.ActorEvents_25" classname="scripts.ActorEvents_25" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" name="ActorEvents_25" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="false" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="27" attachedevent="true" class="scripts.ActorEvents_27" classname="scripts.ActorEvents_27" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="19" name="ActorEvents_27" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>

@@ -762,4 +762,26 @@
             <get-val-1-4 comment="false" id="0" x="0" y="0"/>
         </neg>
     </group>
+    <group eventID="4" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <setanim comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="death"/>
+                </setanim>
+                <dolater comment="false" x="26" y="74">
+                    <group eventID="4" id="-1">
+                        <set-game-val-1 comment="false" x="37" y="101">
+                            <int id="0" val="1"/>
+                        </set-game-val-1>
+                    </group>
+                    <int id="0" val="0.6"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>
