@@ -5,13 +5,25 @@
             <group eventID="1" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="1" id="-1">
-                        <pause-unpause comment="false" x="37" y="70">
+                        <set-xy comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <minus comment="false" id="2" x="0" y="0">
+                                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="25"/>
+                            </minus>
+                        </set-xy>
+                        <backforward comment="false" x="37" y="107">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </backforward>
+                        <pause-unpause comment="false" x="37" y="134">
                             <int id="0" val="0"/>
                         </pause-unpause>
-                        <fadeInOut comment="false" x="37" y="97">
+                        <fadeInOut comment="false" x="37" y="161">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
-                            <int id="2" val="4"/>
+                            <int id="2" val="1"/>
                             <int id="3" val="7"/>
                         </fadeInOut>
                     </group>
@@ -23,5 +35,22 @@
             </group>
         </step>
     </group>
+    <group eventID="1" id="6">
+        <toggle-image comment="false" x="127" y="309">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </toggle-image>
+    </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-opacity comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1000"/>
+                </set-opacity>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>

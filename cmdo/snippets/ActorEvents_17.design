@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="-5"/>
+                </set-dxy>
+                <dolater comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <set-dxy comment="false" x="37" y="94">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                        </set-dxy>
+                        <setanim comment="false" x="37" y="121">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Animation 1"/>
+                        </setanim>
+                        <dolater comment="false" x="37" y="148">
+                            <group eventID="1" id="-1">
+                                <setanim comment="false" x="48" y="175">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Animation 2"/>
+                                </setanim>
+                                <set-dxy comment="false" x="48" y="202">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="-40"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val="1.3"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <int id="0" val="4"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+                <dolater comment="false" x="26" y="253">
+                    <group eventID="1" id="-1">
+                        <die comment="false" x="37" y="280">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="5.8"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+        </init>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

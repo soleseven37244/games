@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-delay comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <setlayer2 comment="false" x="26" y="42">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="Layer 0"/>
+                </setlayer2>
+                <set-dxy comment="false" x="26" y="69">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="-4"/>
+                </set-dxy>
+            </group>
+            <int id="0" val="5.5"/>
+            <ACTOR eid="this" id="2"/>
+        </event-delay>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

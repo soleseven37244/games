@@ -771,11 +771,14 @@
                 </setanim>
                 <dolater comment="false" x="26" y="74">
                     <group eventID="4" id="-1">
-                        <set-game-val-1 comment="false" x="37" y="101">
+                        <die comment="false" x="37" y="101">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                        <set-game-val-1 comment="false" x="37" y="128">
                             <int id="0" val="1"/>
                         </set-game-val-1>
                     </group>
-                    <int id="0" val="0.6"/>
+                    <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
             </group>
@@ -784,4 +787,23 @@
         </event-collide-actortotype>
     </group>
     <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="5" id="-1">
+                <set-game-val-3 comment="false" x="26" y="40">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </set-game-val-3>
+                <set-game-val-2 comment="false" x="26" y="73">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-2>
+            </group>
+        </init>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>
