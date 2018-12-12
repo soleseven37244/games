@@ -23,7 +23,7 @@
         <event-delay comment="false" x="15" y="15">
             <group eventID="3" id="-1">
                 <scene-change-color comment="false" x="26" y="42">
-                    <scene eid="1" id="0"/>
+                    <scene eid="4" id="0"/>
                     <int id="1" val="0"/>
                     <int id="2" val="0"/>
                     <color b="0" g="0" id="3" r="0"/>

@@ -97,4 +97,14 @@
             <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="21" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="31" attachedevent="true" class="scripts.ActorEvents_31" classname="scripts.ActorEvents_31" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="22" name="ActorEvents_31" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
