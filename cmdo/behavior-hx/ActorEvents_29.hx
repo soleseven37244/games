@@ -69,62 +69,28 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_9 extends ActorScript
+class ActorEvents_29 extends ActorScript
 {
-	public var _isalive:Bool;
-	
-	/* ========================= Custom Event ========================= */
-	public function _customEvent_death():Void
-	{
-		_isalive = false;
-		propertyChanged("_isalive", _isalive);
-		actor.setAnimation("" + "Animation 1");
-		runLater(1000 * 0.65, function(timeTask:TimedTask):Void
-		{
-			recycleActor(actor);
-		}, actor);
-	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("is alive", "_isalive");
-		_isalive = true;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================= After N seconds ======================== */
+		runLater(1000 * 5.4, function(timeTask:TimedTask):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(5), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				if(_isalive)
-				{
-					actor.shout("_customEvent_" + "death");
-					event.otherActor.shout("_customEvent_" + "death");
-				}
+				actor.moveToLayer(1, "" + "Layer 0");
+				actor.setXVelocity(-4);
 			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(7), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				if((Engine.engine.getGameAttribute("explosion") == 1))
-				{
-					actor.shout("_customEvent_" + "death");
-				}
-				else if((Engine.engine.getGameAttribute("explosion") == 0))
-				{
-					actor.setX((actor.getX() + 1));
-				}
-			}
-		});
+		}, actor);
 		
 	}
 	

@@ -107,4 +107,10 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet attachedevent="true" class="scripts.SceneEvents_5" classname="scripts.SceneEvents_5" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="23" name="SceneEvents_5" oid="-1" package="scripts." sceneid="5" shared="false" type="scene">
+        <blocks/>
+        <events>
+            <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+        </events>
+    </snippet>
 </pack>

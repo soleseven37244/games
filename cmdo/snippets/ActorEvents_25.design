@@ -10,7 +10,7 @@
         <event-delay comment="false" x="15" y="15">
             <group eventID="2" id="-1">
                 <die comment="false" x="26" y="42">
-                    <ACTOR eid="this" id="0"/>
+                    <ACTOR eid="lastcreated" id="0"/>
                 </die>
             </group>
             <int id="0" val="0.6"/>
