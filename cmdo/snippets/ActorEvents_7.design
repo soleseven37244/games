@@ -10,7 +10,7 @@
                     <group eventID="1" id="-1">
                         <setanim comment="false" x="85" y="109">
                             <ACTOR eid="this" id="0"/>
-                            <int id="1" val="explosion"/>
+                            <int id="1" val="Animation 1"/>
                         </setanim>
                         <set-dxy comment="false" x="85" y="136">
                             <ACTOR eid="this" id="0"/>
@@ -42,11 +42,16 @@
             <group eventID="2" id="-1">
                 <setanim comment="false" x="26" y="47">
                     <ACTOR eid="this" id="0"/>
-                    <int id="1" val="explosion"/>
+                    <int id="1" val="Animation 1"/>
                 </setanim>
                 <set-game-val-0 comment="false" x="26" y="74">
                     <int id="0" val="1"/>
                 </set-game-val-0>
+                <set-dxy comment="false" x="26" y="94">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
             </group>
             <ACTOR eid="this" id="0"/>
             <actortype eid="9" id="1"/>

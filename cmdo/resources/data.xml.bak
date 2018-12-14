@@ -19,6 +19,22 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="2" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="cliff" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="148" id="44" name="cliff" shared="false" width="192">
+        <anim across="1" down="1" durations="100" height="148" id="0" loop="true" name="Animation 0" numframes="1" originx="96" originy="74" sync="false" version="2" width="192">
+            <poly data="4,0,0,192,0,192,148,0,148" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="7" id="41" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="cliff thingy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="42" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="20" id="42" name="cliff thingy" shared="false" width="26">
+        <anim across="1" down="1" durations="100" height="20" id="0" loop="true" name="Animation 0" numframes="1" originx="13" originy="10" sync="false" version="2" width="26">
+            <poly data="4,0,0,26,0,26,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="3" id="25" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="ebullets" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="26" static="false">
         <snippets/>
     </actor>
@@ -43,6 +59,14 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="25" fixedrot="false" fric="0.2" gid="3" id="35" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="grasss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="36" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="36" name="grasss" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="4" id="7" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="grenade" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="8" static="false">
         <snippets/>
     </actor>
@@ -50,14 +74,22 @@
         <anim across="3" down="2" durations="100,100,100,100,100" height="32" id="0" loop="true" name="Animation 0" numframes="5" originx="8" originy="8" sync="false" version="2" width="48">
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="16" id="1" loop="true" name="Animation 1" numframes="1" originx="8" originy="8" sync="false" version="2" width="16">
-            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        <anim across="2" down="1" durations="100,100" height="32" id="1" loop="true" name="Animation 1" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
         <anim across="2" down="1" durations="100,100" height="16" id="2" loop="true" name="explosion" numframes="2" originx="8" originy="8" sync="false" version="2" width="32">
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="explosion" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="3" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="8" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="grenades" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="17" id="34" name="grenades" shared="false" width="32">
+        <anim across="4" down="3" durations="100,100,100,100,100,100,100,100,100,100" height="51" id="0" loop="true" name="Animation 0" numframes="10" originx="16" originy="8" sync="false" version="2" width="128">
+            <poly data="4,0,0,32,0,32,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="6" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="7" defaultAnimation="7" desc="" height="34" id="1" name="guy" shared="false" width="15">
@@ -145,20 +177,28 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="3" id="23" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="opposite palm tree" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="7" id="23" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="opposite palm tree" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="24" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="24" name="opposite palm tree" shared="false" width="69">
         <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="34" originy="45" sync="false" version="2" width="69">
-            <poly data="4,0,0,69,0,69,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,69,0,69,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="3" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="palm tree" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="16" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="27" fixedrot="false" fric="0.2" gid="7" id="39" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="opposite truck" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="40" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="75" id="40" name="opposite truck" shared="false" width="135">
+        <anim across="1" down="1" durations="100" height="75" id="0" loop="true" name="Animation 0" numframes="1" originx="67" originy="37" sync="false" version="2" width="135">
+            <poly data="4,0,0,135,0,135,75,0,75" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="11" fixedrot="false" fric="0.2" gid="7" id="15" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="palm tree" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="16" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="90" id="16" name="palm tree" shared="false" width="69">
         <anim across="1" down="1" durations="100" height="90" id="0" loop="true" name="Animation 0" numframes="1" originx="34" originy="45" sync="false" version="2" width="69">
-            <poly data="4,0,0,69,0,69,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,69,0,69,90,0,90" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="22" fixedrot="true" fric="0.2" gid="-2" id="31" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="sand barrier" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="32" static="false">
@@ -178,6 +218,14 @@
         </anim>
         <anim across="3" down="3" durations="100,100,100,100,100,100,100" height="102" id="1" loop="true" name="Animation 1" numframes="7" originx="10" originy="17" sync="false" version="2" width="63">
             <poly data="4,0,0,21,0,21,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="26" fixedrot="false" fric="0.2" gid="7" id="37" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="truck" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="38" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="75" id="38" name="truck" shared="false" width="135">
+        <anim across="1" down="1" durations="100" height="75" id="0" loop="true" name="Animation 0" numframes="1" originx="67" originy="37" sync="false" version="2" width="135">
+            <poly data="4,0,0,135,0,135,75,0,75" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="15" fixedrot="false" fric="0.2" gid="3" id="19" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="wall" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="true">

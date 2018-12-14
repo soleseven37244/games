@@ -54,12 +54,17 @@
     <groups>
         <group desc="" id="4" name="bullets"/>
         <group desc="" id="5" name="enemies"/>
+        <group desc="" id="6" name="guy"/>
+        <group desc="" id="7" name="trees and walls"/>
+        <group desc="" id="8" name="grenade pickup"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="1" g2="3"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="4" g2="5"/>
+        <cgroup g1="6" g2="7"/>
+        <cgroup g1="6" g2="8"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -84,6 +89,7 @@
         <number cid="-1" id="0" name="explosion" save="true" value="0.0"/>
         <number cid="-1" id="3" name="player y" save="true" value="0.0"/>
         <number cid="-1" id="2" name="player x" save="true" value="0.0"/>
+        <number cid="-1" id="4" name="grenade count" save="true" value="6.0"/>
         <number cid="-1" id="1" name="player death" save="true" value="0.0"/>
     </attributes>
     <collisions>
@@ -115,7 +121,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7,9,15,17,19,21,23,25,27,29,31," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7,9,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

@@ -464,53 +464,62 @@
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <setanim comment="false" x="26" y="42">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="Animation 12"/>
-                </setanim>
-                <dolater comment="false" x="26" y="69">
+                <if comment="false" x="26" y="42">
                     <group eventID="2" id="-1">
-                        <create-actor3 comment="false" x="37" y="96">
-                            <actortype eid="7" id="0"/>
-                            <get-xy comment="false" id="1" x="0" y="0">
-                                <ACTOR eid="this" id="0"/>
-                                <int id="1" val="0"/>
-                            </get-xy>
-                            <get-xy comment="false" id="2" x="0" y="0">
-                                <ACTOR eid="this" id="0"/>
-                                <int id="1" val="1"/>
-                            </get-xy>
-                            <int id="3" val="0"/>
-                        </create-actor3>
-                        <push-shove2 comment="false" x="37" y="136">
-                            <ACTOR eid="lastcreated" id="0"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="270"/>
-                            <int id="3" val="30"/>
-                        </push-shove2>
-                    </group>
-                    <int id="0" val="0.4"/>
-                    <ACTOR eid="this" id="2"/>
-                </dolater>
-                <dolater comment="false" x="26" y="175">
-                    <group eventID="2" id="-1">
-                        <setanim comment="false" x="37" y="202">
+                        <setanim comment="false" x="37" y="72">
                             <ACTOR eid="this" id="0"/>
-                            <int id="1" val="idle up"/>
+                            <int id="1" val="Animation 12"/>
                         </setanim>
+                        <dolater comment="false" x="37" y="99">
+                            <group eventID="2" id="-1">
+                                <create-actor3 comment="false" x="48" y="126">
+                                    <actortype eid="7" id="0"/>
+                                    <get-xy comment="false" id="1" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="0"/>
+                                    </get-xy>
+                                    <get-xy comment="false" id="2" x="0" y="0">
+                                        <ACTOR eid="this" id="0"/>
+                                        <int id="1" val="1"/>
+                                    </get-xy>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <push-shove2 comment="false" x="48" y="166">
+                                    <ACTOR eid="lastcreated" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="270"/>
+                                    <int id="3" val="30"/>
+                                </push-shove2>
+                            </group>
+                            <int id="0" val="0.4"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                        <dolater comment="false" x="37" y="205">
+                            <group eventID="2" id="-1">
+                                <setanim comment="false" x="48" y="232">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="idle up"/>
+                                </setanim>
+                                <set-game-val-4 comment="false" x="48" y="259">
+                                    <minus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="1"/>
+                                    </minus>
+                                </set-game-val-4>
+                            </group>
+                            <int id="0" val="0.5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
                     </group>
-                    <int id="0" val="0.5"/>
-                    <ACTOR eid="this" id="2"/>
-                </dolater>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </more>
+                </if>
             </group>
             <control eid="11" id="0"/>
             <int id="1" val="0"/>
         </event-key-press-release>
-    </group>
-    <group eventID="2" id="1">
-        <die comment="false" x="381" y="324">
-            <ACTOR eid="lastcreated" id="0"/>
-        </die>
     </group>
     <group eventID="2" id="-1"/>
     <group eventID="3" id="0">

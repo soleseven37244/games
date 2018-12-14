@@ -69,39 +69,60 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_7 extends ActorScript
+class ActorEvents_9 extends ActorScript
 {
+	public var _isalive:Bool;
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_death():Void
+	{
+		_isalive = false;
+		propertyChanged("_isalive", _isalive);
+		actor.setAnimation("" + "Animation 1");
+		runLater(1000 * 0.65, function(timeTask:TimedTask):Void
+		{
+			recycleActor(actor);
+		}, actor);
+	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("is alive", "_isalive");
+		_isalive = true;
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("explosion", 0);
-		runLater(1000 * 0.6, function(timeTask:TimedTask):Void
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			actor.setAnimation("" + "explosion");
-			actor.setYVelocity(0);
-			Engine.engine.setGameAttribute("explosion", 1);
-		}, actor);
-		runLater(1000 * 0.8, function(timeTask:TimedTask):Void
-		{
-			recycleActor(actor);
-		}, actor);
+			if(wrapper.enabled && sameAsAny(getActorType(5), event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if(_isalive)
+				{
+					actor.shout("_customEvent_" + "death");
+					event.otherActor.shout("_customEvent_" + "death");
+				}
+			}
+		});
 		
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(9), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && sameAsAny(getActorType(7), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				actor.setAnimation("" + "explosion");
-				Engine.engine.setGameAttribute("explosion", 1);
+				if((Engine.engine.getGameAttribute("explosion") == 1))
+				{
+					actor.shout("_customEvent_" + "death");
+				}
+				else if((Engine.engine.getGameAttribute("explosion") == 0))
+				{
+					actor.setX((actor.getX() + 1));
+				}
 			}
 		});
 		

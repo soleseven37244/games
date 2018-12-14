@@ -9,20 +9,34 @@
     <regions/>
     <terrainRegions/>
     <actors>
+        <actor a="0.0" aid="256" c="false" group="3" id="19" name="wall 256" sx="1.0" sy="1.0" x="23" y="31750" z="0"/>
+        <actor a="0.0" aid="257" c="false" group="7" id="37" name="truck 257" sx="1.0" sy="1.0" x="494" y="31475" z="0"/>
         <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="504" y="31606" z="0"/>
+        <actor a="0.0" aid="258" c="false" group="7" id="39" name="opposite truck 258" sx="1.0" sy="1.0" x="-4" y="57" z="0"/>
         <actor a="0.0" aid="3" c="false" group="5" id="9" name="test dummy 3" sx="1.0" sy="1.0" x="555" y="31668" z="0"/>
+        <actor a="0.0" aid="259" c="false" group="7" id="39" name="opposite truck 259" sx="1.0" sy="1.0" x="-4" y="125" z="0"/>
         <actor a="0.0" aid="4" c="false" group="5" id="9" name="test dummy 4" sx="1.0" sy="1.0" x="489" y="31539" z="0"/>
+        <actor a="0.0" aid="260" c="false" group="7" id="39" name="opposite truck 260" sx="1.0" sy="1.0" x="1" y="194" z="0"/>
         <actor a="0.0" aid="5" c="false" group="5" id="9" name="test dummy 5" sx="1.0" sy="1.0" x="69" y="31534" z="0"/>
+        <actor a="0.0" aid="261" c="false" group="7" id="37" name="truck 261" sx="1.0" sy="1.0" x="498" y="58" z="0"/>
         <actor a="0.0" aid="6" c="false" group="5" id="9" name="test dummy 6" sx="1.0" sy="1.0" x="251" y="31529" z="0"/>
+        <actor a="0.0" aid="262" c="false" group="7" id="37" name="truck 262" sx="1.0" sy="1.0" x="499" y="124" z="0"/>
         <actor a="0.0" aid="7" c="false" group="5" id="9" name="test dummy 7" sx="1.0" sy="1.0" x="425" y="31530" z="0"/>
+        <actor a="0.0" aid="263" c="false" group="7" id="37" name="truck 263" sx="1.0" sy="1.0" x="499" y="195" z="0"/>
         <actor a="0.0" aid="8" c="false" group="5" id="9" name="test dummy 8" sx="1.0" sy="1.0" x="156" y="31555" z="0"/>
+        <actor a="0.0" aid="264" c="false" group="7" id="39" name="opposite truck 264" sx="1.0" sy="1.0" x="15" y="29533" z="0"/>
         <actor a="0.0" aid="9" c="false" group="5" id="9" name="test dummy 9" sx="1.0" sy="1.0" x="31" y="31655" z="0"/>
+        <actor a="0.0" aid="265" c="false" group="7" id="37" name="truck 265" sx="1.0" sy="1.0" x="498" y="20908" z="0"/>
         <actor a="0.0" aid="10" c="false" group="5" id="9" name="test dummy 10" sx="1.0" sy="1.0" x="596" y="31799" z="0"/>
+        <actor a="0.0" aid="266" c="false" group="2" id="43" name="cliff 266" sx="1.0" sy="1.0" x="1" y="29867" z="0"/>
+        <actor a="0.0" aid="267" c="false" group="5" id="9" name="test dummy 267" sx="1.0" sy="1.0" x="109" y="29898" z="0"/>
+        <actor a="0.0" aid="268" c="false" group="5" id="9" name="test dummy 268" sx="1.0" sy="1.0" x="41" y="29899" z="0"/>
         <actor a="0.0" aid="13" c="false" group="5" id="9" name="test dummy 13" sx="1.0" sy="1.0" x="258" y="31613" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="3" id="0" name="guy 16" sx="1.0" sy="1.0" x="309" y="31957" z="0"/>
-        <actor a="0.0" aid="17" c="false" group="3" id="15" name="palm tree 17" sx="1.0" sy="1.0" x="549" y="31860" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="3" id="15" name="palm tree 18" sx="1.0" sy="1.0" x="34" y="31600" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="3" id="15" name="palm tree 19" sx="1.0" sy="1.0" x="-5" y="31876" z="0"/>
+        <actor a="0.0" aid="269" c="false" group="5" id="9" name="test dummy 269" sx="1.0" sy="1.0" x="80" y="29904" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="6" id="0" name="guy 16" sx="1.0" sy="1.0" x="309" y="31957" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="7" id="15" name="palm tree 17" sx="1.0" sy="1.0" x="549" y="31860" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="7" id="15" name="palm tree 18" sx="1.0" sy="1.0" x="34" y="31600" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="7" id="15" name="palm tree 19" sx="1.0" sy="1.0" x="-5" y="31876" z="0"/>
         <actor a="0.0" aid="20" c="false" group="3" id="19" name="wall 20" sx="1.0" sy="1.0" x="478" y="31641" z="0"/>
         <actor a="0.0" aid="21" c="false" group="3" id="19" name="wall 21" sx="1.0" sy="1.0" x="507" y="31332" z="0"/>
         <actor a="0.0" aid="22" c="false" group="3" id="19" name="wall 22" sx="1.0" sy="1.0" x="132" y="31373" z="0"/>
@@ -69,10 +83,10 @@
         <actor a="0.0" aid="111" c="false" group="3" id="21" name="grass 111" sx="1.0" sy="1.0" x="545" y="30573" z="0"/>
         <actor a="0.0" aid="112" c="false" group="3" id="21" name="grass 112" sx="1.0" sy="1.0" x="41" y="30575" z="0"/>
         <actor a="0.0" aid="113" c="false" group="3" id="21" name="grass 113" sx="1.0" sy="1.0" x="21" y="31002" z="0"/>
-        <actor a="0.0" aid="114" c="false" group="3" id="15" name="palm tree 114" sx="1.0" sy="1.0" x="400" y="31045" z="0"/>
-        <actor a="0.0" aid="115" c="false" group="3" id="15" name="palm tree 115" sx="1.0" sy="1.0" x="103" y="31087" z="0"/>
-        <actor a="0.0" aid="116" c="false" group="3" id="23" name="opposite palm tree 116" sx="1.0" sy="1.0" x="301" y="31165" z="0"/>
-        <actor a="0.0" aid="117" c="false" group="3" id="23" name="opposite palm tree 117" sx="1.0" sy="1.0" x="172" y="31699" z="0"/>
+        <actor a="0.0" aid="114" c="false" group="7" id="15" name="palm tree 114" sx="1.0" sy="1.0" x="400" y="31045" z="0"/>
+        <actor a="0.0" aid="115" c="false" group="7" id="15" name="palm tree 115" sx="1.0" sy="1.0" x="103" y="31087" z="0"/>
+        <actor a="0.0" aid="116" c="false" group="7" id="23" name="opposite palm tree 116" sx="1.0" sy="1.0" x="301" y="31165" z="0"/>
+        <actor a="0.0" aid="117" c="false" group="7" id="23" name="opposite palm tree 117" sx="1.0" sy="1.0" x="172" y="31699" z="0"/>
         <actor a="0.0" aid="128" c="false" group="5" id="9" name="test dummy 128" sx="1.0" sy="1.0" x="141" y="30948" z="0"/>
         <actor a="0.0" aid="129" c="false" group="5" id="9" name="test dummy 129" sx="1.0" sy="1.0" x="571" y="31067" z="0"/>
         <actor a="0.0" aid="130" c="false" group="5" id="9" name="test dummy 130" sx="1.0" sy="1.0" x="279" y="31064" z="0"/>
@@ -87,9 +101,9 @@
         <actor a="0.0" aid="139" c="false" group="5" id="9" name="test dummy 139" sx="1.0" sy="1.0" x="417" y="30805" z="0"/>
         <actor a="0.0" aid="140" c="false" group="5" id="9" name="test dummy 140" sx="1.0" sy="1.0" x="591" y="30720" z="0"/>
         <actor a="0.0" aid="141" c="false" group="5" id="9" name="test dummy 141" sx="1.0" sy="1.0" x="50" y="31147" z="0"/>
-        <actor a="0.0" aid="142" c="false" group="3" id="23" name="opposite palm tree 142" sx="1.0" sy="1.0" x="134" y="30556" z="0"/>
-        <actor a="0.0" aid="143" c="false" group="3" id="23" name="opposite palm tree 143" sx="1.0" sy="1.0" x="495" y="30316" z="0"/>
-        <actor a="0.0" aid="144" c="false" group="3" id="15" name="palm tree 144" sx="1.0" sy="1.0" x="512" y="30733" z="0"/>
+        <actor a="0.0" aid="142" c="false" group="7" id="23" name="opposite palm tree 142" sx="1.0" sy="1.0" x="134" y="30556" z="0"/>
+        <actor a="0.0" aid="143" c="false" group="7" id="23" name="opposite palm tree 143" sx="1.0" sy="1.0" x="495" y="30316" z="0"/>
+        <actor a="0.0" aid="144" c="false" group="7" id="15" name="palm tree 144" sx="1.0" sy="1.0" x="512" y="30733" z="0"/>
         <actor a="0.0" aid="145" c="false" group="3" id="21" name="grass 145" sx="1.0" sy="1.0" x="291" y="30663" z="0"/>
         <actor a="0.0" aid="146" c="false" group="3" id="21" name="grass 146" sx="1.0" sy="1.0" x="84" y="30742" z="0"/>
         <actor a="0.0" aid="147" c="false" group="3" id="21" name="grass 147" sx="1.0" sy="1.0" x="369" y="30797" z="0"/>
@@ -119,53 +133,41 @@
         <actor a="0.0" aid="171" c="false" group="3" id="21" name="grass 171" sx="1.0" sy="1.0" x="32" y="30238" z="0"/>
         <actor a="0.0" aid="172" c="false" group="3" id="19" name="wall 172" sx="1.0" sy="1.0" x="124" y="30171" z="0"/>
         <actor a="0.0" aid="173" c="false" group="3" id="19" name="wall 173" sx="1.0" sy="1.0" x="367" y="30072" z="0"/>
-        <actor a="0.0" aid="175" c="false" group="3" id="15" name="palm tree 175" sx="1.0" sy="1.0" x="63" y="30188" z="0"/>
-        <actor a="0.0" aid="176" c="false" group="-2" id="31" name="sand barrier 176" sx="1.0" sy="1.0" x="402" y="29967" z="0"/>
-        <actor a="0.0" aid="177" c="false" group="-2" id="31" name="sand barrier 177" sx="1.0" sy="1.0" x="406" y="29935" z="0"/>
-        <actor a="0.0" aid="178" c="false" group="-2" id="31" name="sand barrier 178" sx="1.0" sy="1.0" x="408" y="29903" z="0"/>
-        <actor a="0.0" aid="179" c="false" group="-2" id="31" name="sand barrier 179" sx="1.0" sy="1.0" x="408" y="29871" z="0"/>
-        <actor a="0.0" aid="180" c="false" group="-2" id="31" name="sand barrier 180" sx="1.0" sy="1.0" x="408" y="29838" z="0"/>
-        <actor a="0.0" aid="181" c="false" group="-2" id="31" name="sand barrier 181" sx="1.0" sy="1.0" x="409" y="29805" z="0"/>
-        <actor a="0.0" aid="182" c="false" group="-2" id="31" name="sand barrier 182" sx="1.0" sy="1.0" x="409" y="29771" z="0"/>
-        <actor a="0.0" aid="183" c="false" group="-2" id="31" name="sand barrier 183" sx="1.0" sy="1.0" x="335" y="29976" z="0"/>
-        <actor a="0.0" aid="184" c="false" group="-2" id="31" name="sand barrier 184" sx="1.0" sy="1.0" x="267" y="29976" z="0"/>
-        <actor a="0.0" aid="185" c="false" group="-2" id="31" name="sand barrier 185" sx="1.0" sy="1.0" x="203" y="29973" z="0"/>
-        <actor a="0.0" aid="186" c="false" group="-2" id="31" name="sand barrier 186" sx="1.0" sy="1.0" x="139" y="29965" z="0"/>
-        <actor a="0.0" aid="187" c="false" group="-2" id="31" name="sand barrier 187" sx="1.0" sy="1.0" x="408" y="29729" z="0"/>
-        <actor a="0.0" aid="188" c="false" group="-2" id="31" name="sand barrier 188" sx="1.0" sy="1.0" x="341" y="29727" z="0"/>
-        <actor a="0.0" aid="189" c="false" group="-2" id="31" name="sand barrier 189" sx="1.0" sy="1.0" x="274" y="29722" z="0"/>
-        <actor a="0.0" aid="190" c="false" group="-2" id="31" name="sand barrier 190" sx="1.0" sy="1.0" x="210" y="29722" z="0"/>
-        <actor a="0.0" aid="191" c="false" group="-2" id="31" name="sand barrier 191" sx="1.0" sy="1.0" x="156" y="29689" z="0"/>
-        <actor a="0.0" aid="192" c="false" group="-2" id="31" name="sand barrier 192" sx="1.0" sy="1.0" x="156" y="29655" z="0"/>
-        <actor a="0.0" aid="193" c="false" group="-2" id="31" name="sand barrier 193" sx="1.0" sy="1.0" x="158" y="29612" z="0"/>
-        <actor a="0.0" aid="194" c="false" group="-2" id="31" name="sand barrier 194" sx="1.0" sy="1.0" x="163" y="29579" z="0"/>
-        <actor a="0.0" aid="195" c="false" group="-2" id="31" name="sand barrier 195" sx="1.0" sy="1.0" x="169" y="29547" z="0"/>
-        <actor a="0.0" aid="196" c="false" group="-2" id="31" name="sand barrier 196" sx="1.0" sy="1.0" x="240" y="29535" z="0"/>
-        <actor a="0.0" aid="197" c="false" group="-2" id="31" name="sand barrier 197" sx="1.0" sy="1.0" x="308" y="29541" z="0"/>
-        <actor a="0.0" aid="198" c="false" group="-2" id="31" name="sand barrier 198" sx="1.0" sy="1.0" x="375" y="29551" z="0"/>
-        <actor a="0.0" aid="199" c="false" group="-2" id="31" name="sand barrier 199" sx="1.0" sy="1.0" x="439" y="29551" z="0"/>
-        <actor a="0.0" aid="200" c="false" group="-2" id="31" name="sand barrier 200" sx="1.0" sy="1.0" x="506" y="29550" z="0"/>
-        <actor a="0.0" aid="201" c="false" group="-2" id="31" name="sand barrier 201" sx="1.0" sy="1.0" x="563" y="29517" z="0"/>
-        <actor a="0.0" aid="202" c="false" group="-2" id="31" name="sand barrier 202" sx="1.0" sy="1.0" x="557" y="29485" z="0"/>
-        <actor a="0.0" aid="203" c="false" group="-2" id="31" name="sand barrier 203" sx="1.0" sy="1.0" x="549" y="29453" z="0"/>
-        <actor a="0.0" aid="204" c="false" group="-2" id="31" name="sand barrier 204" sx="1.0" sy="1.0" x="480" y="29437" z="0"/>
-        <actor a="0.0" aid="205" c="false" group="-2" id="31" name="sand barrier 205" sx="1.0" sy="1.0" x="416" y="29436" z="0"/>
-        <actor a="0.0" aid="206" c="false" group="-2" id="31" name="sand barrier 206" sx="1.0" sy="1.0" x="352" y="29436" z="0"/>
-        <actor a="0.0" aid="207" c="false" group="-2" id="31" name="sand barrier 207" sx="1.0" sy="1.0" x="286" y="29436" z="0"/>
-        <actor a="0.0" aid="208" c="false" group="-2" id="31" name="sand barrier 208" sx="1.0" sy="1.0" x="222" y="29433" z="0"/>
-        <actor a="0.0" aid="209" c="false" group="-2" id="31" name="sand barrier 209" sx="1.0" sy="1.0" x="153" y="29431" z="0"/>
-        <actor a="0.0" aid="210" c="false" group="-2" id="31" name="sand barrier 210" sx="1.0" sy="1.0" x="124" y="29393" z="0"/>
-        <actor a="0.0" aid="211" c="false" group="-2" id="31" name="sand barrier 211" sx="1.0" sy="1.0" x="124" y="29357" z="0"/>
-        <actor a="0.0" aid="212" c="false" group="-2" id="31" name="sand barrier 212" sx="1.0" sy="1.0" x="134" y="29320" z="0"/>
-        <actor a="0.0" aid="213" c="false" group="-2" id="31" name="sand barrier 213" sx="1.0" sy="1.0" x="157" y="29288" z="0"/>
-        <actor a="0.0" aid="214" c="false" group="-2" id="31" name="sand barrier 214" sx="1.0" sy="1.0" x="234" y="29296" z="0"/>
-        <actor a="0.0" aid="215" c="false" group="-2" id="31" name="sand barrier 215" sx="1.0" sy="1.0" x="305" y="29297" z="0"/>
-        <actor a="0.0" aid="216" c="false" group="-2" id="31" name="sand barrier 216" sx="1.0" sy="1.0" x="373" y="29295" z="0"/>
-        <actor a="0.0" aid="217" c="false" group="-2" id="31" name="sand barrier 217" sx="1.0" sy="1.0" x="437" y="29295" z="0"/>
-        <actor a="0.0" aid="218" c="false" group="-2" id="31" name="sand barrier 218" sx="1.0" sy="1.0" x="501" y="29297" z="0"/>
-        <actor a="0.0" aid="219" c="false" group="-2" id="31" name="sand barrier 219" sx="1.0" sy="1.0" x="525" y="29265" z="0"/>
-        <actor a="0.0" aid="220" c="false" group="-2" id="31" name="sand barrier 220" sx="1.0" sy="1.0" x="526" y="29233" z="0"/>
-        <actor a="0.0" aid="221" c="false" group="-2" id="31" name="sand barrier 221" sx="1.0" sy="1.0" x="524" y="29199" z="0"/>
+        <actor a="0.0" aid="175" c="false" group="7" id="15" name="palm tree 175" sx="1.0" sy="1.0" x="63" y="30188" z="0"/>
+        <actor a="0.0" aid="222" c="false" group="8" id="33" name="grenades 222" sx="1.0" sy="1.0" x="501" y="31414" z="0"/>
+        <actor a="0.0" aid="223" c="false" group="8" id="33" name="grenades 223" sx="1.0" sy="1.0" x="401" y="30709" z="0"/>
+        <actor a="0.0" aid="224" c="false" group="3" id="35" name="grasss 224" sx="1.0" sy="1.0" x="469" y="31723" z="0"/>
+        <actor a="0.0" aid="225" c="false" group="3" id="35" name="grasss 225" sx="1.0" sy="1.0" x="509" y="31724" z="0"/>
+        <actor a="0.0" aid="226" c="false" group="3" id="35" name="grasss 226" sx="1.0" sy="1.0" x="488" y="31768" z="0"/>
+        <actor a="0.0" aid="227" c="false" group="3" id="35" name="grasss 227" sx="1.0" sy="1.0" x="546" y="31746" z="0"/>
+        <actor a="0.0" aid="228" c="false" group="3" id="35" name="grasss 228" sx="1.0" sy="1.0" x="220" y="31742" z="0"/>
+        <actor a="0.0" aid="229" c="false" group="3" id="35" name="grasss 229" sx="1.0" sy="1.0" x="115" y="31756" z="0"/>
+        <actor a="0.0" aid="230" c="false" group="3" id="35" name="grasss 230" sx="1.0" sy="1.0" x="100" y="31740" z="0"/>
+        <actor a="0.0" aid="231" c="false" group="3" id="35" name="grasss 231" sx="1.0" sy="1.0" x="541" y="31783" z="0"/>
+        <actor a="0.0" aid="232" c="false" group="3" id="35" name="grasss 232" sx="1.0" sy="1.0" x="480" y="31877" z="0"/>
+        <actor a="0.0" aid="233" c="false" group="3" id="35" name="grasss 233" sx="1.0" sy="1.0" x="426" y="31462" z="0"/>
+        <actor a="0.0" aid="234" c="false" group="3" id="35" name="grasss 234" sx="1.0" sy="1.0" x="126" y="31448" z="0"/>
+        <actor a="0.0" aid="235" c="false" group="3" id="35" name="grasss 235" sx="1.0" sy="1.0" x="367" y="31347" z="0"/>
+        <actor a="0.0" aid="236" c="false" group="3" id="35" name="grasss 236" sx="1.0" sy="1.0" x="360" y="31125" z="0"/>
+        <actor a="0.0" aid="237" c="false" group="3" id="35" name="grasss 237" sx="1.0" sy="1.0" x="217" y="31208" z="0"/>
+        <actor a="0.0" aid="238" c="false" group="3" id="35" name="grasss 238" sx="1.0" sy="1.0" x="248" y="30964" z="0"/>
+        <actor a="0.0" aid="239" c="false" group="3" id="35" name="grasss 239" sx="1.0" sy="1.0" x="556" y="30988" z="0"/>
+        <actor a="0.0" aid="240" c="false" group="3" id="35" name="grasss 240" sx="1.0" sy="1.0" x="386" y="30571" z="0"/>
+        <actor a="0.0" aid="241" c="false" group="3" id="35" name="grasss 241" sx="1.0" sy="1.0" x="255" y="30549" z="0"/>
+        <actor a="0.0" aid="242" c="false" group="3" id="35" name="grasss 242" sx="1.0" sy="1.0" x="241" y="30179" z="0"/>
+        <actor a="0.0" aid="243" c="false" group="3" id="35" name="grasss 243" sx="1.0" sy="1.0" x="523" y="30163" z="0"/>
+        <actor a="0.0" aid="244" c="false" group="3" id="35" name="grasss 244" sx="1.0" sy="1.0" x="251" y="30295" z="0"/>
+        <actor a="0.0" aid="245" c="false" group="3" id="35" name="grasss 245" sx="1.0" sy="1.0" x="200" y="30236" z="0"/>
+        <actor a="0.0" aid="246" c="false" group="3" id="35" name="grasss 246" sx="1.0" sy="1.0" x="483" y="29876" z="0"/>
+        <actor a="0.0" aid="247" c="false" group="3" id="35" name="grasss 247" sx="1.0" sy="1.0" x="198" y="29878" z="0"/>
+        <actor a="0.0" aid="248" c="false" group="3" id="35" name="grasss 248" sx="1.0" sy="1.0" x="200" y="29705" z="0"/>
+        <actor a="0.0" aid="249" c="false" group="3" id="35" name="grasss 249" sx="1.0" sy="1.0" x="502" y="29753" z="0"/>
+        <actor a="0.0" aid="250" c="false" group="3" id="35" name="grasss 250" sx="1.0" sy="1.0" x="344" y="29797" z="0"/>
+        <actor a="0.0" aid="251" c="false" group="3" id="35" name="grasss 251" sx="1.0" sy="1.0" x="44" y="29776" z="0"/>
+        <actor a="0.0" aid="252" c="false" group="3" id="19" name="wall 252" sx="1.0" sy="1.0" x="404" y="29881" z="0"/>
+        <actor a="0.0" aid="253" c="false" group="3" id="19" name="wall 253" sx="1.0" sy="1.0" x="340" y="29881" z="0"/>
+        <actor a="0.0" aid="254" c="false" group="3" id="19" name="wall 254" sx="1.0" sy="1.0" x="276" y="29881" z="0"/>
+        <actor a="0.0" aid="255" c="false" group="8" id="33" name="grenades 255" sx="1.0" sy="1.0" x="230" y="29715" z="0"/>
     </actors>
     <snippets/>
     <terrain>
