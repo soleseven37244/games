@@ -35,7 +35,7 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="6">
+    <group eventID="1" id="1">
         <toggle-image comment="false" x="127" y="309">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="0"/>
