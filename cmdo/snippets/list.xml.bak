@@ -178,4 +178,16 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet actorid="61" attachedevent="true" class="scripts.ActorEvents_61" classname="scripts.ActorEvents_61" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="38" name="ActorEvents_61" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet actorid="63" attachedevent="true" class="scripts.ActorEvents_63" classname="scripts.ActorEvents_63" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="39" name="ActorEvents_63" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="3" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="2" repeats="true"/>
+        </events>
+    </snippet>
 </pack>

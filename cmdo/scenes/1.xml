@@ -142,38 +142,8 @@
         <actor a="0.0" aid="285" c="false" group="3" id="35" name="grasss 285" sx="1.0" sy="1.0" x="342" y="29721" z="0"/>
         <actor a="0.0" aid="286" c="false" group="3" id="35" name="grasss 286" sx="1.0" sy="1.0" x="325" y="29600" z="0"/>
         <actor a="0.0" aid="287" c="false" group="3" id="35" name="grasss 287" sx="1.0" sy="1.0" x="80" y="29665" z="0"/>
-        <actor a="0.0" aid="288" c="false" group="3" id="45" name="base 288" sx="1.0" sy="1.0" x="1" y="0" z="0"/>
+        <actor a="0.0" aid="288" c="false" group="3" id="45" name="base 288" sx="1.0" sy="1.0" x="25" y="15" z="0"/>
         <actor a="0.0" aid="289" c="false" group="3" id="47" name="opposite base 289" sx="1.0" sy="1.0" x="382" y="-1" z="0"/>
-        <actor a="0.0" aid="291" c="false" group="3" id="51" name="water middle 291" sx="1.0" sy="1.0" x="38" y="29155" z="0"/>
-        <actor a="0.0" aid="296" c="false" group="3" id="51" name="water middle 296" sx="1.0" sy="1.0" x="95" y="29167" z="0"/>
-        <actor a="0.0" aid="297" c="false" group="3" id="51" name="water middle 297" sx="1.0" sy="1.0" x="27" y="29168" z="0"/>
-        <actor a="0.0" aid="299" c="false" group="3" id="51" name="water middle 299" sx="1.0" sy="1.0" x="204" y="29168" z="0"/>
-        <actor a="0.0" aid="300" c="false" group="3" id="51" name="water middle 300" sx="1.0" sy="1.0" x="76" y="29167" z="0"/>
-        <actor a="0.0" aid="301" c="false" group="3" id="51" name="water middle 301" sx="1.0" sy="1.0" x="72" y="29168" z="0"/>
-        <actor a="0.0" aid="302" c="false" group="3" id="51" name="water middle 302" sx="1.0" sy="1.0" x="162" y="29181" z="0"/>
-        <actor a="0.0" aid="303" c="false" group="3" id="51" name="water middle 303" sx="1.0" sy="1.0" x="181" y="29171" z="0"/>
-        <actor a="0.0" aid="305" c="false" group="3" id="51" name="water middle 305" sx="1.0" sy="1.0" x="115" y="29145" z="0"/>
-        <actor a="0.0" aid="306" c="false" group="3" id="51" name="water middle 306" sx="1.0" sy="1.0" x="161" y="29143" z="0"/>
-        <actor a="0.0" aid="308" c="false" group="3" id="51" name="water middle 308" sx="1.0" sy="1.0" x="143" y="29121" z="0"/>
-        <actor a="0.0" aid="309" c="false" group="3" id="51" name="water middle 309" sx="1.0" sy="1.0" x="148" y="29132" z="0"/>
-        <actor a="0.0" aid="313" c="false" group="3" id="51" name="water middle 313" sx="1.0" sy="1.0" x="27" y="29117" z="0"/>
-        <actor a="0.0" aid="315" c="false" group="3" id="51" name="water middle 315" sx="1.0" sy="1.0" x="134" y="29126" z="0"/>
-        <actor a="0.0" aid="317" c="false" group="3" id="51" name="water middle 317" sx="1.0" sy="1.0" x="149" y="29132" z="0"/>
-        <actor a="0.0" aid="318" c="false" group="3" id="51" name="water middle 318" sx="1.0" sy="1.0" x="186" y="29169" z="0"/>
-        <actor a="0.0" aid="319" c="false" group="3" id="51" name="water middle 319" sx="1.0" sy="1.0" x="148" y="29176" z="0"/>
-        <actor a="0.0" aid="320" c="false" group="3" id="51" name="water middle 320" sx="1.0" sy="1.0" x="148" y="29160" z="0"/>
-        <actor a="0.0" aid="321" c="false" group="3" id="51" name="water middle 321" sx="1.0" sy="1.0" x="65" y="29189" z="0"/>
-        <actor a="0.0" aid="322" c="false" group="3" id="51" name="water middle 322" sx="1.0" sy="1.0" x="52" y="29182" z="0"/>
-        <actor a="0.0" aid="324" c="false" group="3" id="51" name="water middle 324" sx="1.0" sy="1.0" x="128" y="29180" z="0"/>
-        <actor a="0.0" aid="325" c="false" group="3" id="51" name="water middle 325" sx="1.0" sy="1.0" x="204" y="29181" z="0"/>
-        <actor a="0.0" aid="326" c="false" group="3" id="51" name="water middle 326" sx="1.0" sy="1.0" x="91" y="29181" z="0"/>
-        <actor a="0.0" aid="327" c="false" group="3" id="51" name="water middle 327" sx="1.0" sy="1.0" x="118" y="29180" z="0"/>
-        <actor a="0.0" aid="328" c="false" group="3" id="51" name="water middle 328" sx="1.0" sy="1.0" x="38" y="29181" z="0"/>
-        <actor a="0.0" aid="329" c="false" group="3" id="51" name="water middle 329" sx="1.0" sy="1.0" x="67" y="29139" z="0"/>
-        <actor a="0.0" aid="330" c="false" group="3" id="51" name="water middle 330" sx="1.0" sy="1.0" x="169" y="29122" z="0"/>
-        <actor a="0.0" aid="332" c="false" group="3" id="51" name="water middle 332" sx="1.0" sy="1.0" x="83" y="29130" z="0"/>
-        <actor a="0.0" aid="333" c="false" group="3" id="51" name="water middle 333" sx="1.0" sy="1.0" x="177" y="29131" z="0"/>
-        <actor a="0.0" aid="334" c="false" group="3" id="51" name="water middle 334" sx="1.0" sy="1.0" x="164" y="29142" z="0"/>
         <actor a="0.0" aid="335" c="false" group="7" id="53" name="pit 335" sx="1.0" sy="1.0" x="391" y="29234" z="0"/>
         <actor a="0.0" aid="336" c="false" group="7" id="53" name="pit 336" sx="1.0" sy="1.0" x="421" y="29234" z="0"/>
         <actor a="0.0" aid="337" c="false" group="7" id="53" name="pit 337" sx="1.0" sy="1.0" x="409" y="29234" z="0"/>
@@ -221,7 +191,7 @@
         <actor a="0.0" aid="383" c="false" group="7" id="53" name="pit 383" sx="1.0" sy="1.0" x="159" y="28613" z="0"/>
         <actor a="0.0" aid="384" c="false" group="7" id="53" name="pit 384" sx="1.0" sy="1.0" x="189" y="28614" z="0"/>
         <actor a="0.0" aid="385" c="false" group="7" id="53" name="pit 385" sx="1.0" sy="1.0" x="216" y="28609" z="0"/>
-        <actor a="0.0" aid="386" c="false" group="7" id="53" name="pit 386" sx="1.0" sy="1.0" x="146" y="28603" z="0"/>
+        <actor a="0.0" aid="386" c="false" group="7" id="53" name="pit 386" sx="1.0" sy="1.0" x="154" y="28606" z="0"/>
         <actor a="0.0" aid="387" c="false" group="7" id="53" name="pit 387" sx="1.0" sy="1.0" x="191" y="28598" z="0"/>
         <actor a="0.0" aid="388" c="false" group="7" id="53" name="pit 388" sx="1.0" sy="1.0" x="162" y="28607" z="0"/>
         <actor a="0.0" aid="389" c="false" group="7" id="53" name="pit 389" sx="1.0" sy="1.0" x="156" y="28609" z="0"/>
@@ -230,10 +200,61 @@
         <actor a="0.0" aid="392" c="false" group="7" id="53" name="pit 392" sx="1.0" sy="1.0" x="156" y="28590" z="0"/>
         <actor a="0.0" aid="393" c="false" group="7" id="53" name="pit 393" sx="1.0" sy="1.0" x="50" y="28617" z="0"/>
         <actor a="0.0" aid="394" c="false" group="7" id="53" name="pit 394" sx="1.0" sy="1.0" x="52" y="28600" z="0"/>
+        <actor a="0.0" aid="395" c="false" group="3" id="57" name="mud hut 395" sx="1.0" sy="1.0" x="7" y="29032" z="0"/>
+        <actor a="0.0" aid="396" c="false" group="3" id="57" name="mud hut 396" sx="1.0" sy="1.0" x="12" y="29091" z="0"/>
+        <actor a="0.0" aid="397" c="false" group="3" id="59" name="opposite hut 397" sx="1.0" sy="1.0" x="590" y="29412" z="0"/>
+        <actor a="0.0" aid="398" c="false" group="8" id="33" name="grenades 398" sx="1.0" sy="1.0" x="320" y="29139" z="0"/>
+        <actor a="0.0" aid="399" c="false" group="3" id="35" name="grasss 399" sx="1.0" sy="1.0" x="374" y="29387" z="0"/>
+        <actor a="0.0" aid="400" c="false" group="3" id="35" name="grasss 400" sx="1.0" sy="1.0" x="343" y="29393" z="0"/>
+        <actor a="0.0" aid="401" c="false" group="3" id="35" name="grasss 401" sx="1.0" sy="1.0" x="302" y="29391" z="0"/>
+        <actor a="0.0" aid="402" c="false" group="3" id="35" name="grasss 402" sx="1.0" sy="1.0" x="234" y="29391" z="0"/>
+        <actor a="0.0" aid="403" c="false" group="3" id="35" name="grasss 403" sx="1.0" sy="1.0" x="211" y="29397" z="0"/>
+        <actor a="0.0" aid="404" c="false" group="3" id="35" name="grasss 404" sx="1.0" sy="1.0" x="164" y="29393" z="0"/>
+        <actor a="0.0" aid="405" c="false" group="3" id="35" name="grasss 405" sx="1.0" sy="1.0" x="193" y="29395" z="0"/>
+        <actor a="0.0" aid="406" c="false" group="3" id="35" name="grasss 406" sx="1.0" sy="1.0" x="273" y="29392" z="0"/>
+        <actor a="0.0" aid="407" c="false" group="3" id="35" name="grasss 407" sx="1.0" sy="1.0" x="414" y="29392" z="0"/>
+        <actor a="0.0" aid="408" c="false" group="3" id="35" name="grasss 408" sx="1.0" sy="1.0" x="448" y="29385" z="0"/>
+        <actor a="0.0" aid="409" c="false" group="3" id="35" name="grasss 409" sx="1.0" sy="1.0" x="492" y="29391" z="0"/>
+        <actor a="0.0" aid="410" c="false" group="3" id="35" name="grasss 410" sx="1.0" sy="1.0" x="520" y="29386" z="0"/>
+        <actor a="0.0" aid="411" c="false" group="3" id="35" name="grasss 411" sx="1.0" sy="1.0" x="577" y="29387" z="0"/>
+        <actor a="0.0" aid="412" c="false" group="3" id="35" name="grasss 412" sx="1.0" sy="1.0" x="556" y="29383" z="0"/>
+        <actor a="0.0" aid="413" c="false" group="3" id="35" name="grasss 413" sx="1.0" sy="1.0" x="612" y="29384" z="0"/>
+        <actor a="0.0" aid="414" c="false" group="3" id="35" name="grasss 414" sx="1.0" sy="1.0" x="132" y="29390" z="0"/>
+        <actor a="0.0" aid="415" c="false" group="3" id="35" name="grasss 415" sx="1.0" sy="1.0" x="106" y="29388" z="0"/>
+        <actor a="0.0" aid="416" c="false" group="3" id="35" name="grasss 416" sx="1.0" sy="1.0" x="90" y="29388" z="0"/>
+        <actor a="0.0" aid="417" c="false" group="3" id="35" name="grasss 417" sx="1.0" sy="1.0" x="64" y="29388" z="0"/>
+        <actor a="0.0" aid="418" c="false" group="3" id="35" name="grasss 418" sx="1.0" sy="1.0" x="20" y="29381" z="0"/>
+        <actor a="0.0" aid="419" c="false" group="3" id="35" name="grasss 419" sx="1.0" sy="1.0" x="38" y="29391" z="0"/>
+        <actor a="0.0" aid="420" c="false" group="3" id="35" name="grasss 420" sx="1.0" sy="1.0" x="4" y="29385" z="0"/>
+        <actor a="0.0" aid="421" c="false" group="5" id="9" name="test dummy 421" sx="1.0" sy="1.0" x="384" y="29676" z="0"/>
+        <actor a="0.0" aid="422" c="false" group="5" id="9" name="test dummy 422" sx="1.0" sy="1.0" x="189" y="29644" z="0"/>
+        <actor a="0.0" aid="423" c="false" group="5" id="9" name="test dummy 423" sx="1.0" sy="1.0" x="195" y="29522" z="0"/>
+        <actor a="0.0" aid="424" c="false" group="5" id="9" name="test dummy 424" sx="1.0" sy="1.0" x="375" y="29517" z="0"/>
+        <actor a="0.0" aid="425" c="false" group="5" id="9" name="test dummy 425" sx="1.0" sy="1.0" x="406" y="29198" z="0"/>
+        <actor a="0.0" aid="426" c="false" group="5" id="9" name="test dummy 426" sx="1.0" sy="1.0" x="485" y="29194" z="0"/>
+        <actor a="0.0" aid="427" c="false" group="5" id="9" name="test dummy 427" sx="1.0" sy="1.0" x="526" y="29199" z="0"/>
+        <actor a="0.0" aid="428" c="false" group="5" id="9" name="test dummy 428" sx="1.0" sy="1.0" x="58" y="29044" z="0"/>
+        <actor a="0.0" aid="429" c="false" group="3" id="61" name="down truck 429" sx="1.0" sy="1.0" x="478" y="28667" z="0"/>
+        <actor a="0.0" aid="430" c="false" group="3" id="63" name="tank 430" sx="1.0" sy="1.0" x="577" y="889" z="0"/>
+        <actor a="0.0" aid="431" c="false" group="3" id="63" name="tank 431" sx="1.0" sy="1.0" x="579" y="925" z="0"/>
+        <actor a="0.0" aid="432" c="false" group="3" id="63" name="tank 432" sx="1.0" sy="1.0" x="581" y="960" z="0"/>
+        <actor a="0.0" aid="433" c="false" group="3" id="45" name="base 433" sx="1.0" sy="1.0" x="0" y="17280" z="0"/>
+        <actor a="0.0" aid="434" c="false" group="3" id="47" name="opposite base 434" sx="1.0" sy="1.0" x="382" y="17278" z="0"/>
+        <actor a="0.0" aid="435" c="false" group="7" id="39" name="opposite truck 435" sx="1.0" sy="1.0" x="0" y="17537" z="0"/>
+        <actor a="0.0" aid="436" c="false" group="7" id="39" name="opposite truck 436" sx="1.0" sy="1.0" x="11" y="17588" z="0"/>
+        <actor a="0.0" aid="437" c="false" group="7" id="39" name="opposite truck 437" sx="1.0" sy="1.0" x="30" y="17650" z="0"/>
+        <actor a="0.0" aid="438" c="false" group="7" id="37" name="truck 438" sx="1.0" sy="1.0" x="505" y="17535" z="0"/>
+        <actor a="0.0" aid="439" c="false" group="7" id="37" name="truck 439" sx="1.0" sy="1.0" x="488" y="17590" z="0"/>
+        <actor a="0.0" aid="440" c="false" group="7" id="37" name="truck 440" sx="1.0" sy="1.0" x="478" y="17643" z="0"/>
+        <actor a="0.0" aid="441" c="false" group="3" id="55" name="rock 441" sx="1.0" sy="1.0" x="512" y="17715" z="0"/>
+        <actor a="0.0" aid="442" c="false" group="3" id="55" name="rock 442" sx="1.0" sy="1.0" x="-6" y="17722" z="0"/>
+        <actor a="0.0" aid="443" c="false" group="3" id="63" name="tank 443" sx="1.0" sy="1.0" x="576" y="17844" z="0"/>
+        <actor a="0.0" aid="444" c="false" group="3" id="63" name="tank 444" sx="1.0" sy="1.0" x="577" y="17879" z="0"/>
+        <actor a="0.0" aid="445" c="false" group="3" id="63" name="tank 445" sx="1.0" sy="1.0" x="577" y="17913" z="0"/>
     </actors>
     <snippets/>
     <terrain>
-        <p pts="4,640.0,32000.0,0.0,32000.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+        <p pts="10,640.0,32000.0,0.0,32000.0,0.0,17472.0,96.0,17472.0,96.0,17440.0,0.0,17440.0,0.0,32.0,32.0,32.0,32.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

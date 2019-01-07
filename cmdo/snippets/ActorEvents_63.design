@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="70">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Animation 2"/>
+                        </setanim>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                    </less>
+                </if>
+                <if comment="false" x="26" y="109">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="139">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Animation 0"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="178">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="208">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Animation 4"/>
+                        </setanim>
+                    </group>
+                    <more comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-5 comment="false" id="1" x="0" y="0"/>
+                    </more>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-5 comment="false" x="26" y="40">
+                    <get-xy comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                </set-game-val-5>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <create-actor3 comment="false" x="26" y="42">
+                    <actortype eid="25" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <setvel comment="false" x="26" y="82">
+                    <ACTOR eid="lastcreated" id="0"/>
+                    <get-game-val-3 comment="false" id="1" x="0" y="0"/>
+                    <get-game-val-2 comment="false" id="2" x="0" y="0"/>
+                </setvel>
+            </group>
+            <int id="0" val="2"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>
