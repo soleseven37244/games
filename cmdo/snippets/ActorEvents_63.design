@@ -71,11 +71,6 @@
                     </get-xy>
                     <int id="3" val="0"/>
                 </create-actor3>
-                <setvel comment="false" x="26" y="82">
-                    <ACTOR eid="lastcreated" id="0"/>
-                    <get-game-val-3 comment="false" id="1" x="0" y="0"/>
-                    <get-game-val-2 comment="false" id="2" x="0" y="0"/>
-                </setvel>
             </group>
             <int id="0" val="2"/>
             <ACTOR eid="this" id="2"/>

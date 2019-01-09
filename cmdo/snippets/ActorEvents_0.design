@@ -216,11 +216,9 @@
                         <set-dxy comment="false" x="37" y="1255">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
-                            <neg comment="false" id="2" x="0" y="0">
-                                <get-val-1-1 comment="false" id="0" x="0" y="0"/>
-                            </neg>
+                            <int id="2" val="-100"/>
                         </set-dxy>
-                        <set-val-1-3 comment="false" x="37" y="1292">
+                        <set-val-1-3 comment="false" x="37" y="1282">
                             <false comment="false" id="0" x="0" y="0"/>
                         </set-val-1-3>
                     </group>
@@ -229,23 +227,23 @@
                         <control eid="7" id="1"/>
                     </keystate>
                 </else-if>
-                <else-if comment="false" x="26" y="1329">
+                <else-if comment="false" x="26" y="1319">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="37" y="1362">
+                        <setanim comment="false" x="37" y="1352">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="walk down"/>
                         </setanim>
-                        <set-dxy comment="false" x="37" y="1389">
+                        <set-dxy comment="false" x="37" y="1379">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="1416">
+                        <set-dxy comment="false" x="37" y="1406">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-1-1 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <set-val-1-3 comment="false" x="37" y="1448">
+                        <set-val-1-3 comment="false" x="37" y="1438">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-1-3>
                     </group>
@@ -254,11 +252,11 @@
                         <control eid="9" id="1"/>
                     </keystate>
                 </else-if>
-                <else comment="false" x="26" y="1485">
+                <else comment="false" x="26" y="1475">
                     <group eventID="1" id="-1">
-                        <if comment="false" x="37" y="1505">
+                        <if comment="false" x="37" y="1495">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1543">
+                                <setanim comment="false" x="48" y="1533">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="idle up"/>
                                 </setanim>
@@ -270,9 +268,9 @@
                                 <int id="1" val="walk up"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1582">
+                        <if comment="false" x="37" y="1572">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1620">
+                                <setanim comment="false" x="48" y="1610">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="idle right"/>
                                 </setanim>
@@ -284,9 +282,9 @@
                                 <int id="1" val="walk right"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1659">
+                        <if comment="false" x="37" y="1649">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1697">
+                                <setanim comment="false" x="48" y="1687">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="idle left"/>
                                 </setanim>
@@ -298,9 +296,9 @@
                                 <int id="1" val="walk left"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1736">
+                        <if comment="false" x="37" y="1726">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1774">
+                                <setanim comment="false" x="48" y="1764">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="idle down"/>
                                 </setanim>
@@ -312,9 +310,9 @@
                                 <int id="1" val="walk down"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1813">
+                        <if comment="false" x="37" y="1803">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1851">
+                                <setanim comment="false" x="48" y="1841">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Animation 14"/>
                                 </setanim>
@@ -326,9 +324,9 @@
                                 <int id="1" val="Animation 13"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1890">
+                        <if comment="false" x="37" y="1880">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1928">
+                                <setanim comment="false" x="48" y="1918">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Animation 16"/>
                                 </setanim>
@@ -340,9 +338,9 @@
                                 <int id="1" val="Animation 16"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="1967">
+                        <if comment="false" x="37" y="1957">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="2005">
+                                <setanim comment="false" x="48" y="1995">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Animation 18"/>
                                 </setanim>
@@ -354,9 +352,9 @@
                                 <int id="1" val="Animation 17"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="2044">
+                        <if comment="false" x="37" y="2034">
                             <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="2082">
+                                <setanim comment="false" x="48" y="2072">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="Animation 20"/>
                                 </setanim>
@@ -368,12 +366,12 @@
                                 <int id="1" val="Animation 19"/>
                             </eq>
                         </if>
-                        <set-dxy comment="false" x="37" y="2121">
+                        <set-dxy comment="false" x="37" y="2111">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="2148">
+                        <set-dxy comment="false" x="37" y="2138">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="0"/>
@@ -459,6 +457,9 @@
         </if>
     </group>
     <group eventID="1" id="-1">
+        <neg comment="false" x="319" y="1294">
+            <get-val-1-1 comment="false" id="0" x="0" y="0"/>
+        </neg>
         <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
