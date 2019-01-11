@@ -8,6 +8,14 @@
             <poly data="4,0,0,258,0,258,258,0,258" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="9" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="boss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="68" id="66" name="boss" shared="false" width="112">
+        <anim across="2" down="1" durations="100,100" height="68" id="0" loop="true" name="Animation 0" numframes="2" originx="56" originy="34" sync="false" version="2" width="224">
+            <poly data="4,0,0,112,0,112,68,0,68" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="4" id="5" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
         <snippets/>
     </actor>
@@ -88,13 +96,16 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="16" id="8" name="grenade" shared="false" width="16">
         <anim across="3" down="2" durations="100,100,100,100,100" height="32" id="0" loop="true" name="Animation 0" numframes="5" originx="8" originy="8" sync="false" version="2" width="48">
-            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
         <anim across="2" down="1" durations="100,100" height="32" id="1" loop="true" name="Animation 1" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="true"/>
         </anim>
         <anim across="2" down="1" durations="100,100" height="16" id="2" loop="true" name="explosion" numframes="2" originx="8" originy="8" sync="false" version="2" width="32">
-            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="explosion" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="explosion" rest="0.0" sensor="true"/>
+        </anim>
+        <anim across="2" down="1" durations="100,100" height="96" id="3" loop="true" name="Animation 3" numframes="2" originx="48" originy="48" sync="false" version="2" width="192">
+            <poly data="4,0,0,96,0,96,96,0,96" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 3" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="false" fric="0.2" gid="8" id="33" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="grenades" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="34" static="false">
@@ -249,7 +260,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="7" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="rock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="35" fixedrot="true" fric="0.2" gid="7" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="rock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="128" id="56" name="rock" shared="false" width="128">

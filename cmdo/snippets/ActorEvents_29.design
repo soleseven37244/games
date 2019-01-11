@@ -14,7 +14,7 @@
                     <int id="2" val="-4"/>
                 </set-dxy>
             </group>
-            <int id="0" val="5.4"/>
+            <int id="0" val="5.3"/>
             <ACTOR eid="this" id="2"/>
         </event-delay>
     </group>

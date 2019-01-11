@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
+        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
-        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -800,13 +800,16 @@
     <group eventID="5" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="5" id="-1">
-                <set-game-val-3 comment="false" x="26" y="40">
+                <camera-follow comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                </camera-follow>
+                <set-game-val-3 comment="false" x="26" y="67">
                     <get-xy comment="false" id="0" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="1"/>
                     </get-xy>
                 </set-game-val-3>
-                <set-game-val-2 comment="false" x="26" y="73">
+                <set-game-val-2 comment="false" x="26" y="100">
                     <get-xy comment="false" id="0" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="0"/>

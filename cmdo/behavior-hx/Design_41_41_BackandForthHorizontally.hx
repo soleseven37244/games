@@ -69,13 +69,35 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_7 extends ActorScript
+class Design_41_41_BackandForthHorizontally extends ActorScript
 {
+	public var _Speed:Float;
+	public var _DistanceLeft:Float;
+	public var _DistanceRight:Float;
+	public var _InitialDirection:Float;
+	public var _ChangeDirectiononCollision:Bool;
+	public var _Start:Float;
+	public var _End:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Speed", "_Speed");
+		_Speed = 10.0;
+		nameMap.set("Actor", "actor");
+		nameMap.set("Distance Left", "_DistanceLeft");
+		_DistanceLeft = 100.0;
+		nameMap.set("Distance Right", "_DistanceRight");
+		_DistanceRight = 100.0;
+		nameMap.set("Initial Direction", "_InitialDirection");
+		_InitialDirection = 0.0;
+		nameMap.set("Change Direction on Collision", "_ChangeDirectiononCollision");
+		_ChangeDirectiononCollision = true;
+		nameMap.set("Start", "_Start");
+		_Start = 0.0;
+		nameMap.set("End", "_End");
+		_End = 0.0;
 		
 	}
 	
@@ -83,26 +105,60 @@ class ActorEvents_7 extends ActorScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("explosion", 0);
-		runLater(1000 * 0.6, function(timeTask:TimedTask):Void
-		{
-			actor.setAnimation("" + "Animation 1");
-			actor.setYVelocity(0);
-			Engine.engine.setGameAttribute("explosion", 1);
-		}, actor);
-		runLater(1000 * 0.8, function(timeTask:TimedTask):Void
-		{
-			recycleActor(actor);
-		}, actor);
+		actor.makeAlwaysSimulate();
+		_Start = asNumber((actor.getXCenter() - _DistanceLeft));
+		propertyChanged("_Start", _Start);
+		_End = asNumber((actor.getXCenter() + _DistanceRight));
+		propertyChanged("_End", _End);
+		actor.setXVelocity((_InitialDirection * _Speed));
 		
-		/* ======================== Actor of Type ========================= */
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((actor.getXCenter() > _End))
+				{
+					actor.setXVelocity(-(_Speed));
+				}
+				else if((actor.getXCenter() < _Start))
+				{
+					actor.setXVelocity(_Speed);
+				}
+			}
+		});
+		
+		/* ======================== Something Else ======================== */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(9), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				actor.setAnimation("" + "Animation 1");
-				Engine.engine.setGameAttribute("explosion", 1);
-				actor.setXVelocity(0);
+				if(_ChangeDirectiononCollision)
+				{
+					if(event.thisFromLeft)
+					{
+						actor.setXVelocity(_Speed);
+					}
+					if(event.thisFromRight)
+					{
+						actor.setXVelocity(-(_Speed));
+					}
+				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((sceneHasBehavior("Game Debugger") && asBoolean(getValueForScene("Game Debugger", "_Enabled"))))
+				{
+					g.strokeColor = getValueForScene("Game Debugger", "_CustomColor");
+					g.strokeSize = Std.int(getValueForScene("Game Debugger", "_StrokeThickness"));
+					g.translateToScreen();
+					g.drawLine((_Start - getScreenX()), (actor.getYCenter() - getScreenY()), (_End - getScreenX()), (actor.getYCenter() - getScreenY()));
+				}
 			}
 		});
 		

@@ -31,7 +31,7 @@
                                     <int id="2" val="-40"/>
                                 </set-dxy>
                             </group>
-                            <int id="0" val="1.25"/>
+                            <int id="0" val="0.8"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
                     </group>

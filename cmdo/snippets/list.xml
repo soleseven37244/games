@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="1" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
-        <number default="15" defaultValue="15" desc="" dropdown="" fullname="walking speed" hidden="false" id="1" name="_walkingspeed" order="0"/>
+        <number default="22" defaultValue="22" desc="" dropdown="" fullname="walking speed" hidden="false" id="1" name="_walkingspeed" order="0"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing right" hidden="false" id="2" name="_facingright" order="1"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="facing down" hidden="false" id="3" name="_facingdown" order="2"/>
         <number default="50.0" defaultValue="50.0" desc="" dropdown="" fullname="bullet speed" hidden="false" id="4" name="_bulletspeed" order="3"/>
@@ -47,7 +47,7 @@
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="10" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
         <blocks/>
         <events>
-            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
@@ -188,6 +188,38 @@
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="3" repeats="true"/>
             <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="65" attachedevent="true" class="scripts.ActorEvents_65" classname="scripts.ActorEvents_65" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="40" name="ActorEvents_65" oid="-1" package="scripts." shared="false" type="actor">
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="boss health" hidden="false" id="1" name="_bosshealth" order="0"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="x speed" hidden="false" id="2" name="_xspeed" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="boss timer" hidden="false" id="3" name="_bosstimer" order="3"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="collidinig" hidden="false" id="4" name="_collidinig" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="6" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="2" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="3" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="6" name="event-collide-actortogroup" order="4" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_41_41_BackandForthHorizontally" classname="scripts.Design_41_41_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="41" name="Back and Forth Horizontally" oid="-1" package="scripts" shared="false" type="actor">
+        <number default="10.0" defaultValue="10.0" desc="The movement speed." dropdown="" fullname="Speed" hidden="false" id="16" name="_Speed" order="3"/>
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="100.0" defaultValue="100.0" desc="The distance the actor will be moving to the left." dropdown="" fullname="Distance Left" hidden="false" id="17" name="_DistanceLeft" order="5"/>
+        <number default="100.0" defaultValue="100.0" desc="The distance the actor will be moving to the right." dropdown="" fullname="Distance Right" hidden="false" id="18" name="_DistanceRight" order="6"/>
+        <number default="0.0" defaultValue="0.0" desc="The direction in which the actor will be moving when created." dropdown="Left=-1&#10;Right=1" fullname="Initial Direction" hidden="false" id="19" name="_InitialDirection" order="4"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will change the movement direction when colliding.&lt;br /&gt;&#10;If unselected, the actor will try to keep on moving in the current direction." dropdown="" fullname="Change Direction on Collision" hidden="false" id="20" name="_ChangeDirectiononCollision" order="7"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Start" hidden="true" id="13" name="_Start" order="1"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="End" hidden="true" id="15" name="_End" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Updated" enabled="true" id="1" name="step" order="2" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="2" name="draw" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="4" name="collide" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>

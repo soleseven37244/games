@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_29 extends ActorScript
+class ActorEvents_35 extends ActorScript
 {
 	
 	
@@ -81,16 +81,6 @@ class ActorEvents_29 extends ActorScript
 	
 	override public function init()
 	{
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 5.4, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				actor.moveToLayer(1, "" + "Layer 0");
-				actor.setXVelocity(-4);
-			}
-		}, actor);
 		
 	}
 	

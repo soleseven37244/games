@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,27 +69,50 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class ActorEvents_63 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 7, function(timeTask:TimedTask):Void
+		/* ======================== When Creating ========================= */
+		Engine.engine.setGameAttribute("tank y", actor.getX());
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
+				if((Engine.engine.getGameAttribute("player y") < Engine.engine.getGameAttribute("tank y")))
+				{
+					actor.setAnimation("" + "Animation 2");
+				}
+				if((Engine.engine.getGameAttribute("player y") == Engine.engine.getGameAttribute("tank y")))
+				{
+					actor.setAnimation("" + "Animation 0");
+				}
+				if((Engine.engine.getGameAttribute("player y") > Engine.engine.getGameAttribute("tank y")))
+				{
+					actor.setAnimation("" + "Animation 4");
+				}
 			}
-		}, null);
+		});
+		
+		/* ======================= Every N seconds ======================== */
+		runPeriodically(1000 * 2, function(timeTask:TimedTask):Void
+		{
+			if(wrapper.enabled)
+			{
+				createRecycledActor(getActorType(25), actor.getX(), actor.getY(), Script.FRONT);
+			}
+		}, actor);
 		
 	}
 	
