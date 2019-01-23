@@ -67,6 +67,7 @@
         <cgroup g1="4" g2="9"/>
         <cgroup g1="6" g2="7"/>
         <cgroup g1="6" g2="8"/>
+        <cgroup g1="6" g2="9"/>
         <cgroup g1="7" g2="9"/>
     </cgroups>
     <input>
@@ -83,6 +84,7 @@
         <key id="10" keyname="D" name="right1" vk="68" vks="68"/>
         <key id="11" keyname="K" name="a1" vk="75" vks="75"/>
         <key id="12" keyname="J" name="b" vk="74" vks="74"/>
+        <key id="13" keyname="R" name="r" vk="82" vks="82"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -94,7 +96,7 @@
         <number cid="-1" id="3" name="player y" save="true" value="0.0"/>
         <number cid="-1" id="2" name="player x" save="true" value="0.0"/>
         <number cid="-1" id="4" name="grenade count" save="true" value="6.0"/>
-        <number cid="-1" id="6" name="boss health" save="true" value="0"/>
+        <number cid="-1" id="6" name="boss health" save="true" value="0.0"/>
         <number cid="-1" id="1" name="player death" save="true" value="0.0"/>
         <number cid="-1" id="5" name="tank y" save="true" value="0.0"/>
     </attributes>

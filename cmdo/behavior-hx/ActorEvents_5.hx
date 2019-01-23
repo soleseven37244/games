@@ -69,8 +69,19 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_27 extends ActorScript
+class ActorEvents_5 extends ActorScript
 {
+	
+	/* ========================= Custom Event ========================= */
+	public function _customEvent_death():Void
+	{
+		actor.setXVelocity(0);
+		actor.setAnimation("" + "Animation 1");
+		runLater(1000 * 0.1, function(timeTask:TimedTask):Void
+		{
+			recycleActor(actor);
+		}, actor);
+	}
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
@@ -82,25 +93,14 @@ class ActorEvents_27 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		actor.alpha = 1000 / 100;
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================= After N seconds ======================== */
+		runLater(1000 * 0.5, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("player death") == 1))
-				{
-					actor.setY((Engine.engine.getGameAttribute("player y") - 25));
-					actor.bringForward();
-					actor.fadeTo(1, 1, Quad.easeIn);
-					actor.enableActorDrawing();
-					actor.alpha = 0 / 100;
-					engine.pause();
-				}
+				actor.shout("_customEvent_" + "death");
 			}
-		});
+		}, actor);
 		
 	}
 	

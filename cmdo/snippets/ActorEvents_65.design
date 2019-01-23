@@ -14,13 +14,13 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="3">
+    <group eventID="1" id="1">
         <repeatu comment="false" x="784" y="101">
             <group eventID="1" id="-1"/>
             <int id="0" val=""/>
         </repeatu>
     </group>
-    <group eventID="1" id="4">
+    <group eventID="1" id="2">
         <if comment="false" x="497" y="140">
             <group eventID="1" id="-1"/>
             <moreeq comment="false" id="0" x="0" y="0">
@@ -29,7 +29,7 @@
             </moreeq>
         </if>
     </group>
-    <group eventID="1" id="6">
+    <group eventID="1" id="3">
         <dolater comment="false" x="446" y="494">
             <group eventID="1" id="-1">
                 <set-dxy comment="false" x="457" y="521">
@@ -85,7 +85,7 @@
             <ACTOR eid="this" id="2"/>
         </periodic>
     </group>
-    <group eventID="1" id="8">
+    <group eventID="1" id="4">
         <dolater comment="false" x="233" y="347">
             <group eventID="1" id="-1">
                 <set-dxy comment="false" x="244" y="374">
@@ -122,7 +122,7 @@
             <actortype eid="5" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="3" id="2">
+    <group eventID="3" id="1">
         <get-game-val-6 comment="false" x="1070" y="488"/>
     </group>
     <group eventID="3" id="-1"/>

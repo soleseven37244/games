@@ -580,17 +580,37 @@
         <actor a="0.0" aid="799" c="false" group="5" id="9" name="test dummy 799" sx="1.0" sy="1.0" x="452" y="1192" z="0"/>
         <actor a="0.0" aid="800" c="false" group="5" id="9" name="test dummy 800" sx="1.0" sy="1.0" x="402" y="1237" z="0"/>
         <actor a="0.0" aid="801" c="false" group="5" id="9" name="test dummy 801" sx="1.0" sy="1.0" x="428" y="1273" z="0"/>
-        <actor a="0.0" aid="802" c="false" group="6" id="0" name="guy 802" sx="1.0" sy="1.0" x="343" y="851" z="0"/>
-        <actor a="0.0" aid="803" c="false" group="8" id="33" name="grenades 803" sx="1.0" sy="1.0" x="305" y="785" z="0"/>
-        <actor a="0.0" aid="804" c="false" group="8" id="33" name="grenades 804" sx="1.0" sy="1.0" x="334" y="769" z="0"/>
-        <actor a="0.0" aid="805" c="false" group="8" id="33" name="grenades 805" sx="1.0" sy="1.0" x="371" y="765" z="0"/>
-        <actor a="0.0" aid="806" c="false" group="8" id="33" name="grenades 806" sx="1.0" sy="1.0" x="385" y="782" z="0"/>
-        <actor a="0.0" aid="807" c="false" group="8" id="33" name="grenades 807" sx="1.0" sy="1.0" x="388" y="842" z="0"/>
         <actor a="0.0" aid="808" c="false" group="8" id="33" name="grenades 808" sx="1.0" sy="1.0" x="375" y="878" z="0"/>
-        <actor a="0.0" aid="809" c="false" group="8" id="33" name="grenades 809" sx="1.0" sy="1.0" x="241" y="747" z="0"/>
         <actor a="0.0" aid="810" c="false" group="8" id="33" name="grenades 810" sx="1.0" sy="1.0" x="400" y="676" z="0"/>
-        <actor a="0.0" aid="811" c="false" group="8" id="33" name="grenades 811" sx="1.0" sy="1.0" x="399" y="717" z="0"/>
-        <actor a="0.0" aid="812" c="false" group="8" id="33" name="grenades 812" sx="1.0" sy="1.0" x="122" y="843" z="0"/>
+        <actor a="0.0" aid="811" c="false" group="5" id="9" name="test dummy 811" sx="1.0" sy="1.0" x="68" y="2288" z="0"/>
+        <actor a="0.0" aid="812" c="false" group="5" id="9" name="test dummy 812" sx="1.0" sy="1.0" x="214" y="2261" z="0"/>
+        <actor a="0.0" aid="813" c="false" group="5" id="9" name="test dummy 813" sx="1.0" sy="1.0" x="510" y="2234" z="0"/>
+        <actor a="0.0" aid="814" c="false" group="5" id="9" name="test dummy 814" sx="1.0" sy="1.0" x="523" y="2328" z="0"/>
+        <actor a="0.0" aid="815" c="false" group="5" id="9" name="test dummy 815" sx="1.0" sy="1.0" x="496" y="2333" z="0"/>
+        <actor a="0.0" aid="816" c="false" group="5" id="9" name="test dummy 816" sx="1.0" sy="1.0" x="208" y="2334" z="0"/>
+        <actor a="0.0" aid="817" c="false" group="5" id="9" name="test dummy 817" sx="1.0" sy="1.0" x="118" y="2396" z="0"/>
+        <actor a="0.0" aid="818" c="false" group="5" id="9" name="test dummy 818" sx="1.0" sy="1.0" x="187" y="2494" z="0"/>
+        <actor a="0.0" aid="819" c="false" group="5" id="9" name="test dummy 819" sx="1.0" sy="1.0" x="212" y="2507" z="0"/>
+        <actor a="0.0" aid="820" c="false" group="5" id="9" name="test dummy 820" sx="1.0" sy="1.0" x="233" y="2519" z="0"/>
+        <actor a="0.0" aid="821" c="false" group="5" id="9" name="test dummy 821" sx="1.0" sy="1.0" x="262" y="2526" z="0"/>
+        <actor a="0.0" aid="822" c="false" group="5" id="9" name="test dummy 822" sx="1.0" sy="1.0" x="288" y="2526" z="0"/>
+        <actor a="0.0" aid="823" c="false" group="5" id="9" name="test dummy 823" sx="1.0" sy="1.0" x="456" y="2507" z="0"/>
+        <actor a="0.0" aid="824" c="false" group="5" id="9" name="test dummy 824" sx="1.0" sy="1.0" x="480" y="2500" z="0"/>
+        <actor a="0.0" aid="825" c="false" group="5" id="9" name="test dummy 825" sx="1.0" sy="1.0" x="548" y="2459" z="0"/>
+        <actor a="0.0" aid="826" c="false" group="5" id="9" name="test dummy 826" sx="1.0" sy="1.0" x="439" y="2392" z="0"/>
+        <actor a="0.0" aid="827" c="false" group="5" id="9" name="test dummy 827" sx="1.0" sy="1.0" x="401" y="2317" z="0"/>
+        <actor a="0.0" aid="828" c="false" group="5" id="9" name="test dummy 828" sx="1.0" sy="1.0" x="215" y="2114" z="0"/>
+        <actor a="0.0" aid="829" c="false" group="5" id="9" name="test dummy 829" sx="1.0" sy="1.0" x="565" y="2149" z="0"/>
+        <actor a="0.0" aid="830" c="false" group="5" id="9" name="test dummy 830" sx="1.0" sy="1.0" x="323" y="2180" z="0"/>
+        <actor a="0.0" aid="831" c="false" group="5" id="9" name="test dummy 831" sx="1.0" sy="1.0" x="387" y="2167" z="0"/>
+        <actor a="0.0" aid="832" c="false" group="5" id="9" name="test dummy 832" sx="1.0" sy="1.0" x="162" y="2575" z="0"/>
+        <actor a="0.0" aid="833" c="false" group="5" id="9" name="test dummy 833" sx="1.0" sy="1.0" x="611" y="2669" z="0"/>
+        <actor a="0.0" aid="834" c="false" group="5" id="9" name="test dummy 834" sx="1.0" sy="1.0" x="333" y="2704" z="0"/>
+        <actor a="0.0" aid="835" c="false" group="5" id="9" name="test dummy 835" sx="1.0" sy="1.0" x="243" y="2732" z="0"/>
+        <actor a="0.0" aid="836" c="false" group="5" id="9" name="test dummy 836" sx="1.0" sy="1.0" x="468" y="2723" z="0"/>
+        <actor a="0.0" aid="837" c="false" group="5" id="9" name="test dummy 837" sx="1.0" sy="1.0" x="129" y="2744" z="0"/>
+        <actor a="0.0" aid="838" c="false" group="6" id="0" name="guy 838" sx="1.0" sy="1.0" x="335" y="7125" z="0"/>
+        <actor a="0.0" aid="839" c="false" group="2" id="27" name="game over 839" sx="1.0" sy="1.0" x="35" y="6981" z="1"/>
     </actors>
     <snippets/>
     <terrain>

@@ -8,10 +8,10 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="7" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="8" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="8" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="9" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="5" repeats="true"/>
-            <event displayName="Created" enabled="true" id="5" name="init" order="6" repeats="true"/>
+            <event displayName="Created" enabled="true" id="5" name="init" order="7" repeats="true"/>
             <event displayName="Keyboard" enabled="false" id="6" name="event-key-press-release" order="4" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="7" name="event-collide-actortotype" order="2" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="8" name="event-collide-actortotype" order="3" repeats="true"/>
@@ -45,9 +45,12 @@
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="10" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="urheur" hidden="false" id="1" name="_urheur" order="0"/>
         <blocks/>
         <events>
             <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="4" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="15" attachedevent="true" class="scripts.ActorEvents_15" classname="scripts.ActorEvents_15" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="11" name="ActorEvents_15" oid="-1" package="scripts." shared="false" type="actor">
@@ -193,16 +196,16 @@
     <snippet actorid="65" attachedevent="true" class="scripts.ActorEvents_65" classname="scripts.ActorEvents_65" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="40" name="ActorEvents_65" oid="-1" package="scripts." shared="false" type="actor">
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="boss health" hidden="false" id="1" name="_bosshealth" order="0"/>
         <number default="0" defaultValue="0" desc="" dropdown="" fullname="x speed" hidden="false" id="2" name="_xspeed" order="1"/>
-        <number default="0" defaultValue="0" desc="" dropdown="" fullname="boss timer" hidden="false" id="3" name="_bosstimer" order="3"/>
+        <number default="0.0" defaultValue="0.0" desc="" dropdown="" fullname="boss timer" hidden="false" id="3" name="_bosstimer" order="3"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="collidinig" hidden="false" id="4" name="_collidinig" order="2"/>
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="6" repeats="true"/>
-            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="5" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="2" repeats="true"/>
-            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="3" repeats="true"/>
-            <event displayName="Actor - Group" enabled="true" id="6" name="event-collide-actortogroup" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="7" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="3" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="4" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="6" name="event-collide-actortogroup" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_41_41_BackandForthHorizontally" classname="scripts.Design_41_41_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="41" name="Back and Forth Horizontally" oid="-1" package="scripts" shared="false" type="actor">
@@ -220,6 +223,25 @@
             <event displayName="Drawing" enabled="true" id="2" name="draw" order="4" repeats="true"/>
             <event displayName="Created" enabled="true" id="3" name="init" order="1" repeats="true"/>
             <event displayName="Actor - Any" enabled="true" id="4" name="collide" order="3" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_42_42_ReloadSceneButton" classname="scripts.Design_42_42_ReloadSceneButton" desc="A button to reload the scene." description="A button to reload the scene." design="true" drawOrder="0" id="42" name="Reload Scene Button" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <animation default="" defaultValue="" desc="Animation for the button in an unpressed state." dropdown="" fullname="Normal Animation" hidden="false" id="1" name="_NormalAnimation" order="7"/>
+        <animation default="" defaultValue="" desc="Animation for the button in an pressed-down state." dropdown="" fullname="Pressed Animation" hidden="false" id="4" name="_PressedAnimation" order="8"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Down" hidden="true" id="5" name="_Down" order="1"/>
+        <animation default="" defaultValue="" desc="Animation for the button in a focused state. Not used in mobile games." dropdown="" fullname="Hover Animation" hidden="false" id="6" name="_HoverAnimation" order="9"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition out, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise the time to transition out and in." dropdown="" fullname="Out Time" hidden="false" id="9" name="_OutTime" order="3"/>
+        <number default="0.5" defaultValue="0.5" desc="The time to transition in, in seconds, if one of the first six &lt;em&gt;Transition Styles&lt;/em&gt; is used. Otherwise it is ignored." dropdown="" fullname="In Time" hidden="false" id="10" name="_InTime" order="4"/>
+        <text default="" defaultValue="" desc="The style to use for the reload transition." dropdown="Fade=Fade&#10;Blinds=Blinds&#10;Bubbles=Bubbles&#10;Spotlight=Spotlight&#10;Blur=Blur&#10;Box=Box&#10;Crossfade=Crossfade&#10;Slide Up=Slide Up&#10;Slide Down=Slide Down&#10;Slide Left=Slide Left&#10;Slide Right=Slide Right" fullname="Transition Style" hidden="false" id="11" name="_TransitionStyle" order="2"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="16" name="init" order="15" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="17" name="event-mouse-enter-exit-actor" order="16" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="18" name="event-mouse-enter-exit-actor" order="17" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="19" name="event-mouse-enter-exit-actor" order="18" repeats="true"/>
+            <event displayName="On Actor" enabled="true" id="20" name="event-mouse-enter-exit-actor" order="19" repeats="true"/>
+            <event displayName="Reload" enabled="true" id="21" name="event-custom" order="21" repeats="true"/>
         </events>
     </snippet>
 </pack>

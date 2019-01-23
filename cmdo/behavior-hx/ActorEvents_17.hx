@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_27 extends ActorScript
+class ActorEvents_17 extends ActorScript
 {
 	
 	
@@ -83,24 +83,21 @@ class ActorEvents_27 extends ActorScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		actor.alpha = 1000 / 100;
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		actor.setYVelocity(-5);
+		runLater(1000 * 4, function(timeTask:TimedTask):Void
 		{
-			if(wrapper.enabled)
+			actor.setYVelocity(0);
+			actor.setAnimation("" + "Animation 1");
+			runLater(1000 * 0.8, function(timeTask:TimedTask):Void
 			{
-				if((Engine.engine.getGameAttribute("player death") == 1))
-				{
-					actor.setY((Engine.engine.getGameAttribute("player y") - 25));
-					actor.bringForward();
-					actor.fadeTo(1, 1, Quad.easeIn);
-					actor.enableActorDrawing();
-					actor.alpha = 0 / 100;
-					engine.pause();
-				}
-			}
-		});
+				actor.setAnimation("" + "Animation 2");
+				actor.setYVelocity(-40);
+			}, actor);
+		}, actor);
+		runLater(1000 * 5.8, function(timeTask:TimedTask):Void
+		{
+			recycleActor(actor);
+		}, actor);
 		
 	}
 	

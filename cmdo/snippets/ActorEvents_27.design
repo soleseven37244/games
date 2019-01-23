@@ -17,15 +17,23 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                         </backforward>
-                        <pause-unpause comment="false" x="37" y="134">
-                            <int id="0" val="0"/>
-                        </pause-unpause>
-                        <fadeInOut comment="false" x="37" y="161">
+                        <fadeInOut comment="false" x="37" y="134">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="1"/>
                             <int id="3" val="7"/>
                         </fadeInOut>
+                        <toggle-image comment="false" x="37" y="161">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </toggle-image>
+                        <set-opacity comment="false" x="37" y="188">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <pause-unpause comment="false" x="37" y="215">
+                            <int id="0" val="0"/>
+                        </pause-unpause>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-game-val-1 comment="false" id="0" x="0" y="0"/>
@@ -34,12 +42,6 @@
                 </if>
             </group>
         </step>
-    </group>
-    <group eventID="1" id="1">
-        <toggle-image comment="false" x="127" y="309">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="0"/>
-        </toggle-image>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">

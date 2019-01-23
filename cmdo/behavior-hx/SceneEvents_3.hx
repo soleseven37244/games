@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,38 +70,27 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_27 extends ActorScript
+class SceneEvents_3 extends SceneScript
 {
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
+		super();
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		actor.alpha = 1000 / 100;
-		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================= After N seconds ======================== */
+		runLater(1000 * 7, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("player death") == 1))
-				{
-					actor.setY((Engine.engine.getGameAttribute("player y") - 25));
-					actor.bringForward();
-					actor.fadeTo(1, 1, Quad.easeIn);
-					actor.enableActorDrawing();
-					actor.alpha = 0 / 100;
-					engine.pause();
-				}
+				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
 			}
-		});
+		}, null);
 		
 	}
 	

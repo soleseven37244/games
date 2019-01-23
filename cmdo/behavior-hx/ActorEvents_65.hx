@@ -69,13 +69,25 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_27 extends ActorScript
+class ActorEvents_65 extends ActorScript
 {
+	public var _bosshealth:Float;
+	public var _xspeed:Float;
+	public var _bosstimer:Float;
+	public var _collidinig:Bool;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("boss health", "_bosshealth");
+		_bosshealth = 0.0;
+		nameMap.set("x speed", "_xspeed");
+		_xspeed = 0.0;
+		nameMap.set("boss timer", "_bosstimer");
+		_bosstimer = 0.0;
+		nameMap.set("collidinig", "_collidinig");
+		_collidinig = false;
 		
 	}
 	
@@ -83,21 +95,57 @@ class ActorEvents_27 extends ActorScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		actor.alpha = 1000 / 100;
+		Engine.engine.setGameAttribute("boss health", 40);
+		_bosstimer = asNumber(3);
+		propertyChanged("_bosstimer", _bosstimer);
+		_xspeed = asNumber(10);
+		propertyChanged("_xspeed", _xspeed);
 		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if((Engine.engine.getGameAttribute("player death") == 1))
+				Engine.engine.setGameAttribute("debug", _xspeed);
+				actor.setXVelocity(_xspeed);
+			}
+		});
+		
+		/* ======================= Every N seconds ======================== */
+		runPeriodically(1000 * .1, function(timeTask:TimedTask):Void
+		{
+			if(wrapper.enabled)
+			{
+				_bosstimer = asNumber((_bosstimer - .1));
+				propertyChanged("_bosstimer", _bosstimer);
+				if((_bosstimer <= 0))
 				{
-					actor.setY((Engine.engine.getGameAttribute("player y") - 25));
-					actor.bringForward();
-					actor.fadeTo(1, 1, Quad.easeIn);
-					actor.enableActorDrawing();
-					actor.alpha = 0 / 100;
-					engine.pause();
+					_xspeed = asNumber(-(_xspeed));
+					propertyChanged("_xspeed", _xspeed);
+					_bosstimer = asNumber(3);
+					propertyChanged("_bosstimer", _bosstimer);
+				}
+			}
+		}, actor);
+		
+		/* ======================= Member of Group ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorGroup(7),event.otherActor.getType(),event.otherActor.getGroup()))
+			{
+				if(!(_collidinig))
+				{
+					_xspeed = asNumber(-(_xspeed));
+					propertyChanged("_xspeed", _xspeed);
+					_bosstimer = asNumber(3);
+					propertyChanged("_bosstimer", _bosstimer);
+					_collidinig = true;
+					propertyChanged("_collidinig", _collidinig);
+					runLater(1000 * .1, function(timeTask:TimedTask):Void
+					{
+						_collidinig = false;
+						propertyChanged("_collidinig", _collidinig);
+					}, actor);
 				}
 			}
 		});
