@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
+        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
-        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -781,12 +781,12 @@
                 </setanim>
                 <dolater comment="false" x="26" y="74">
                     <group eventID="4" id="-1">
-                        <die comment="false" x="37" y="101">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
-                        <set-game-val-1 comment="false" x="37" y="128">
+                        <set-game-val-1 comment="false" x="37" y="101">
                             <int id="0" val="1"/>
                         </set-game-val-1>
+                        <die comment="false" x="37" y="121">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
                     </group>
                     <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
@@ -795,6 +795,12 @@
             <ACTOR eid="this" id="0"/>
             <actortype eid="65" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="4" id="2">
+        <setanim comment="false" x="60" y="235">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="dead"/>
+        </setanim>
     </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
@@ -861,10 +867,7 @@
                 </setanim>
                 <dolater comment="false" x="26" y="74">
                     <group eventID="8" id="-1">
-                        <die comment="false" x="37" y="101">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
-                        <set-game-val-1 comment="false" x="37" y="128">
+                        <set-game-val-1 comment="false" x="37" y="101">
                             <int id="0" val="1"/>
                         </set-game-val-1>
                     </group>
@@ -875,6 +878,11 @@
             <ACTOR eid="this" id="0"/>
             <actortype eid="51" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="8" id="1">
+        <die comment="false" x="72" y="151">
+            <ACTOR eid="this" id="0"/>
+        </die>
     </group>
     <group eventID="8" id="-1"/>
 </groups>

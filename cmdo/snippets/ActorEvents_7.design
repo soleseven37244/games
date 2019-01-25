@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <init comment="false" x="63" y="37">
+        <init comment="false" x="0" y="11">
             <group eventID="1" id="-1">
-                <set-game-val-0 comment="false" x="74" y="62">
+                <set-game-val-0 comment="false" x="11" y="36">
                     <int id="0" val="0"/>
                 </set-game-val-0>
-                <dolater comment="false" x="74" y="82">
+                <dolater comment="false" x="11" y="56">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="85" y="109">
+                        <setanim comment="false" x="22" y="83">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Animation 3"/>
                         </setanim>
-                        <set-dxy comment="false" x="85" y="136">
+                        <set-dxy comment="false" x="22" y="110">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
                             <int id="2" val="0"/>
                         </set-dxy>
-                        <set-game-val-0 comment="false" x="85" y="163">
+                        <set-game-val-0 comment="false" x="22" y="137">
                             <int id="0" val="1"/>
                         </set-game-val-0>
                     </group>
                     <int id="0" val="0.6"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
-                <dolater comment="false" x="74" y="195">
+                <dolater comment="false" x="11" y="169">
                     <group eventID="1" id="-1">
-                        <die comment="false" x="85" y="222">
+                        <die comment="false" x="22" y="196">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -35,6 +35,12 @@
                 </dolater>
             </group>
         </init>
+    </group>
+    <group eventID="1" id="1">
+        <shake-start comment="false" x="25" y="255">
+            <int id="0" val="0.1"/>
+            <int id="1" val="1"/>
+        </shake-start>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
@@ -56,6 +62,12 @@
             <ACTOR eid="this" id="0"/>
             <actortype eid="9" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="2" id="1">
+        <shake-start comment="false" x="26" y="163">
+            <int id="0" val="0.1"/>
+            <int id="1" val="1"/>
+        </shake-start>
     </group>
     <group eventID="2" id="-1"/>
 </groups>

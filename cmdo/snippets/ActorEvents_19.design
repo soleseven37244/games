@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<groups/>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="1" id="1">
+        <less comment="false" x="135" y="188">
+            <get-xy comment="false" id="0" x="0" y="0">
+                <ACTOR eid="this" id="0"/>
+                <int id="1" val="1"/>
+            </get-xy>
+            <int id="1" val="512"/>
+        </less>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>
