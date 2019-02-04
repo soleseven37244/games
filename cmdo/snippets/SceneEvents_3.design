@@ -10,6 +10,12 @@
             <ACTOR eid="16" id="0"/>
         </camera-follow>
     </group>
+    <group eventID="1" id="2">
+        <play-sound4 comment="false" x="32" y="117">
+            <int id="0" val="0"/>
+            <sound eid="69" id="1"/>
+        </play-sound4>
+    </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <event-periodic comment="false" x="15" y="15">

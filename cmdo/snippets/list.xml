@@ -50,7 +50,7 @@
         <events>
             <event displayName="Drawing" enabled="true" id="2" name="draw" order="2" repeats="true"/>
             <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="3" repeats="true"/>
-            <event displayName="Created" enabled="false" id="4" name="init" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="4" repeats="true"/>
             <event displayName="Updating" enabled="true" id="5" name="step" order="5" repeats="true"/>
         </events>
     </snippet>

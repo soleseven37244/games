@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
-        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
+        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -507,6 +507,10 @@
                                         <int id="1" val="1"/>
                                     </minus>
                                 </set-game-val-4>
+                                <play-sound4 comment="false" x="48" y="289">
+                                    <int id="0" val="0"/>
+                                    <sound eid="68" id="1"/>
+                                </play-sound4>
                             </group>
                             <int id="0" val="0.5"/>
                             <ACTOR eid="this" id="2"/>
@@ -526,7 +530,11 @@
     <group eventID="3" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="3" id="-1">
-                <create-actor3 comment="false" x="26" y="42">
+                <play-sound4 comment="false" x="26" y="42">
+                    <int id="0" val="0"/>
+                    <sound eid="67" id="1"/>
+                </play-sound4>
+                <create-actor3 comment="false" x="26" y="69">
                     <actortype eid="5" id="0"/>
                     <get-xy comment="false" id="1" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
@@ -538,14 +546,14 @@
                     </get-xy>
                     <int id="3" val="0"/>
                 </create-actor3>
-                <if comment="false" x="26" y="82">
+                <if comment="false" x="26" y="109">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="125">
+                        <set-dxy comment="false" x="37" y="152">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="157">
+                        <set-dxy comment="false" x="37" y="184">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -568,16 +576,16 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="206">
+                <if comment="false" x="26" y="233">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="249">
+                        <set-dxy comment="false" x="37" y="276">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
                                 <get-val-1-4 comment="false" id="0" x="0" y="0"/>
                             </neg>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="286">
+                        <set-dxy comment="false" x="37" y="313">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -600,16 +608,16 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="335">
+                <if comment="false" x="26" y="362">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="378">
+                        <set-dxy comment="false" x="37" y="405">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
                                 <get-val-1-4 comment="false" id="0" x="0" y="0"/>
                             </neg>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="415">
+                        <set-dxy comment="false" x="37" y="442">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
@@ -630,14 +638,14 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="459">
+                <if comment="false" x="26" y="486">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="502">
+                        <set-dxy comment="false" x="37" y="529">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
                         </set-dxy>
-                        <set-dxy comment="false" x="37" y="534">
+                        <set-dxy comment="false" x="37" y="561">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
@@ -658,9 +666,9 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="578">
+                <if comment="false" x="26" y="605">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="621">
+                        <set-dxy comment="false" x="37" y="648">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
@@ -681,9 +689,9 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="665">
+                <if comment="false" x="26" y="692">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="708">
+                        <set-dxy comment="false" x="37" y="735">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-1-4 comment="false" id="2" x="0" y="0"/>
@@ -704,9 +712,9 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="752">
+                <if comment="false" x="26" y="779">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="795">
+                        <set-dxy comment="false" x="37" y="822">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -729,9 +737,9 @@
                         </eq>
                     </or>
                 </if>
-                <if comment="false" x="26" y="844">
+                <if comment="false" x="26" y="871">
                     <group eventID="3" id="-1">
-                        <set-dxy comment="false" x="37" y="887">
+                        <set-dxy comment="false" x="37" y="914">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -784,9 +792,6 @@
                         <set-game-val-1 comment="false" x="37" y="101">
                             <int id="0" val="1"/>
                         </set-game-val-1>
-                        <die comment="false" x="37" y="121">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
                     </group>
                     <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
@@ -796,11 +801,16 @@
             <actortype eid="65" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="4" id="2">
+    <group eventID="4" id="1">
         <setanim comment="false" x="60" y="235">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="dead"/>
         </setanim>
+    </group>
+    <group eventID="4" id="2">
+        <die comment="false" x="45" y="168">
+            <ACTOR eid="this" id="0"/>
+        </die>
     </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
