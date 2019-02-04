@@ -20,13 +20,17 @@
                         <set-game-val-0 comment="false" x="22" y="137">
                             <int id="0" val="1"/>
                         </set-game-val-0>
+                        <play-sound4 comment="false" x="22" y="157">
+                            <int id="0" val="0"/>
+                            <sound eid="68" id="1"/>
+                        </play-sound4>
                     </group>
                     <int id="0" val="0.6"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
-                <dolater comment="false" x="11" y="169">
+                <dolater comment="false" x="11" y="196">
                     <group eventID="1" id="-1">
-                        <die comment="false" x="22" y="196">
+                        <die comment="false" x="22" y="223">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -37,7 +41,7 @@
         </init>
     </group>
     <group eventID="1" id="1">
-        <shake-start comment="false" x="25" y="255">
+        <shake-start comment="false" x="43" y="291">
             <int id="0" val="0.1"/>
             <int id="1" val="1"/>
         </shake-start>

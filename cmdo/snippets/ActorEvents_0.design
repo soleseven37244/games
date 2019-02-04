@@ -507,10 +507,6 @@
                                         <int id="1" val="1"/>
                                     </minus>
                                 </set-game-val-4>
-                                <play-sound4 comment="false" x="48" y="289">
-                                    <int id="0" val="0"/>
-                                    <sound eid="68" id="1"/>
-                                </play-sound4>
                             </group>
                             <int id="0" val="0.5"/>
                             <ACTOR eid="this" id="2"/>
