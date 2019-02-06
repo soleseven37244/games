@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
+        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
-        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -526,10 +526,11 @@
     <group eventID="3" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="3" id="-1">
-                <play-sound4 comment="false" x="26" y="42">
+                <play-sound-channel comment="false" x="26" y="42">
                     <int id="0" val="0"/>
                     <sound eid="67" id="1"/>
-                </play-sound4>
+                    <int id="2" val="2"/>
+                </play-sound-channel>
                 <create-actor3 comment="false" x="26" y="69">
                     <actortype eid="5" id="0"/>
                     <get-xy comment="false" id="1" x="0" y="0">
@@ -758,6 +759,16 @@
                         </eq>
                     </or>
                 </if>
+                <dolater comment="false" x="26" y="963">
+                    <group eventID="3" id="-1">
+                        <control-sound-channel comment="false" x="37" y="990">
+                            <int id="0" val="0"/>
+                            <int id="1" val="2"/>
+                        </control-sound-channel>
+                    </group>
+                    <int id="0" val="0.2"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
             </group>
             <control eid="12" id="0"/>
             <int id="1" val="0"/>
@@ -770,6 +781,14 @@
             <int id="2" val="270"/>
             <int id="3" val="50"/>
         </push-shove2>
+    </group>
+    <group eventID="3" id="2">
+        <dolater comment="false" x="194" y="1864">
+            <group eventID="3" id="-1"/>
+            <int id="0" val="0.6"/>
+            <ACTOR eid="this" id="2"/>
+        </dolater>
+        <stop-sounds comment="false" x="194" y="1923"/>
     </group>
     <group eventID="3" id="-1">
         <neg comment="false" x="398" y="973">

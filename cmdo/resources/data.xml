@@ -221,6 +221,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <music atlasID="0" desc="" id="71" loop="true" name="level 1" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="36" fixedrot="true" fric="0.2" gid="3" id="57" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="mud hut" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
         <snippets/>
     </actor>

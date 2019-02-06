@@ -20,10 +20,11 @@
                         <set-game-val-0 comment="false" x="22" y="137">
                             <int id="0" val="1"/>
                         </set-game-val-0>
-                        <play-sound4 comment="false" x="22" y="157">
+                        <play-sound-channel comment="false" x="22" y="157">
                             <int id="0" val="0"/>
                             <sound eid="68" id="1"/>
-                        </play-sound4>
+                            <int id="2" val="1"/>
+                        </play-sound-channel>
                     </group>
                     <int id="0" val="0.6"/>
                     <ACTOR eid="this" id="2"/>
@@ -37,14 +38,29 @@
                     <int id="0" val="0.8"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
+                <dolater comment="false" x="11" y="262">
+                    <group eventID="1" id="-1">
+                        <control-sound-channel comment="false" x="22" y="289">
+                            <int id="0" val="0"/>
+                            <int id="1" val="1"/>
+                        </control-sound-channel>
+                    </group>
+                    <int id="0" val="0.14"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
             </group>
         </init>
     </group>
-    <group eventID="1" id="1">
-        <shake-start comment="false" x="43" y="291">
+    <group eventID="1" id="2">
+        <shake-start comment="false" x="307" y="413">
             <int id="0" val="0.1"/>
             <int id="1" val="1"/>
         </shake-start>
+        <play-sound4 comment="false" x="307" y="433">
+            <int id="0" val="0"/>
+            <sound eid="68" id="1"/>
+        </play-sound4>
+        <stop-sounds comment="false" x="307" y="460"/>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
