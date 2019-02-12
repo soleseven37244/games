@@ -2,19 +2,18 @@
 <groups>
     <group eventID="1" id="0">
         <init comment="false" x="15" y="15">
-            <group eventID="1" id="-1"/>
+            <group eventID="1" id="-1">
+                <play-sound4 comment="false" x="26" y="40">
+                    <int id="0" val="0"/>
+                    <sound eid="69" id="1"/>
+                </play-sound4>
+            </group>
         </init>
     </group>
     <group eventID="1" id="1">
         <camera-follow comment="false" x="277" y="151">
             <ACTOR eid="16" id="0"/>
         </camera-follow>
-    </group>
-    <group eventID="1" id="2">
-        <play-sound4 comment="false" x="32" y="117">
-            <int id="0" val="0"/>
-            <sound eid="69" id="1"/>
-        </play-sound4>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
