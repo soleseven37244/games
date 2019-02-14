@@ -8,9 +8,9 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,24.0,642.0,24.0,642.0,0.0" r="64" type="box" w="642" x="1" y="7166"/>
-        <terrainRegion b="64" g="64" group="1" h="7167" id="1" name="Terrain 1" pts="4,0.0,0.0,0.0,7167.0,8.0,7167.0,8.0,0.0" r="64" type="box" w="8" x="635" y="-5"/>
-        <terrainRegion b="64" g="64" group="1" h="7172" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,7172.0,2.0,7172.0,2.0,0.0" r="64" type="box" w="2" x="-3" y="1"/>
+        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,642.0,0.0,642.0,24.0,0.0,24.0,0.0,0.0" r="64" type="box" w="642" x="1" y="7166"/>
+        <terrainRegion b="64" g="64" group="1" h="7167" id="1" name="Terrain 1" pts="4,8.0,0.0,8.0,7167.0,0.0,7167.0,0.0,0.0" r="64" type="box" w="8" x="635" y="-5"/>
+        <terrainRegion b="64" g="64" group="1" h="7172" id="2" name="Terrain 2" pts="4,2.0,0.0,2.0,7172.0,0.0,7172.0,0.0,0.0" r="64" type="box" w="2" x="-3" y="1"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="504" y="6774" z="0"/>
