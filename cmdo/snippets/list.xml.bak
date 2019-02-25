@@ -8,13 +8,14 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="8" repeats="true"/>
-            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="9" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="2" name="event-key-press-release" order="10" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="3" name="event-key-press-release" order="11" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="5" repeats="true"/>
-            <event displayName="Created" enabled="true" id="5" name="init" order="7" repeats="true"/>
+            <event displayName="Created" enabled="true" id="5" name="init" order="8" repeats="true"/>
             <event displayName="Keyboard" enabled="false" id="6" name="event-key-press-release" order="4" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="7" name="event-collide-actortotype" order="2" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="8" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="9" name="event-collide-actortotype" order="9" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="5" attachedevent="true" class="scripts.ActorEvents_5" classname="scripts.ActorEvents_5" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_5" oid="-1" package="scripts." shared="false" type="actor">
@@ -41,7 +42,7 @@
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
             <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
             <event displayName="Custom Event" enabled="true" id="4" name="event-custom" order="2" repeats="true"/>
-            <event displayName="Every N secs" enabled="false" id="5" name="event-periodic" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="5" name="event-periodic" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_1" classname="scripts.SceneEvents_1" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="10" name="SceneEvents_1" oid="-1" package="scripts." sceneid="1" shared="false" type="scene">
@@ -93,6 +94,7 @@
         <events>
             <event displayName="Updating" enabled="false" id="1" name="step" order="1" repeats="true"/>
             <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="27" attachedevent="true" class="scripts.ActorEvents_27" classname="scripts.ActorEvents_27" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="19" name="ActorEvents_27" oid="-1" package="scripts." shared="false" type="actor">

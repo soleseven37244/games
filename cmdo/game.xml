@@ -58,6 +58,7 @@
         <group desc="" id="7" name="trees and walls"/>
         <group desc="" id="8" name="grenade pickup"/>
         <group desc="" id="9" name="boss"/>
+        <group desc="" id="10" name="ebullets"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
@@ -68,7 +69,9 @@
         <cgroup g1="6" g2="7"/>
         <cgroup g1="6" g2="8"/>
         <cgroup g1="6" g2="9"/>
+        <cgroup g1="6" g2="10"/>
         <cgroup g1="7" g2="9"/>
+        <cgroup g1="7" g2="10"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>

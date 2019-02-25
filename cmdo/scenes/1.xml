@@ -8,21 +8,17 @@
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,642.0,0.0,642.0,24.0,0.0,24.0,0.0,0.0" r="64" type="box" w="642" x="1" y="7166"/>
-        <terrainRegion b="64" g="64" group="1" h="7167" id="1" name="Terrain 1" pts="4,8.0,0.0,8.0,7167.0,0.0,7167.0,0.0,0.0" r="64" type="box" w="8" x="635" y="-5"/>
-        <terrainRegion b="64" g="64" group="1" h="7172" id="2" name="Terrain 2" pts="4,2.0,0.0,2.0,7172.0,0.0,7172.0,0.0,0.0" r="64" type="box" w="2" x="-3" y="1"/>
+        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,24.0,642.0,24.0,642.0,0.0" r="64" type="box" w="642" x="1" y="7166"/>
+        <terrainRegion b="64" g="64" group="1" h="7167" id="1" name="Terrain 1" pts="4,0.0,0.0,0.0,7167.0,8.0,7167.0,8.0,0.0" r="64" type="box" w="8" x="635" y="-5"/>
+        <terrainRegion b="64" g="64" group="1" h="7172" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,7172.0,2.0,7172.0,2.0,0.0" r="64" type="box" w="2" x="-3" y="1"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="504" y="6774" z="0"/>
         <actor a="0.0" aid="3" c="false" group="5" id="9" name="test dummy 3" sx="1.0" sy="1.0" x="555" y="6836" z="0"/>
         <actor a="0.0" aid="4" c="false" group="5" id="9" name="test dummy 4" sx="1.0" sy="1.0" x="489" y="6707" z="0"/>
         <actor a="0.0" aid="5" c="false" group="5" id="9" name="test dummy 5" sx="1.0" sy="1.0" x="69" y="6702" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="5" id="9" name="test dummy 6" sx="1.0" sy="1.0" x="251" y="6697" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="5" id="9" name="test dummy 7" sx="1.0" sy="1.0" x="425" y="6698" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="5" id="9" name="test dummy 8" sx="1.0" sy="1.0" x="156" y="6723" z="0"/>
         <actor a="0.0" aid="9" c="false" group="5" id="9" name="test dummy 9" sx="1.0" sy="1.0" x="31" y="6823" z="0"/>
         <actor a="0.0" aid="10" c="false" group="5" id="9" name="test dummy 10" sx="1.0" sy="1.0" x="596" y="6967" z="0"/>
-        <actor a="0.0" aid="13" c="false" group="5" id="9" name="test dummy 13" sx="1.0" sy="1.0" x="258" y="6781" z="0"/>
         <actor a="0.0" aid="17" c="false" group="7" id="15" name="palm tree 17" sx="1.0" sy="1.0" x="549" y="7028" z="0"/>
         <actor a="0.0" aid="18" c="false" group="7" id="15" name="palm tree 18" sx="1.0" sy="1.0" x="34" y="6768" z="0"/>
         <actor a="0.0" aid="19" c="false" group="7" id="15" name="palm tree 19" sx="1.0" sy="1.0" x="-5" y="7044" z="0"/>
@@ -34,14 +30,6 @@
         <actor a="0.0" aid="25" c="false" group="7" id="19" name="wall 25" sx="1.0" sy="1.0" x="102" y="5974" z="0"/>
         <actor a="0.0" aid="26" c="false" group="7" id="19" name="wall 26" sx="1.0" sy="1.0" x="552" y="6032" z="0"/>
         <actor a="0.0" aid="27" c="false" group="7" id="19" name="wall 27" sx="1.0" sy="1.0" x="355" y="6068" z="0"/>
-        <actor a="0.0" aid="48" c="false" group="5" id="9" name="test dummy 48" sx="1.0" sy="1.0" x="391" y="6753" z="0"/>
-        <actor a="0.0" aid="49" c="false" group="5" id="9" name="test dummy 49" sx="1.0" sy="1.0" x="382" y="6789" z="0"/>
-        <actor a="0.0" aid="50" c="false" group="5" id="9" name="test dummy 50" sx="1.0" sy="1.0" x="359" y="6826" z="0"/>
-        <actor a="0.0" aid="79" c="false" group="5" id="9" name="test dummy 79" sx="1.0" sy="1.0" x="337" y="6798" z="0"/>
-        <actor a="0.0" aid="80" c="false" group="5" id="9" name="test dummy 80" sx="1.0" sy="1.0" x="307" y="6789" z="0"/>
-        <actor a="0.0" aid="81" c="false" group="5" id="9" name="test dummy 81" sx="1.0" sy="1.0" x="234" y="6769" z="0"/>
-        <actor a="0.0" aid="82" c="false" group="5" id="9" name="test dummy 82" sx="1.0" sy="1.0" x="205" y="6761" z="0"/>
-        <actor a="0.0" aid="83" c="false" group="5" id="9" name="test dummy 83" sx="1.0" sy="1.0" x="127" y="6747" z="0"/>
         <actor a="0.0" aid="84" c="false" group="5" id="9" name="test dummy 84" sx="1.0" sy="1.0" x="105" y="6744" z="0"/>
         <actor a="0.0" aid="102" c="false" group="3" id="21" name="grass 102" sx="1.0" sy="1.0" x="560" y="6620" z="0"/>
         <actor a="0.0" aid="107" c="false" group="3" id="21" name="grass 107" sx="1.0" sy="1.0" x="106" y="6049" z="0"/>

@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
-        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
+        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -804,9 +804,10 @@
                 </setanim>
                 <dolater comment="false" x="26" y="74">
                     <group eventID="4" id="-1">
-                        <set-game-val-1 comment="false" x="37" y="101">
-                            <int id="0" val="1"/>
-                        </set-game-val-1>
+                        <set-opacity comment="false" x="37" y="101">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
                     </group>
                     <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
@@ -827,20 +828,29 @@
             <ACTOR eid="this" id="0"/>
         </die>
     </group>
+    <group eventID="4" id="3">
+        <set-game-val-1 comment="false" x="227" y="145">
+            <int id="0" val="1"/>
+        </set-game-val-1>
+    </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
         <init comment="false" x="15" y="15">
             <group eventID="5" id="-1">
-                <camera-follow comment="false" x="26" y="40">
+                <set-opacity comment="false" x="26" y="40">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="100"/>
+                </set-opacity>
+                <camera-follow comment="false" x="26" y="67">
                     <ACTOR eid="this" id="0"/>
                 </camera-follow>
-                <set-game-val-3 comment="false" x="26" y="67">
+                <set-game-val-3 comment="false" x="26" y="94">
                     <get-xy comment="false" id="0" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="1"/>
                     </get-xy>
                 </set-game-val-3>
-                <set-game-val-2 comment="false" x="26" y="100">
+                <set-game-val-2 comment="false" x="26" y="127">
                     <get-xy comment="false" id="0" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="0"/>
@@ -910,4 +920,27 @@
         </die>
     </group>
     <group eventID="8" id="-1"/>
+    <group eventID="9" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="9" id="-1">
+                <setanim comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="death"/>
+                </setanim>
+                <dolater comment="false" x="26" y="74">
+                    <group eventID="9" id="-1">
+                        <set-opacity comment="false" x="37" y="101">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                    </group>
+                    <int id="0" val="0.7"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="25" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="9" id="-1"/>
 </groups>
