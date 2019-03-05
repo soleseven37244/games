@@ -42,4 +42,23 @@
         </event-delay>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <play-sound4 comment="false" x="37" y="73">
+                            <int id="0" val="1"/>
+                            <sound eid="72" id="1"/>
+                        </play-sound4>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <control eid="14" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>

@@ -88,6 +88,7 @@
         <key id="11" keyname="K" name="a1" vk="75" vks="75"/>
         <key id="12" keyname="J" name="b" vk="74" vks="74"/>
         <key id="13" keyname="R" name="r" vk="82" vks="82"/>
+        <key id="14" keyname="P" name="Key 0" vk="80" vks="80"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -132,7 +133,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7,9,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,68,69,70,71," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,5,7,9,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,68,69,70,71,72," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

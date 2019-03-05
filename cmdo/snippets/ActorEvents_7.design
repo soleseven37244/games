@@ -51,7 +51,7 @@
             </group>
         </init>
     </group>
-    <group eventID="1" id="2">
+    <group eventID="1" id="1">
         <shake-start comment="false" x="307" y="413">
             <int id="0" val="0.1"/>
             <int id="1" val="1"/>
