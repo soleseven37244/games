@@ -8,12 +8,12 @@
             <poly data="4,0,0,258,0,258,258,0,258" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="9" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="boss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="9" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="boss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="68" id="66" name="boss" shared="false" width="112">
         <anim across="2" down="1" durations="100,100" height="68" id="0" loop="true" name="Animation 0" numframes="2" originx="56" originy="34" sync="false" version="2" width="224">
-            <poly data="4,0,0,112,0,112,68,0,68" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,112,0,112,68,0,68" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="4" id="5" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
@@ -317,7 +317,23 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="7" fixedrot="true" fric="0.2" gid="5" id="9" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="test dummy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="10" static="false">
-        <snippets/>
+        <snippets>
+            <s enabled="true" id="43">
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="1" list="0" val="1.0"/>
+                <prop id="2" list="0" val="2.0"/>
+                <prop id="3" list="0" val="1.0"/>
+                <prop id="4" list="0" val="1"/>
+                <prop id="5" list="0" val="true"/>
+                <prop id="6" list="0" val="10.0"/>
+                <prop id="9" list="0" val="false"/>
+                <prop id="10" list="0" val="false"/>
+                <prop id="11" list="0" val="5.0"/>
+                <prop id="13" list="0" val="true"/>
+                <prop id="20" list="0" val="0"/>
+                <prop id="21" list="0" val="0"/>
+            </s>
+        </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="34" id="10" name="test dummy" shared="false" width="21">
         <anim across="2" down="2" durations="100,100,100" height="68" id="0" loop="true" name="Animation 0" numframes="3" originx="10" originy="17" sync="false" version="2" width="42">

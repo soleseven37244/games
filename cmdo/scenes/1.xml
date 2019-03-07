@@ -2,15 +2,15 @@
 <scene depth="2" desc="" eventsnippetid="10" extheight="7232" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="7168" id="1" name="level1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="1" locked="false" name="Layer 1" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions>
-        <terrainRegion b="64" g="64" group="1" h="24" id="0" name="Terrain 0" pts="4,0.0,0.0,0.0,24.0,642.0,24.0,642.0,0.0" r="64" type="box" w="642" x="1" y="7166"/>
-        <terrainRegion b="64" g="64" group="1" h="7167" id="1" name="Terrain 1" pts="4,0.0,0.0,0.0,7167.0,8.0,7167.0,8.0,0.0" r="64" type="box" w="8" x="635" y="-5"/>
-        <terrainRegion b="64" g="64" group="1" h="7172" id="2" name="Terrain 2" pts="4,0.0,0.0,0.0,7172.0,2.0,7172.0,2.0,0.0" r="64" type="box" w="2" x="-3" y="1"/>
+        <terrainRegion b="64" g="64" group="1" h="11" id="0" name="Terrain 0" pts="4,639.0,0.0,639.0,11.0,0.0,11.0,0.0,0.0" r="64" type="box" w="639" x="1" y="7166"/>
+        <terrainRegion b="64" g="64" group="1" h="7166" id="1" name="Terrain 1" pts="4,6.0,0.0,6.0,7166.0,0.0,7166.0,0.0,0.0" r="64" type="box" w="6" x="637" y="-3"/>
+        <terrainRegion b="64" g="64" group="1" h="7165" id="2" name="Terrain 2" pts="4,3.0,0.0,3.0,7165.0,0.0,7165.0,0.0,0.0" r="64" type="box" w="3" x="-1" y="-2"/>
     </terrainRegions>
     <actors>
         <actor a="0.0" aid="2" c="false" group="5" id="9" name="test dummy 2" sx="1.0" sy="1.0" x="504" y="6774" z="0"/>
@@ -602,7 +602,6 @@
         <actor a="0.0" aid="836" c="false" group="5" id="9" name="test dummy 836" sx="1.0" sy="1.0" x="468" y="2723" z="0"/>
         <actor a="0.0" aid="837" c="false" group="5" id="9" name="test dummy 837" sx="1.0" sy="1.0" x="129" y="2744" z="0"/>
         <actor a="0.0" aid="838" c="false" group="6" id="0" name="guy 838" sx="1.0" sy="1.0" x="335" y="7125" z="0"/>
-        <actor a="0.0" aid="839" c="false" group="2" id="27" name="game over 839" sx="1.0" sy="1.0" x="35" y="6981" z="1"/>
     </actors>
     <snippets/>
     <terrain>

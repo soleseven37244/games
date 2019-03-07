@@ -94,17 +94,6 @@
         </if>
     </group>
     <group eventID="4" id="-1">
-        <and comment="false" x="540" y="211">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
-        <eq comment="false" x="18" y="264">
-            <get-xy comment="false" id="0" x="0" y="0">
-                <ACTOR eid="838" id="0"/>
-                <int id="1" val="1"/>
-            </get-xy>
-            <int id="1" val="512"/>
-        </eq>
         <eq comment="false" x="52" y="143">
             <get-xy comment="false" id="0" x="0" y="0">
                 <ACTOR eid="lastcreated" id="0"/>
@@ -112,6 +101,17 @@
             </get-xy>
             <int id="1" val="336"/>
         </eq>
+        <eq comment="false" x="18" y="264">
+            <get-xy comment="false" id="0" x="0" y="0">
+                <ACTOR eid="838" id="0"/>
+                <int id="1" val="1"/>
+            </get-xy>
+            <int id="1" val="512"/>
+        </eq>
+        <and comment="false" x="540" y="211">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </and>
     </group>
     <group eventID="5" id="0">
         <step comment="false" x="15" y="15">

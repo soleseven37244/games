@@ -207,11 +207,14 @@
         <blocks/>
         <events>
             <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="7" repeats="true"/>
-            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="6" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="3" repeats="true"/>
-            <event displayName="Actor - Any" enabled="true" id="5" name="collide" order="4" repeats="true"/>
-            <event displayName="Actor - Group" enabled="true" id="6" name="event-collide-actortogroup" order="5" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="11" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="3" name="event-collide-actortotype" order="10" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="4" name="event-periodic" order="5" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="6" name="event-collide-actortogroup" order="7" repeats="true"/>
+            <event displayName="Created" enabled="false" id="7" name="init" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="8" name="event-collide-actortotype" order="8" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="9" name="step" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="10" name="event-collide-actortotype" order="9" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_41_41_BackandForthHorizontally" classname="scripts.Design_41_41_BackandForthHorizontally" desc="Makes the actor move back and forth horizontally." description="Makes the actor move back and forth horizontally." design="true" drawOrder="0" id="41" name="Back and Forth Horizontally" oid="-1" package="scripts" shared="false" type="actor">
@@ -248,6 +251,27 @@
             <event displayName="On Actor" enabled="true" id="19" name="event-mouse-enter-exit-actor" order="18" repeats="true"/>
             <event displayName="On Actor" enabled="true" id="20" name="event-mouse-enter-exit-actor" order="19" repeats="true"/>
             <event displayName="Reload" enabled="true" id="21" name="event-custom" order="21" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_43_43_Wander" classname="scripts.Design_43_43_Wander" desc="Make the actor move around and wait randomly." description="Make the actor move around and wait randomly." design="true" drawOrder="0" id="43" name="Wander" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <number default="1.0" defaultValue="1.0" desc="The minimum time the actor keeps on moving before waiting." dropdown="" fullname="Minimum Moving Time" hidden="false" id="1" name="_MinimumMovingTime" order="7"/>
+        <number default="2.0" defaultValue="2.0" desc="The maximum time the actor keeps on moving before waiting." dropdown="" fullname="Maximum Moving Time" hidden="false" id="2" name="_MaximumMovingTime" order="8"/>
+        <number default="1.0" defaultValue="1.0" desc="The minimum time the actor keeps on waiting before moving again." dropdown="" fullname="Minimum Waiting Time" hidden="false" id="3" name="_MinimumWaitingTime" order="9"/>
+        <number default="2.0" defaultValue="2.0" desc="The maximum time the actor keeps on waiting before moving again." dropdown="" fullname="Maximum Waiting Time" hidden="false" id="4" name="_MaximumWaitingTime" order="10"/>
+        <boolean default="true" defaultValue="true" desc="If selected, start with waiting.&lt;br /&gt;&#10;If unselected, move right away." dropdown="" fullname="Start with Waiting" hidden="false" id="5" name="_StartwithWaiting" order="11"/>
+        <number default="10.0" defaultValue="10.0" desc="The maximum moving speed." dropdown="" fullname="Maximum Speed" hidden="false" id="6" name="_MaximumSpeed" order="6"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Wait" hidden="true" id="9" name="_Wait" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Move" hidden="true" id="10" name="_Move" order="2"/>
+        <number default="5.0" defaultValue="5.0" desc="The minimum moving speed." dropdown="" fullname="Minimum Speed" hidden="false" id="11" name="_MinimumSpeed" order="5"/>
+        <boolean default="true" defaultValue="true" desc="If selected, the actor will change the movement direction when colliding.&lt;br /&gt;&#10;If unselected, the actor will try to keep on moving in the current direction." dropdown="" fullname="Change Direction when Colliding" hidden="false" id="13" name="_ChangeDirectionwhenColliding" order="12"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Speed X" hidden="true" id="20" name="_SpeedX" order="3"/>
+        <number default="0" defaultValue="0" desc="" dropdown="" fullname="Speed Y" hidden="true" id="21" name="_SpeedY" order="4"/>
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Updated" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Actor - Any" enabled="true" id="3" name="collide" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>
