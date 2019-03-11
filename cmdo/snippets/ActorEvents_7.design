@@ -3,49 +3,35 @@
     <group eventID="1" id="0">
         <init comment="false" x="0" y="11">
             <group eventID="1" id="-1">
-                <set-game-val-0 comment="false" x="11" y="36">
-                    <int id="0" val="0"/>
-                </set-game-val-0>
-                <dolater comment="false" x="11" y="56">
+                <dolater comment="false" x="11" y="36">
                     <group eventID="1" id="-1">
-                        <setanim comment="false" x="22" y="83">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="Animation 3"/>
-                        </setanim>
-                        <set-dxy comment="false" x="22" y="110">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="0"/>
-                        </set-dxy>
-                        <set-game-val-0 comment="false" x="22" y="137">
-                            <int id="0" val="1"/>
-                        </set-game-val-0>
-                        <play-sound-channel comment="false" x="22" y="157">
-                            <int id="0" val="0"/>
-                            <sound eid="68" id="1"/>
-                            <int id="2" val="1"/>
-                        </play-sound-channel>
-                    </group>
-                    <int id="0" val="0.6"/>
-                    <ACTOR eid="this" id="2"/>
-                </dolater>
-                <dolater comment="false" x="11" y="196">
-                    <group eventID="1" id="-1">
-                        <die comment="false" x="22" y="223">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
-                    </group>
-                    <int id="0" val="0.8"/>
-                    <ACTOR eid="this" id="2"/>
-                </dolater>
-                <dolater comment="false" x="11" y="262">
-                    <group eventID="1" id="-1">
-                        <control-sound-channel comment="false" x="22" y="289">
+                        <control-sound-channel comment="false" x="22" y="63">
                             <int id="0" val="0"/>
                             <int id="1" val="1"/>
                         </control-sound-channel>
                     </group>
                     <int id="0" val="0.14"/>
+                    <ACTOR eid="this" id="2"/>
+                </dolater>
+                <dolater comment="false" x="11" y="102">
+                    <group eventID="1" id="-1">
+                        <create-actor3 comment="false" x="22" y="129">
+                            <actortype eid="73" id="0"/>
+                            <get-xy comment="false" id="1" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="0"/>
+                            </get-xy>
+                            <get-xy comment="false" id="2" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="1"/>
+                            </get-xy>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <die comment="false" x="22" y="169">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <int id="0" val="0.6"/>
                     <ACTOR eid="this" id="2"/>
                 </dolater>
             </group>
@@ -61,6 +47,26 @@
             <sound eid="68" id="1"/>
         </play-sound4>
         <stop-sounds comment="false" x="307" y="460"/>
+    </group>
+    <group eventID="1" id="3">
+        <set-dxy comment="false" x="354" y="280">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="1"/>
+            <int id="2" val="0"/>
+        </set-dxy>
+        <set-game-val-0 comment="false" x="354" y="307">
+            <int id="0" val="1"/>
+        </set-game-val-0>
+        <play-sound-channel comment="false" x="354" y="327">
+            <int id="0" val="0"/>
+            <sound eid="68" id="1"/>
+            <int id="2" val="1"/>
+        </play-sound-channel>
+    </group>
+    <group eventID="1" id="7">
+        <set-game-val-0 comment="false" x="132" y="421">
+            <int id="0" val="0"/>
+        </set-game-val-0>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">

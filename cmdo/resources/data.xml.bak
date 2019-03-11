@@ -8,12 +8,12 @@
             <poly data="4,0,0,258,0,258,258,0,258" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="9" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="boss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="40" fixedrot="true" fric="0.2" gid="9" id="65" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="boss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="66" static="false">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="68" id="66" name="boss" shared="false" width="112">
         <anim across="2" down="1" durations="100,100" height="68" id="0" loop="true" name="Animation 0" numframes="2" originx="56" originy="34" sync="false" version="2" width="224">
-            <poly data="4,0,0,112,0,112,68,0,68" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+            <poly data="4,0,0,112,0,112,68,0,68" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="4" fixedrot="true" fric="0.2" gid="4" id="5" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="bullet" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="6" static="false">
@@ -373,6 +373,14 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="52" name="water middle" shared="false" width="32">
         <anim across="2" down="2" durations="100,100,100,100" height="64" id="0" loop="true" name="Animation 0" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="45" fixedrot="false" fric="0.2" gid="4" id="73" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="z" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="74" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="96" id="74" name="z" shared="false" width="96">
+        <anim across="2" down="1" durations="100,100" height="96" id="0" loop="true" name="Animation 0" numframes="2" originx="48" originy="48" sync="false" version="2" width="192">
+            <poly data="4,0,0,96,0,96,96,0,96" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
 </pack>
