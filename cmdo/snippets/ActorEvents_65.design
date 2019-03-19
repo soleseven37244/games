@@ -104,7 +104,7 @@
         </set-game-val-6>
     </group>
     <group eventID="1" id="-1">
-        <get-val-40-2 comment="false" x="433" y="79"/>
+        <get-val-40-2 comment="false" x="221" y="144"/>
     </group>
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
@@ -301,10 +301,10 @@
         </event-collide-actortotype>
     </group>
     <group eventID="10" id="-1">
+        <get-game-val-0 comment="false" x="110" y="230"/>
         <eq comment="false" x="314" y="273">
             <true comment="false" id="0" x="0" y="0"/>
             <false comment="false" id="1" x="0" y="0"/>
         </eq>
-        <get-game-val-0 comment="false" x="110" y="230"/>
     </group>
 </groups>

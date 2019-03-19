@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,59 +69,41 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class ActorEvents_7 extends ActorScript
 {
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== When Updating ========================= */
-		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		/* ======================== When Creating ========================= */
+		runLater(1000 * 0.14, function(timeTask:TimedTask):Void
 		{
-			if(wrapper.enabled)
+			stopSoundOnChannel(Std.int(1));
+		}, actor);
+		runLater(1000 * 0.6, function(timeTask:TimedTask):Void
+		{
+			createRecycledActor(getActorType(73), actor.getX(), actor.getY(), Script.FRONT);
+			recycleActor(actor);
+			playSound(getSound(68));
+		}, actor);
+		
+		/* ======================== Actor of Type ========================= */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && sameAsAny(getActorType(9), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				if(isKeyReleased("Key 0"))
-				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(72));
-					}, null);
-				}
-				if(isKeyReleased("Key 1"))
-				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(75));
-					}, null);
-				}
-				if(isKeyReleased("Key 2"))
-				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(76));
-					}, null);
-				}
+				actor.setAnimation("" + "Animation 3");
+				Engine.engine.setGameAttribute("explosion", 1);
+				actor.setYVelocity(0);
 			}
 		});
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 7, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
-			}
-		}, null);
 		
 	}
 	

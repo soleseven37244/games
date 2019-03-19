@@ -51,7 +51,7 @@
             <poly data="4,0,0,26,0,26,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <music atlasID="0" desc="" id="72" loop="true" name="despacito" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="72" loop="true" name="despacito" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="3" id="61" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="down truck" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="62" static="false">
         <snippets/>
     </actor>
@@ -120,18 +120,7 @@
     </sprite>
     <music atlasID="0" desc="" id="67" loop="true" name="gun" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="1" fixedrot="true" fric="0.2" gid="6" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
-        <snippets>
-            <s enabled="false" id="42">
-                <prop id="2147483647" list="0" val="thisactor"/>
-                <prop id="1" list="0" val=""/>
-                <prop id="4" list="0" val=""/>
-                <prop id="5" list="0" val="false"/>
-                <prop id="6" list="0" val=""/>
-                <prop id="9" list="0" val="0.5"/>
-                <prop id="10" list="0" val="0.5"/>
-                <prop id="11" list="0" val="-1"/>
-            </s>
-        </snippets>
+        <snippets/>
     </actor>
     <sprite atlasID="0" default="7" defaultAnimation="7" desc="" height="34" id="1" name="guy" shared="false" width="15">
         <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="walk up" numframes="4" originx="7" originy="17" sync="false" version="2" width="30">
@@ -279,6 +268,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <music atlasID="0" desc="" id="75" loop="true" name="rit90s" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="35" fixedrot="true" fric="0.2" gid="7" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="rock" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
         <snippets/>
     </actor>
@@ -287,6 +277,7 @@
             <poly data="4,0,0,128,0,128,128,0,128" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <music atlasID="0" desc="" id="76" loop="true" name="saaans" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="22" fixedrot="true" fric="0.2" gid="-2" id="31" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="sand barrier" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="32" static="false">
         <snippets/>
     </actor>

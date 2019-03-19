@@ -70,59 +70,67 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class SceneEvents_1 extends SceneScript
 {
+	public var _urheur:Bool;
 	
 	
 	public function new(dummy:Int, dummy2:Engine)
 	{
 		super();
+		nameMap.set("urheur", "_urheur");
+		_urheur = false;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.drawString("" + Engine.engine.getGameAttribute("debug"), 200, 200);
+			}
+		});
+		
+		/* =========================== Keyboard =========================== */
+		addKeyStateListener("r", function(pressed:Bool, released:Bool, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled && pressed)
+			{
+				if((_urheur == true))
+				{
+					getActor(838).setX(336);
+					getActor(838).setAnimation("" + "idle up");
+					getActor(838).setY(512);
+				}
+				if((_urheur == false))
+				{
+					reloadCurrentScene(createFadeOut(0.6, Utils.getColorRGB(0,0,0)), createFadeIn(0.6, Utils.getColorRGB(0,0,0)));
+				}
+			}
+		});
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if(isKeyReleased("Key 0"))
+				if((_urheur == false))
 				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
+					if((getActor(838).getY() < 512))
 					{
-						loopSound(getSound(72));
-					}, null);
-				}
-				if(isKeyReleased("Key 1"))
-				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(75));
-					}, null);
-				}
-				if(isKeyReleased("Key 2"))
-				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(76));
-					}, null);
+						_urheur = true;
+						propertyChanged("_urheur", _urheur);
+					}
 				}
 			}
 		});
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 7, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
-			}
-		}, null);
 		
 	}
 	

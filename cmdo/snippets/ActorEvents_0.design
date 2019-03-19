@@ -457,10 +457,10 @@
         </if>
     </group>
     <group eventID="1" id="-1">
-        <false comment="false" x="512" y="532"/>
         <neg comment="false" x="319" y="1294">
             <get-val-1-1 comment="false" id="0" x="0" y="0"/>
         </neg>
+        <false comment="false" x="512" y="532"/>
     </group>
     <group eventID="2" id="0">
         <event-key-press-release comment="false" x="15" y="15">
@@ -808,6 +808,9 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                         </set-opacity>
+                        <set-game-val-1 comment="false" x="37" y="128">
+                            <int id="0" val="1"/>
+                        </set-game-val-1>
                     </group>
                     <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
@@ -933,6 +936,9 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                         </set-opacity>
+                        <set-game-val-1 comment="false" x="37" y="128">
+                            <int id="0" val="1"/>
+                        </set-game-val-1>
                     </group>
                     <int id="0" val="0.7"/>
                     <ACTOR eid="this" id="2"/>
@@ -943,4 +949,35 @@
         </event-collide-actortotype>
     </group>
     <group eventID="9" id="-1"/>
+    <group eventID="10" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="10" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="10" id="-1">
+                        <periodic comment="false" x="37" y="70">
+                            <group eventID="10" id="-1">
+                                <set-dxy comment="false" x="48" y="97">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="48" y="124">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val="0.001"/>
+                            <ACTOR eid="this" id="2"/>
+                        </periodic>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="10" id="-1"/>
 </groups>

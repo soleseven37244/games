@@ -40,7 +40,6 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
-import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -70,59 +69,53 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_3 extends SceneScript
+class Design_47_47_CannotExitScene extends ActorScript
 {
+	public var _Bottom:Float;
 	
 	
-	public function new(dummy:Int, dummy2:Engine)
+	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
-		super();
+		super(actor);
+		nameMap.set("Actor", "actor");
+		nameMap.set("Bottom", "_Bottom");
+		_Bottom = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		actor.makeAlwaysSimulate();
+		
 		/* ======================== When Updating ========================= */
 		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled)
 			{
-				if(isKeyReleased("Key 0"))
+				if((actor.getX() < 0))
 				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(72));
-					}, null);
+					actor.setX(0);
+					actor.setXVelocity(0);
 				}
-				if(isKeyReleased("Key 1"))
+				if((actor.getY() < 0))
 				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(75));
-					}, null);
+					actor.setY(0);
+					actor.setYVelocity(0);
 				}
-				if(isKeyReleased("Key 2"))
+				if(((actor.getX() + (actor.getWidth())) > (getSceneWidth())))
 				{
-					stopAllSounds();
-					runLater(1000 * 0.1, function(timeTask:TimedTask):Void
-					{
-						loopSound(getSound(76));
-					}, null);
+					actor.setX(((getSceneWidth()) - (actor.getWidth())));
+					actor.setXVelocity(0);
+				}
+				if(((actor.getY() + (actor.getHeight())) > (getSceneHeight())))
+				{
+					actor.setY(((getSceneHeight()) - (actor.getHeight())));
+					actor.setYVelocity(0);
 				}
 			}
 		});
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * 7, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				switchScene(GameModel.get().scenes.get(4).getID(), createFadeOut(0, Utils.getColorRGB(0,0,0)), createFadeIn(0, Utils.getColorRGB(0,0,0)));
-			}
-		}, null);
 		
 	}
 	

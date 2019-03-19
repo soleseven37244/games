@@ -47,14 +47,59 @@
             <group eventID="4" id="-1">
                 <if comment="false" x="26" y="40">
                     <group eventID="4" id="-1">
-                        <play-sound4 comment="false" x="37" y="73">
-                            <int id="0" val="1"/>
-                            <sound eid="72" id="1"/>
-                        </play-sound4>
+                        <stop-sounds comment="false" x="37" y="73"/>
+                        <dolater comment="false" x="37" y="93">
+                            <group eventID="4" id="-1">
+                                <play-sound4 comment="false" x="48" y="120">
+                                    <int id="0" val="1"/>
+                                    <sound eid="72" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <int id="0" val="0.1"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="2"/>
                         <control eid="14" id="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="171">
+                    <group eventID="4" id="-1">
+                        <stop-sounds comment="false" x="37" y="204"/>
+                        <dolater comment="false" x="37" y="224">
+                            <group eventID="4" id="-1">
+                                <play-sound4 comment="false" x="48" y="251">
+                                    <int id="0" val="1"/>
+                                    <sound eid="75" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <int id="0" val="0.1"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <control eid="15" id="1"/>
+                    </keystate>
+                </if>
+                <if comment="false" x="26" y="302">
+                    <group eventID="4" id="-1">
+                        <stop-sounds comment="false" x="37" y="335"/>
+                        <dolater comment="false" x="37" y="355">
+                            <group eventID="4" id="-1">
+                                <play-sound4 comment="false" x="48" y="382">
+                                    <int id="0" val="1"/>
+                                    <sound eid="76" id="1"/>
+                                </play-sound4>
+                            </group>
+                            <int id="0" val="0.1"/>
+                            <ACTOR eid="lastcreated" id="2"/>
+                        </dolater>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="2"/>
+                        <control eid="16" id="1"/>
                     </keystate>
                 </if>
             </group>
